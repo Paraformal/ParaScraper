@@ -1,15 +1,13 @@
-# Owner // Peter El Khoury
-
-# Using Scrapy to scrape rulings from the Lebanese Ministry of Justice website.
-# Using Scarpy MultiThreading to speed up the scraping process.
 import scrapy
 import json
 import os
+import logging
 from jinja2 import Template
 from scrapy.crawler import CrawlerProcess
 from dotenv import load_dotenv
 from scrapy.utils.project import get_project_settings
 
+# Load environment variables from .env file
 load_dotenv()
 
 # Get URLs and paths from environment variables
@@ -69,22 +67,26 @@ class RulingsSpider(scrapy.Spider):
         yield ruling
 
     def close(self, reason):
+        logging.info('Spider closing...')
         with open('rulings.json', 'w', encoding='utf-8') as f:
             json.dump(self.rulings, f, ensure_ascii=False, indent=4)
-
+        logging.info('rulings.json file created.')
         self.save_as_html()
 
-
-    # Saving rulings as HTML files, with a maximum file size of 2MB each.
-    # Output is sorted by years and ruling numbers for each year.
     def save_as_html(self):
+        rulings_by_year = self.organize_rulings_by_year()
+        self.write_html_files(rulings_by_year)
+
+    def organize_rulings_by_year(self):
         rulings_by_year = {}
         for ruling in self.rulings:
             year = ruling['year']
             if year not in rulings_by_year:
                 rulings_by_year[year] = []
             rulings_by_year[year].append(ruling)
+        return rulings_by_year
 
+    def write_html_files(self, rulings_by_year):
         all_years = sorted(rulings_by_year.keys())
         current_file_size = 0
         current_file_index = 1
@@ -95,8 +97,10 @@ class RulingsSpider(scrapy.Spider):
             year_html = self.render_html(year_rulings)
             year_html_size = len(year_html.encode('utf-8'))
 
-            if current_file_size + year_html_size > 2 * 1024 * 1024:
+            # Ensure the whole year's data is in one file, even if it exceeds the size limit
+            if current_file_size + year_html_size > 2 * 1024 * 1024 and current_file_years:
                 self.save_html_file(current_file_index, current_file_years)
+                logging.info(f'Saved HTML file rulings_{current_file_index}.html with size {current_file_size} bytes.')
                 current_file_size = 0
                 current_file_index += 1
                 current_file_years = []
@@ -106,20 +110,21 @@ class RulingsSpider(scrapy.Spider):
 
         if current_file_years:
             self.save_html_file(current_file_index, current_file_years)
+            logging.info(f'Saved HTML file rulings_{current_file_index}.html with size {current_file_size} bytes.')
 
     def render_html(self, rulings):
         template = Template("""
         <!DOCTYPE html>
-        <html lang="en">
+        <html lang="ar">
         <head>
             <meta charset="UTF-8">
             <title>Rulings</title>
             <style>
-                body { font-family: Arial, sans-serif; }
-                table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
-                th, td { border: 1px solid #ddd; padding: 8px; }
+                body { font-family: Arial, sans-serif; direction: rtl; }
+                table { width: 100%; border-collapse: collapse; margin-bottom: 20px; direction: rtl; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: right; }
                 th { cursor: pointer; }
-                #search { margin-bottom: 20px; }
+                #search { margin-bottom: 20px; width: 100%; }
             </style>
             <script>
                 function sortTable(n) {
@@ -182,17 +187,17 @@ class RulingsSpider(scrapy.Spider):
             </script>
         </head>
         <body>
-            <input type="text" id="search" onkeyup="searchTable()" placeholder="Search for titles..">
+            <input type="text" id="search" onkeyup="searchTable()" placeholder="ابحث عن العناوين..">
             <table id="rulingsTable">
                 <thead>
                     <tr>
-                        <th onclick="sortTable(0)">Court</th>
-                        <th onclick="sortTable(1)">Number</th>
-                        <th onclick="sortTable(2)">Year</th>
-                        <th onclick="sortTable(3)">Date</th>
-                        <th onclick="sortTable(4)">President</th>
-                        <th onclick="sortTable(5)">Members</th>
-                        <th onclick="sortTable(6)">Full Text</th>
+                        <th onclick="sortTable(0)">المحكمة</th>
+                        <th onclick="sortTable(1)">الرقم</th>
+                        <th onclick="sortTable(2)">السنة</th>
+                        <th onclick="sortTable(3)">التاريخ</th>
+                        <th onclick="sortTable(4)">الرئيس</th>
+                        <th onclick="sortTable(5)">الأعضاء</th>
+                        <th onclick="sortTable(6)">النص الكامل</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -221,6 +226,7 @@ class RulingsSpider(scrapy.Spider):
                 f.write(html)
 
 if __name__ == "__main__":
+    logging.basicConfig(level=logging.INFO)
     process = CrawlerProcess(get_project_settings())
     process.crawl(RulingsSpider)
     process.start()
