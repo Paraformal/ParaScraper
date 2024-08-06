@@ -1,3 +1,7 @@
+# Owner's Desktop / Peter El Khoury
+
+# Using scrapy lib to perform the web requests,
+# Using scrapy implemented multi threading for more data scraping speed and performance,
 import scrapy
 import json
 import os
@@ -6,6 +10,9 @@ from jinja2 import Template
 from scrapy.crawler import CrawlerProcess
 from dotenv import load_dotenv
 from scrapy.utils.project import get_project_settings
+from DbHandler import save_to_db
+from bs4 import BeautifulSoup
+from datetime import datetime
 
 # Load environment variables from .env file
 load_dotenv()
@@ -50,8 +57,13 @@ class RulingsSpider(scrapy.Spider):
         date = response.css('#MainContent_lblDate::text').get()
         president = response.css('#MainContent_lblJudge::text').get()
         members = response.css('#MainContent_lblMembers::text').get()
-        full_text = response.css('#MainContent_RulingText').getall()
-        full_text = ' '.join(full_text).strip()
+        full_text_html = response.css('#MainContent_RulingText').getall()
+        full_text = ' '.join([BeautifulSoup(text, "html.parser").get_text() for text in full_text_html]).strip()
+
+        try:
+            date = datetime.strptime(date, '%d/%m/%Y').date()
+        except ValueError:
+            date = None
 
         ruling = {
             'court': court,
@@ -66,12 +78,18 @@ class RulingsSpider(scrapy.Spider):
         self.rulings.append(ruling)
         yield ruling
 
+
+    # Data saved in html file is sorted.
+    # Data saved in sql database is not sorted. (There is no need to waste resource by sorting it, 
+    # we can just apply query to sort when needed)
+    # As well data is saved in json file as fall back if saving to html/db fails.
     def close(self, reason):
         logging.info('Spider closing...')
-        with open('rulings.json', 'w', encoding='utf-8') as f:
-            json.dump(self.rulings, f, ensure_ascii=False, indent=4)
-        logging.info('rulings.json file created.')
         self.save_as_html()
+        save_to_db(self.rulings)
+        # with open('rulings.json', 'w', encoding='utf-8') as f:
+        #     json.dump(self.rulings, f, ensure_ascii=False, indent=4)
+        # logging.info('rulings.json file created.')
 
     def save_as_html(self):
         rulings_by_year = self.organize_rulings_by_year()
@@ -113,111 +131,13 @@ class RulingsSpider(scrapy.Spider):
             logging.info(f'Saved HTML file rulings_{current_file_index}.html with size {current_file_size} bytes.')
 
     def render_html(self, rulings):
-        template = Template("""
-        <!DOCTYPE html>
-        <html lang="ar">
-        <head>
-            <meta charset="UTF-8">
-            <title>Rulings</title>
-            <style>
-                body { font-family: Arial, sans-serif; direction: rtl; }
-                table { width: 100%; border-collapse: collapse; margin-bottom: 20px; direction: rtl; }
-                th, td { border: 1px solid #ddd; padding: 8px; text-align: right; }
-                th { cursor: pointer; }
-                #search { margin-bottom: 20px; width: 100%; }
-            </style>
-            <script>
-                function sortTable(n) {
-                    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-                    table = document.getElementById("rulingsTable");
-                    switching = true;
-                    dir = "asc"; 
-                    while (switching) {
-                        switching = false;
-                        rows = table.rows;
-                        for (i = 1; i < (rows.length - 1); i++) {
-                            shouldSwitch = false;
-                            x = rows[i].getElementsByTagName("TD")[n];
-                            y = rows[i].getElementsByTagName("TD")[n + 1];
-                            if (dir == "asc") {
-                                if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-                                    shouldSwitch = true;
-                                    break;
-                                }
-                            } else if (dir == "desc") {
-                                if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
-                                    shouldSwitch = true;
-                                    break;
-                                }
-                            }
-                        }
-                        if (shouldSwitch) {
-                            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-                            switching = true;
-                            switchcount ++;      
-                        } else {
-                            if (switchcount == 0 && dir == "asc") {
-                                dir = "desc";
-                                switching = true;
-                            }
-                        }
-                    }
-                }
-
-                function searchTable() {
-                    var input, filter, table, tr, td, i, j, txtValue;
-                    input = document.getElementById("search");
-                    filter = input.value.toLowerCase();
-                    table = document.getElementById("rulingsTable");
-                    tr = table.getElementsByTagName("tr");
-                    for (i = 1; i < tr.length; i++) {
-                        tr[i].style.display = "none";
-                        td = tr[i].getElementsByTagName("td");
-                        for (j = 0; j < td.length; j++) {
-                            if (td[j]) {
-                                txtValue = td[j].textContent || td[j].innerText;
-                                if (txtValue.toLowerCase().indexOf(filter) > -1) {
-                                    tr[i].style.display = "";
-                                    break;
-                                }
-                            } 
-                        }
-                    }
-                }
-            </script>
-        </head>
-        <body>
-            <input type="text" id="search" onkeyup="searchTable()" placeholder="ابحث عن العناوين..">
-            <table id="rulingsTable">
-                <thead>
-                    <tr>
-                        <th onclick="sortTable(0)">المحكمة</th>
-                        <th onclick="sortTable(1)">الرقم</th>
-                        <th onclick="sortTable(2)">السنة</th>
-                        <th onclick="sortTable(3)">التاريخ</th>
-                        <th onclick="sortTable(4)">الرئيس</th>
-                        <th onclick="sortTable(5)">الأعضاء</th>
-                        <th onclick="sortTable(6)">النص الكامل</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for ruling in rulings %}
-                    <tr>
-                        <td>{{ ruling.court }}</td>
-                        <td>{{ ruling.number }}</td>
-                        <td>{{ ruling.year }}</td>
-                        <td>{{ ruling.date }}</td>
-                        <td>{{ ruling.president }}</td>
-                        <td>{{ ruling.members }}</td>
-                        <td>{{ ruling.full_text }}</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </body>
-        </html>
-        """)
+        # Loading the HTML template from a file for better code reusability
+        template_path = os.path.join(os.path.dirname(__file__), 'html_saving_templates', 'rulings_template.html')
+        with open(template_path, 'r', encoding='utf-8') as file:
+            template = Template(file.read())
+        
         return template.render(rulings=rulings)
+
 
     def save_html_file(self, index, year_html_list):
         filename = f'rulings_{index}.html'
