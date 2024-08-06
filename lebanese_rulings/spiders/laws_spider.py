@@ -4,8 +4,11 @@ import os
 import logging
 from jinja2 import Template
 from scrapy.crawler import CrawlerProcess
-from dotenv import load_dotenv
 from scrapy.utils.project import get_project_settings
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from dotenv import load_dotenv
+import requests
+from requests.exceptions import RequestException
 
 # Load environment variables from .env file
 load_dotenv()
@@ -31,19 +34,49 @@ class LawsSpider(scrapy.Spider):
             years = json.load(f).get('years', [])
         
         for year in years:
-            url = f'{AdvancedLawsSearchYearUrl}{year}&articleNumber='
-            yield scrapy.Request(url=url, callback=self.parse_year, meta={'year': year})
+            url = f'{AdvancedLawsSearchYearUrl}{year}&articleNumber=&pageNumber=1&language='
+            yield scrapy.Request(url=url, callback=self.parse_year, meta={'year': year, 'page_number': 1}, dont_filter=True, errback=self.errback_httpbin)
+
+    def make_request(self, url, year, page_number):
+        return scrapy.Request(url=url, callback=self.parse_year, meta={'year': year, 'page_number': page_number}, dont_filter=True, errback=self.errback_httpbin)
 
     def parse_year(self, response):
-        law_links = response.css('a[href*="Law.aspx?lawId="]::attr(href)').extract()
-        for law_link in law_links:
-            law_id = law_link.split('lawId=')[1]
-            law_url = f'{AdvancedLawDetailsUrl}{law_id}'
-            yield scrapy.Request(url=law_url, callback=self.parse_law_details, meta={'year': response.meta['year'], 'law_id': law_id})
-
-    def parse_law_details(self, response):
-        law_id = response.meta['law_id']
         year = response.meta['year']
+        page_number = response.meta.get('page_number', 1)
+
+        law_links = response.css('a[href*="Law.aspx?lawId="]::attr(href)').extract()
+        if not law_links and page_number == 1:
+            return
+
+        with ThreadPoolExecutor(max_workers=10) as executor:  # Adjust the number of workers as needed
+            future_to_law = {executor.submit(self.fetch_law_details, law_link, year): law_link for law_link in law_links}
+            for future in as_completed(future_to_law):
+                try:
+                    future.result()
+                except Exception as exc:
+                    logging.error(f'Law {future_to_law[future]} generated an exception: {exc}')
+
+        next_page_number = page_number + 1
+        next_page = response.css(f'a[href*="pageNumber={next_page_number}"]::attr(href)').get()
+        if next_page:
+            next_page_url = f'{AdvancedLawsSearchYearUrl}{year}&articleNumber=&pageNumber={next_page_number}&language='
+            yield self.make_request(next_page_url, year, next_page_number)
+
+    def fetch_law_details(self, law_link, year):
+        law_id = law_link.split('lawId=')[1]
+        law_url = f'{AdvancedLawDetailsUrl}{law_id}'
+
+        try:
+            response = requests.get(law_url)
+            if response.status_code == 200:
+                self.parse_law_details(response.text, year, law_id)
+            else:
+                logging.error(f'Failed to fetch law details for {law_id}: {response.status_code}')
+        except RequestException as e:
+            logging.error(f'Failed to fetch law details for {law_id}: {str(e)}')
+
+    def parse_law_details(self, response_text, year, law_id):
+        response = scrapy.Selector(text=response_text)
 
         subdetails = response.css('#MainContent_subdetails::text').get()
         publish_date = response.css('#MainContent_divOJPublishDate::text').get()
@@ -65,16 +98,21 @@ class LawsSpider(scrapy.Spider):
 
         if law_tree_section_id:
             articles_url = f'{AdvancedLawArticlesUrl}{law_tree_section_id}&LawID={law_id}&language=ar'
-            yield scrapy.Request(url=articles_url, callback=self.parse_articles, meta={'law_details': law_details})
-        else:
-            self.laws.append(law_details)
-
-    def parse_articles(self, response):
-        law_details = response.meta['law_details']
-        articles = response.css('td.ArticleText').getall()
-        law_details['articles'] = articles
+            try:
+                response = requests.get(articles_url)
+                if response.status_code == 200:
+                    law_details['articles'] = self.parse_articles(response.text)
+            except RequestException as e:
+                logging.error(f'Failed to fetch articles for law {law_id}: {str(e)}')
 
         self.laws.append(law_details)
+
+    def parse_articles(self, response_text):
+        response = scrapy.Selector(text=response_text)
+        return response.css('td.ArticleText').getall()
+
+    def errback_httpbin(self, failure):
+        self.logger.error(repr(failure))
 
     def close(self, reason):
         logging.info('Spider closing...')
@@ -129,98 +167,57 @@ class LawsSpider(scrapy.Spider):
             <meta charset="UTF-8">
             <title>Laws</title>
             <style>
-                body { font-family: Arial, sans-serif; direction: rtl; }
-                table { width: 100%; border-collapse: collapse; margin-bottom: 20px; direction: rtl; }
-                th, td { border: 1px solid #ddd; padding: 8px; text-align: right; }
-                th { cursor: pointer; }
-                #search { margin-bottom: 20px; width: 100%; }
+                body { font-family: Arial, sans-serif; direction: rtl; background-color: #f9f9f9; }
+                .container { width: 90%; margin: auto; }
+                .law { margin-bottom: 20px; padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #fff; }
+                .law h2 { margin: 0 0 10px 0; color: #333; }
+                .law .details, .law .articles { margin-bottom: 10px; }
+                .law .details p, .law .articles p { margin: 5px 0; }
+                .law .articles h3 { margin-top: 10px; color: #555; }
+                #search { margin-bottom: 20px; width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
             </style>
             <script>
-                function sortTable(n) {
-                    var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-                    table = document.getElementById("lawsTable");
-                    switching = true;
-                    dir = "asc"; 
-                    while (switching) {
-                        switching = false;
-                        rows = table.rows;
-                        for (i = 1; i < (rows.length - 1); i++) {
-                            shouldSwitch = false;
-                            x = rows[i].getElementsByTagName("TD")[n];
-                            y = rows[i].getElementsByTagName("TD")[n + 1];
-                            if (dir == "asc") {
-                                if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
-                                    shouldSwitch = true;
-                                    break;
-                                }
-                            } else if (dir == "desc") {
-                                if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
-                                    shouldSwitch = true;
-                                    break;
-                                }
-                            }
-                        }
-                        if (shouldSwitch) {
-                            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
-                            switching = true;
-                            switchcount ++;      
-                        } else {
-                            if (switchcount == 0 && dir == "asc") {
-                                dir = "desc";
-                                switching = true;
-                            }
-                        }
-                    }
-                }
-
-                function searchTable() {
-                    var input, filter, table, tr, td, i, j, txtValue;
-                    input = document.getElementById("search");
+                function searchLaws() {
+                    var input, filter, laws, lawDiv, i, txtValue;
+                    input = document.getElementById('search');
                     filter = input.value.toLowerCase();
-                    table = document.getElementById("lawsTable");
-                    tr = table.getElementsByTagName("tr");
-                    for (i = 1; i < tr.length; i++) {
-                        tr[i].style.display = "none";
-                        td = tr[i].getElementsByTagName("td");
-                        for (j = 0; j < td.length; j++) {
-                            if (td[j]) {
-                                txtValue = td[j].textContent || td[j].innerText;
-                                if (txtValue.toLowerCase().indexOf(filter) > -1) {
-                                    tr[i].style.display = "";
-                                    break;
-                                }
-                            } 
+                    laws = document.getElementsByClassName('law');
+                    for (i = 0; i < laws.length; i++) {
+                        lawDiv = laws[i];
+                        txtValue = lawDiv.textContent || lawDiv.innerText;
+                        if (txtValue.toLowerCase().indexOf(filter) > -1) {
+                            lawDiv.style.display = "";
+                        } else {
+                            lawDiv.style.display = "none";
                         }
                     }
                 }
             </script>
         </head>
         <body>
-            <input type="text" id="search" onkeyup="searchTable()" placeholder="ابحث عن العناوين..">
-            <table id="lawsTable">
-                <thead>
-                    <tr>
-                        <th onclick="sortTable(0)">السنة</th>
-                        <th onclick="sortTable(1)">الرقم</th>
-                        <th onclick="sortTable(2)">التفاصيل</th>
-                        <th onclick="sortTable(3)">المواد</th>
-                    </tr>
-                </thead>
-                <tbody>
+            <div class="container">
+                <input type="text" id="search" onkeyup="searchLaws()" placeholder="ابحث عن القوانين..">
+                <div id="lawsContainer">
                     {% for law in laws %}
-                    <tr>
-                        <td>{{ law.year }}</td>
-                        <td>{{ law.law_id }}</td>
-                        <td><a href="{{ AdvancedLawDetailsUrl }}{{ law.law_id }}" target="_blank">التفاصيل</a></td>
-                        <td>
+                    <div class="law">
+                        <h2>السنة: {{ law.year }}</h2>
+                        <div class="details">
+                            <p>الرقم: {{ law.law_id }}</p>
+                            <p>{{ law.subdetails }}</p>
+                            <p>تاريخ النشر: {{ law.publish_date }}</p>
+                            <p>الصفحة: {{ law.page_number }}</p>
+                            <p>ملاحظات: {{ law.notes }}</p>
+                        </div>
+                        <div class="articles">
+                            <h3>المواد:</h3>
                             {% for article in law.articles %}
-                                {{ article }}
+                                <p>{{ article }}</p>
                             {% endfor %}
-                        </td>
-                    </tr>
+                        </div>
+                    </div>
                     {% endfor %}
-                </tbody>
-            </table>
+                </div>
+            </div>
         </body>
         </html>
         """)

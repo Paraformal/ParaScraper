@@ -1,0 +1,518 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head id="Head1"><title>
+	الجامعة اللبنانية | التشريعات | بتشكيل وتنفيذ ميزانية 
+</title><meta charset="utf-8" /><meta name="format-detection" content="telephone=no" /><link rel="icon" href="images/favicon.ico" type="image/x-icon" /><link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" /><link rel="stylesheet" href="css/stuck.css" /><link rel="stylesheet" href="css/forms.css" /><link rel="stylesheet" href="css/style.css" /><link rel="stylesheet" href="css/superfish.css" /><link rel="stylesheet" href="css/flexslider.css" />
+
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+
+    <script src="js/flexslider.min.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/tmStickUp.js"></script>
+    <script src='js/hoverIntent.js'></script>
+    <script src='js/superfish.js'></script>
+    <script type="text/javascript" src="js/sfres.js"></script>
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="css/newbootstrap.min.css" /><link rel="stylesheet" href="newDesign/css/font-awesome.min.css" /><link rel="stylesheet" href="newDesign/css/bootsnav.css" /><link rel="stylesheet" href="newDesign/css/animate.min.css" /><link rel="stylesheet" href="newDesign/css/jquery-ui.css" /><link rel="stylesheet" href="newDesign/css/aos.css" /><link rel="stylesheet" href="newDesign/css/cubeportfolio.min.css" /><link rel="stylesheet" href="newDesign/css/lity.css" /><link rel="stylesheet" href="newDesign/css/jquery.fancybox.min.css" /><link rel="stylesheet" href="newDesign/css/swiper.min.css" /><link rel="stylesheet" href="newDesign/css/owl.carousel.min.css" /><link rel="stylesheet" href="newDesign/css/owl.theme.default.min.css" /><link rel="stylesheet" href="css/newhelper-classes.css" /><link rel="stylesheet" href="newDesign/css/custom.css" /><link rel="stylesheet" href="newDesign/css/style.css" />
+
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-2013487-32', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+<link href="/WebResource.axd?d=FoY9NvPmWpWSkiDfMIH8tX59Ozpbvx4YxdNMwVdr78zprf3HaAo4I_eLrXdb27a9WGoEMzu-g4aUMDJbtGfnuhRDm14DhcQXNPkJNVxsg0NhDzYBGIZG87fFbZWO0WoYzwpqMsPS1MctJ7VywlHxcw2&amp;t=635320311080000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /><link href="/WebResource.axd?d=i3DpuY_1u4PhkVB2_WeesAzotXb0xhE1fbP7C7vhWMr84p87_L25aEP0wsPflvVznSz3ldFZ6k9IWJGJ311RPzhFOcTa0i7DwpCVLZUNhst4Hiw7RDK3w2w_-X_j_KxfFqZcrY4KLtfzw6UTBKCbvEqRBIkaOErEN9w9BA4dfjE1&amp;t=635320311080000000" type="text/css" rel="stylesheet" class="Telerik_stylesheet" /></head>
+<body class="page-1">
+    <form method="post" action="./Law.aspx?lawId=212415" id="form1">
+<input type="hidden" name="MainContent_rrr_TSM" id="MainContent_rrr_TSM" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="4t4myQzflLE4t9eeyYzaQe1czt9e9iSFSe95Ys3wAWvPhf/8cEgNMOQjiMG/XiiuAJz9BqopCTZaRXuN9yb3USJpaMRp5nRnXXRAYYvkt/AtUSG9YBcnesUqayecxq71MAObdMmf0WiJO08ZsXT+Urhk9i4E62bJPLaCocbh6rS+s7QlJKICnQu15L4pkYU1ee5mEBlyD/Ig5xt42NWudYdp5OZ8SqwgUTUO6gR3QgDNfHtf62BXtEO9ZEgDnXv3LzRgrOWzlQFkDcjf1hZAoGorCSWvZWl5N5MvoINj5fNIJVw7p66oi1nY7+nJk29rJcvyBAtseixrihu0/ws0vNHv2iKREkOdyIbF6OXzthHtk4YvJjLsjpTvNzgNABJirltdCLBPYPKho9V1567hYpVE9OVPFirOh/NnpsuOsQCz3CgZFdGtIzIK9v9lsTAoj4RhhU89LqaHtFXhEFgOdHeHob1HaEAOepXAEow08tIv6CNc8mIDxDQKwCVm/jdM/Zm6wh+98Uizi0pD8QoiPxy+bQCQJIgpChibmZ7WBqEMZ/q8srAmNOtIps3T3KZns7NCeDLdeoNs6kjD7moJETOpvdZNSntI59vSs1ubANXUtuUPkJSq2qmcqou8mC9C7LcimWcDUERWTHtz3XLBTqu/sMrDEGYzV+xmE3AhG5yCIJnQHf+b6mHvxsoz0yTQGaJyWVW1wPW7tFtncZxNFX8EWrGaqISNnxpQSkDO+L5daw2xXQu8O96CxsRi3OdYuCN5YzXP8U2G3BWtIIq2Ve6D+jImXB7X1kWlySJlNa4m12AWjfR8NDTj/oTpNP9HP9z1vpKSTXnAU809xgeKQv4GuDtmzGszZ1LBaNShYyZWZKz1lHP4h/pQq4TwKmrv0UkpEV7DZAefrXv6BrYMw1ilxYF7Jrh/Epp9ybw/ZQOAcgdCLNWy4HBV/DCBPZ/HCeKU6f1kzUJ9emLc1eAxnXd+kKnEikpaaJCslK2z+BWHUsja0qHqZVVDgx9fbfkjUPYDufFzdOv4WmBUAQdXGIjPboWS/4PwKe7s7I+J4TPawnZY8j2GMaLmP9/UckU819Fhicu0DFREirMrnz/cWaK2JJ/kuXP5GlNGPSJlizcT/plVn6TAYy34JdPKKq89tFfdjJ0sTq4LCBhMwO4EJnh38BUC471g2pG+fzMuE89DfRvqqVV4psTqCFj+3nv2smboWeZnLDHPg8WEZck/xgeMqnj5jBkwtqq+9kZFm23g8Rzb+wkfDPQ/jm5lkNzWNq0PZeU2QNxVtehM/IaMSqkEZ28pJr3dRwgWwCThrovYjX1JSvc8vekRm7cL9fbtNmg6ptvtTyQuRIc3CCdW+dqzjZtSRb5QHchBMYQ1VE1Ch6e+ET6UVUb7ZJLX6DWMr8DvIA4vQ76Z0vTf/taxtLipool8xonmczJ9l4YM6kxaj1V+wGoNsfs0dTs9ZSgr3W5fMnyw2HMZ+nQxs8MIP2qNQvlpGgDVGyEuA8A3rZ41zL8XmDTehiFOqhVYnF0Q/H305PhfGVA+I/nqUNDnsDNiaHh2re/jQQ1eNpE3mxUV8hk1+QGS0jftOScVorsS+Euu5Rkp6j0mUVDQoghgCKcSQ8LUGA9GmD3u2kVTx4mk3n7GPYWCst6BnVXextUphhMM66IYx//2UPzUri1qP5XOJa54Q0ucVyPK+7oK5f/fPbHFKSE0P9sAmob9pK3FB/KAv7lmzSBYDjNJVvp7EBTketInDik/y0622ecbhxuJVTchYREhto5M9nrrPFAKQjWAIGbq2ZDZ0I4ORdtDNackyvCVLLGCawsmMYGiVHrz19gKWWlRUy7ib+pdsnlP+fibEGnmoPkyZM56HuUfZUdS0pgNIqYNtVIlXdO5Y6vnfxKpDS+tL/x0M4NwSOWdejWZheUK+3m39j5XgDJ770Wv7WeSeae5+EEO65+p2YSi1hm663vAzkn28PGcPTip3dne6W7Ye7wgb8BuZePvmEwIrYelpZh6uRP35R/bWfxpABD0JFw28L3IGnUbq/I7tI9Lsb6EHlr4N/HVk6hZita6U+HirrkpSMdX3eZ0wplYA0/EpEuWAC9II6X1Z9M2a5j9v//nO540IUcg6xNNew2N/7QZuEH6wEO2vOuf5LNgpk4WVH7n6XUIczWyCrcna/DNwDELxdA3vCm7Z3FVqjNfwya5RtYZqRs/f4nGwru19j/bXKVAqJ3Y+QHOip7Pt/aDx6THLKwOSG6OZHaJTZtyYcENo+qRlAhzP/tP9f+USbd9BxM4ntsVHdwvxYKEkm2yosjApoxHzFawNE8a9kJx0LjOfFuaojmj21nAYLn9w3Um67WgF4PQ8rzg/EK+h9DZyakYqtXRZIpzEzIGw0cjgk+SQZeKjVNo4jk7RdSZefp+Qj8s+MR8+aBmx0jQxH0W5EgYS5fLpg3fScTi6HGsSsVRwU+OuYpN60GSDVQEDsGXbaPxTKJLNDwg/UWXg6YPx4by58EC0+3hm344QVQZ6nNpmu/qzneoF+WIbyPXb3RQTDd/zz8dXhtqXEm4CCL8BaDLmTOnuE3c0SrKQzRAH7yeOFr6VdKHh6SUanJY+epy/39G/Rzfp/83WnDMLlhbQeYF339I4QxL8N2IkJtRZrLnQ9rGi7SbkT59Y8uIHi3KfenvINy+ZGcwmQWi8f2mF8xr/YJA/yk5E5AGOKsEQHsC7ivnUWPfBSFHqH3rvWRAAdBvt1I2jZ0/tVrZRPEg+SgAFHxgbPkeraxnIuJXdf4bU04+UkSuPtiGMvMi8wDNYpTJ0/dEsbr4MC02KMG63XnVHZcaYspcTZt5LC3pqkxadd6gWXTnZPT+z2UKbYZlAv8rOfu7zX8Z8IKQITSCsuNq+Wy1wX8pmvrs6at0vtyurX2ceF2/Bbc3eB5UqAf/5xbegDMBJQe2kEWOpwgeJQG2RCFhhJ8o9ui22K/vQvZQvF8ad+gVmXOVA6XiPnm5I8RXCfdLEESUKJ+Pxn2/1DBWtYvrNVr/wsKWVQftEKM2Ur0vSaocSl3vRigktvbAOBgGG7MWfkHq+3uPr4kr/SlIoyPZi4FClcpzgL8W3DmF9ZW1aVSA3r4NpiTKZMEFRqPqpw5P6ISrW5mvmpHwmtSkb/lFtNch+3MzY+F6yzsZVIS8Bk3Y0PtEK4EdLY8HURtvxhPcZ7vanflDkLtnxyWp9OEPUIInsIV37xeWys0YLpgIoYIPAb7f7ScmGlUcPp/m+b0po0mEFQSqOaHbejvKTQdukhxkU1eEBV2QFdtiWqzLwiqwXA3Y/J5beTy/Jg0i17bAvApAU2eujyJ4BI3/jkt+ueUDw6BwAMUl1ZPoZSVKViCaQaNYklLriBppwC7tJtCgC2lPE6QtpNtvx2nCJ/I2kzhxaw0ftpG7eqUx7vnhnHBWGc4b6B3sAwzf7rxbSv14rUS16rvqzBgut2jWoGxXejI2q7Rn/7FCudtmrUJbYvtncqx9Er203ZNtreMoQOzz3Zk7U5vKAoW8eY4oCtk003oZYCtAu1kcmrvn43MU6sx/+axalpXYT/LcVURLRmmQHbyXoCiy1zoLnqZ6PPMDneMfa4yTWcEhVNIufLMdYTLs9We+OJb1CKMias6Nu3VFMLzpMYz7aKjfgNBoSm3w2CVMRrXJ4GnMKzZ84NXNhi6VbDR+JY+8xFQBxtvVjiDGmg8fGdUt3qE0p8q/OwelN0sLREApEe/EzUA//ZUo2WnOKzIMq2Oa9nE09syaut5IJ9H/BbYsUiRaE8q1NmdvdI320Dxqrhjj2VB22fKpOxYUqdU23cV7ES4KvlTJNfot8jvCD2DBsXmGS4fOybXE02oQWQRX/AAqJXcm46eKzufv/IXiz5GlyHLY1ZQcqVvvGGUs1Hs80F+lelu8SKMqyCVqsKhMibvLYYT/0Pm4goySKqWmvc+SPgE0CtandDay39g/MYiFRRyOIHyMI25xOn3wnoo5WIBbNhLI4RRNfcQIFXTtEyGiRjbmNH+kIzFoXOoueY2KJxvTeJaSccyPOcjfDRXraD5M2wF7OmPmmonvC4+bby6AQtPPh6EVR8U3NVO/ymWvBTQVDgIkkdCZpDOGOFd/5/T0b68tStDvVQHr8Vuwx5o9r05ADYpNPJoTSbMGk4I5LLd794jSyVmZC/vsm+Av+6ivEat11p8wjcV8hE0ukeXLikeUTSxNFzHz9ocDA6pX0+rc/Vlq2/poS78KQr/2oFeT9s2+mRD2aZtKoZBIxM0UpehudzfWSqFqSnxq46EXQN41leWFIVXwoplhCgD6BMZni23SA1jriH/JQMWi2O0TvDp8BYKF4lVvwkINtd1gCdBtWoIYvCYWsiU7sV5uQQOi6YCgV3Cq7bZKFT8PEPGo4L0NNvLyiZeM7TVl/Erync5TNbvlsPQDaAL5RdzU4Guj59IetKTmAgU6ljcw0NYffeTCcCdupOEhP4zPQ9nh4dNXYEYeCr3ZuQl2NKRO5ek2mmX7dNXzV3K140t5VMoG1U35m/ydYYmEgqV/FY7xcSSJwsGZ/JXjv2JflzGBQlR+2H66oVMThg3CjrrZR6OS61mNMwo08JlQyzlDxlGI3hTJ6Qq9Uems4AuZ7sXfdbfkjVe0HJpNQgp8pnjO5NwLrcjIkdX3ZBRcr4EPoZyQQkwt+jGd12nTKQnHxmGUv95YleYrylcIP9BEJMTlF+wGxJuMT3vcHTFRqP8SgBL9EU8xZcKYijT8zkWAJaSUrSTDNSGaLJmJsKoFOAHefnuHQ1/OcpNQzKkXPz3CequVr8L8D/PRiUVnYktxwGEWgxhbNnX2d2ZHIiy3trnuuAUK0sKi3XpAW/QoC4zzqwJiwsa3b5oc4D3Hwy3tPjxj0GojhRwGOSwcSRBzjWzRLkI1UI7gFwW+KM0h0RHEhzefjiN9kZCAYQm8Xpc/dnph7rArYk+K5Ul7rHJst+nYvPnfQ0Eq0UNiSa/7FL122jLa4H9MOQ8Mj4EQCary8KOsC+oI3dfL+RlifMJczppRPqknTVEzBkew7ufGhdIdzFWEVMskj+i3dJTJl93ovsb0s4V2AbneHZwCmskmozdp3y/WV3e0qV08/uTvBTnwfs5U/xmlxtmqfen82kxbXbLfFg1VgeojeMAdkW+SIQHriiM8XsmjQ4vlaSP9Yz2Iqv7WiQY6q6lEVnIqQQ0FSfQsS96HS3CRorW1cpQWn/2P9So+B+lf7oJoyQuz2CbWK76+fGntSayd0X3MLiLGS+F2y94uG6maCtHLvkhvrU+ZLp/15cax4yMz/v2fsa4aGZ/z+jTqr6p7aNfrRBEjpyQ9lwd2hAknAuqF4e9TDm4b8iEVOMxnJ0eXP8JoemAlSbeFpUhvTvL91sJs2YAQNPYTFXWTJTEsLoA0eKIgkVUWHojh0kILAYeMUG3Z/Guh3Y4wIyR0IujCNXnWe7aR+Vqt6W83umam6Kz9rlRlL+49H9sqhYOcQYsOEcjMOTpjsRNnubni8x13HfF0go0D07iUkRg+lVj0UTUhxEm62py4ZwinKUVHGDEHR68DxFyXo3kOd/dP6Z1EkJ7NHaavlEHpbZpERWpOe8kcFiWGYXa+emT3USIZvN8HSIsUdcwkqdmhWZRzXKKWgbo4UWo/VBxPbokTF7JylzczuTes7CXK+udoDp0Sug6jmF5bmBbDP8OdhSkh72X92GKwjRiXYcV9mL/IU9X9pbtAE/y4boKLAfkoH7xW3YMK6jXKuni2CBgC53G8Na2BKETatXLT4mu5V5ioJo7ysTTurilEAfTvH7jiJfoLC7/WoELlXgynqMz/hB78TdKRLamJVA++YRhBuCrC0izORBGgbsImyliAB6EyH4/qd5M/Psl3J2WclQPWeaF8LlyQCDxzW/tV1Enj/9S1qaqSWbA0DiPKV3TqN0xiDtCKBQdUZ1EM+o7Rr5tl4VVuw9/yVYvcqaOh9yB6T4oz6fLbi/vGkq3u8V0pq0LIcCgh82ffGM+p+m+LxOxLLPvrsNSezGpiINZPdebQSyoCpoZNgtqZvCR8BHtX/THcs9SDUwcHIjxx+VSZ0/ImFWXW3N2vmiv/8A5QRlLFi4Xo9DnYU6fB5B0/QWnOhL4q6UJOXQjH8lEsTPBEY6EdIHgQ3KN8ab7ZBXClgfuETlHgA4DCvocPv4S04Kw94s+8+AI9gV/H1USb+D2Z/q94huIpDlgwN4lqsWSvjKzGhdYg9uW2fmBOHTqQztZVCbUruwgnTiykBeo4x9iVM0swjo/ZRDN4aq3nl5ULx6dPopTH+5tcUTcQ9M3dvR1BO9N57DW+IHqhwfcEjmWZ2nMNDV/BaXhkAplI5BV7ldo5L487Rusx5OZdnEw+WrpegHY/JHyK+QqTN4H0GJbkdJpxdzF6HXetHzxK7IpD85LFS6379gxBtCCysQZ0A4C58IU0qtxYtDJ4ZtptNKDHOUq2vzgta5PlCLZSwbkAoZgH5ty1PsLkxTQrMzVvoJrWFNM0f7OASqyeQ8CocbNvnIGoM49n8k3P8XPD6jeZlDk6SFjnzUae0vVdVK5ZrYVNY1FSGlbEVZYrsokzPGKIRWNsufkkNyoPBuu+NMAQ1uoPHpDnZ1Jha+2u6oYso3LQ2NmJ0pPjaAVZJBtNTk5gXZCVxqZR8ARC0l7slc3Y+6OTQ2iWJOBygnrvlhpoxiReyXXvf+LHNTChqPOLHiEz366HwCSnQVHVti55eb76Xfl/YeGpjYVe6BNZy8dXhAZ2bFE3xRQefPTf2KDKdLLccXEB00FncPra6TZBFQg+lQVxbz4WyJp2EZPuJUb7D+DUYcIiqsd/1ZO5Qzwn/KBkc/ccvzwDhaBZnQ1NzIQk+tQksiyFNgTw0M1A0zTWHCTHv5fwiQkCQOu/FSyEGxab6M5plJRIsaecfucxROP8iaM0Wqe9iqHvUlD0GT2D7NVBZ+PBMp9nwFDqRiEnPecHgO+GQZmkzH7sMF0f+eKMILOl20/r3TwR9BvFHOCGF+sGi22FD1iresMMexrGh4J5QzXv1KUjlIx3b+uVmSU7zYx87fLueqm9nlRdPEnItAFnt6UR8cGuQc/NJ011K0MPi0rQbP+IQWzXCKll+uaPT6wJFrPkdMQ1rBLpCqTd5wwEhvmpZxYTvVQoxek+vpkXtFGhcs5kaRMKxeCn8Bjm5D4KYb++wmK0jxG/3YMSZP3BzNdQcs35jgB1hz4bcI0NP0hgiW3esWHN3ViB0SpnUKo6xxlK+uTH6Kb79meXzZEYOuxH+Ty83v7La4/RF8EV0VuULglmGiWQLCI00OsYqsMY6yEYbwkxYCxv9ltuzG6MLVqug0g3utabIH8yxud4GQ58iXUGWQ6j7p5KLqtmos+nc8ZMP0Nt6Z3YNBN05Q60dGU4v+3v6LuTHIKoirzFM+npIy1tl0+YJMyIckPSgT1+3EYbEKDkBl5eSoL0+gc4CtGmIMDBp1Da8lgmrgWb2vnG86LO5JczyBw9pVtQNAeeLT8b5wCz6tLfMpAJB4RRw9yAlyeL7oqzntzmHwC+WW8UO6mFzfU2B1idmhumSeSWdmEAZhetehIfkdKp0BGCM89LK96flkH0zaE7W0E1TAWdJ+7Je3nVcaiCYK/mvZPZVv47/fIIgxFlw2PPfdaNBRQhJAbh9GeHgA4yw6vof2GmOz922YzgpuYjvkg7/HDazm3nSFulIPAGvk8dHzW/Y0bwz4xMK1NEIOAOMxsLbhcvr6ETCH08XFAmn3HFwQm4yoCgy/tc19MPBa/kR4eKaHnfH8F/xuVsPn27tyu6UNbvy4xGH3wqo1WyxbQf7bZo/sLmcoTVCfoj6wk4flKsHsLeQbktCn/M3xCZTvUvOKaKgGdkuPeGrEQspDvvU6ZPlT005hx25Q69EXiDrkqANoX8zQVYLNh4bDl70L7xumD5jMPHPtR+c4NckD42mfPRt7wMT5itIQEn4oJUh/xpktRHRkMy1InzlDnVvdMUsDnktyJtMH1yMcMZczk/DVdHfvOHSm2AVRbCRBxeiuzUYwSPA9SMatsoRQG/ajGgIysfYmBdZdDcrjnQHGyD6ddcaldM+8fdMzc0YDZkKumZu0XcuiTg9+dUZjDgr6AriStaecFR1nfCE48WfJO++8E9gyujSNGc9OGozpJ/IywoeipNC6B3EbjiiLdwmSeUtCvf8ccnQJ7lZu8RZEcp64gWxNuflZ9Oo0Iw6cVqwpB/gFeY3xBjAljAHByQZ43q2RC6zAPCmiawM86JkKgW2Gu81DR/pVWaV/GEY/lekm59CrzI0a7SLZMWtJtjSMtBHImAos8QN5KHEE1ft6kyLlV4KWdFKTYpp+kxdjW4weGXCzOR8xFpL+PpYQfhy0xeVrGKeSBoNwD63WoJa8JqIPrSOYZ7QbGz3JNedvEYF6rUrBV6VT+eWF+nYPT5mNhSxg/dc+7EOFyZlzojfiwUljNUXngojEXYQ6h/grN2C3cAHt1LidcUOB9ygNj6HxFfY0BSX4PU2hFSJ8352iThnvTXirhFWfVDKEKL9OdHl+w8RiTg8qq/cy8AbYeY30ORqmDzw42lra6IjrCesfjDQM8BLAUS6euZwOmcQJpt/4oyu9eJEMhNlTrHDP2AYZrPA1xp6Wn9jicoXg6QqJ7IbNcChaBBjZvgD/Koqlv0/S00NEqV1abeD5UXA5hpmrWpdRIIAIi2VXrIc/hJJQHOzmzxr3au8UvOoeG74XI/SLMGqGMsneDrcvJCQWvOdY6YGcJzb0s67V98gPaAk5qq1dU3PUBXS/ehcS87DpxoLJ6gCpNNkGVz+9tmn8rprkhzAvpHyEkSv0VWxNBLJgm8z8sKrNqfShueH2IYdrFJPDLuPOwX/Kd9ZGfbVNnEHiSeXiqnMvJUHJJG72M1SbvemSHaJXOQLTIqCKnRo4hWrG3YOzRurA7QrR1nESvyeg4kD0yNvaphIgbJb49OWc+3TkJByUM0Ife9XLYNWAIGxf+xNXXDIRwYh2Nbuv+6iLXuql4MAVo9N/w84hFrK3WfrNFoBqGUNmIX1VhYoxZcF3CYJZBaPp9idKg3Z9HHHCJaqYsPYq6cn+vChfgwNhvd7amuWRQayVBlARgvb+oezN3+S2XIZ4dxWFv42wesx1rsSY9kqJGGPjgEYtxQneBqLbO5lqaPiBy/l4bJ12YM8oj+V/zuxP/38oApA66P98/9hF5ehjz6DYh7k+JaY6xA9f4GddyLmpi7Ms7qhCiyHhCUske24nBQAbtRyGpu32CGk79uR88ga9Fb/mWadJQOWSedcdG557mGVzrngnD8/revNKc3gI9/MaZcRTZaktqQ/335dOpQfNJ7fCmeNPpK6/ajeyXQwZw9UP8aUeSlNUv6rn0RLTNYfqSMbDdjEyy+kEJ7/8Xf9cwykBB1KZPcGjHFo4We9B45Vr+6EAqVHQeB33tRmT1vHduWDaouYMUGppMhlHDktNGiTozID5+oDeCnSo3hcsAL4Byy8QqHEvMTbDvNLM+DrWhxma6ZkhVU9biQJEU2yLDwAB48lL4tAx555v7bUWZjqkeuQenbOaMrljA+CjzdmOp+G5viwF7AjjXeI0KXm1yugM7Ycgrb+dG9spzcHU2XNe92rLnv1v6niXlp3KDiwpKCUmBLyMGTfPdHa9VLmYpQCcHGYK/CJj6lBtzbScGfgYTBPEk5yAq8yL62FR+rG38vmha8RM+EwYE26KRcaJEWVYi+efcaRFvgpAFDXljWhB8mWKlZTfc57SK2wus480WhcTea75UAFsrosGjQXx0wRpnb6NjMzUXsd80WYTOysjrCySObDMc5GEzasTKwtB2mrQGLM5pIhgs8NW4xDtUfHBWXtFua+Ad09zg9CFbEXDfFYb6j4Wc7XcJCrkI6lbkl/SzRi2f7w9ov3np6f+PJhsX1b1jq1xeBuwNCdErnQzzkn2Vwr67FtNq1SRm8cCz09g6acz2J67zN+Nzh8qHHuF2pinBigp18FREbCEEdOLfVELv0cbOR2Qe8P5iRP1h7bxWBVFPn4DhAGRI2iFcYIx3Aygl2ov8R3/m9/jfyfgcuQOSopuFdsP510ROUnz7qbY37TEoVnTFkK7YeJp62e2mOIrVM8GyaoKGQK5oQ5FWP54owqwoP+bKmw8HGvpHVgJQ0dkZi7Z8BVA3TLp5yZr/MOiJ8ZEvmPrak+wWsdkIMa0Waj6c4wBSUuNOLjkcVujQ+LK1sy0KzB9KnzRVChCrh0bWyiEAnLsjHcV2iNSHFQG12bjn0eHznL8pIp1wjsN8HDebjba4K7poGUseLgsDCsMyMfsuJFR82aMiqoILWOdcnKHgoJ3wGpg3jWt1aQdAlcG5xiCblwyfxeEc47O9KAj/vNJ1QBfC2O9yjTspI6IQrpOwO/gQkSCkpqQaCcEurf611YmnuVruacnuTUg3LMrD9zFE+ILL9FVIgU1hoiYoL1mEZcITggXmj+pRYksjd9bLrIT4hDawfv0gvL4f/9SSlHeWu/Zjynhw3Hq5P+TePXFBm3w3htCuIaq1qIdd47/P7CdkD3S9vrCf/yTw2KDxwcCRHLYk1GiGf6oWn9Dvx441n4zHrYEh6o6tYK6Fr+ogq+nArkgpRoSeB3Tu+3c6vrLJT/WAWZIBUtb0yYZ5IwNLuSC0c9YzvkFGQhyrPZ+NWIoH5Fjyqkif+3hICP1yrCFWpo9/NQvOmv/gneeiPXOpLSjbIhrbZqq//ZNcDk114N531xZnOGV6fsrzdo/W0HWMKjy8VE27YLj668mcHMrUG+m6339d/4BRPpYzISKYO57SNFa+IGkkFrbJAkY8JR0L+2Si8b1+Y7JgddBA16b0FQudjc5ZH4SIHj9YPGgyWyroHJiUrfWXi+AsHaMVIS1RMsO4LKsyY2/EwclUJOPmKo4zoab5QoduOyAjr/G3rj6I0Gs3Wn2jLjqpzujOGnEwBMJj06cscLUXe/hQNIDR2GTAsCSEkyB18sOfH7sr7sp9vSrdUFBF8FY7acOCkB7Ip1MNXaCbxzW8GpmJ6thVP2/9t2bSp4QDFnQWp9jaBm+RYLCYh+Iz5nS8M9MXMYlwCxV23FHKj3y5HwweWvTqCN00iPK5ovVijIsOqLIIWpmDBwapBw9fdU8zVFlkuw++zglhFoLzU6DyDHEBdlDHiVL04JKUx9U7b990VNe6cmFjP6CrqJkOXimix2Cs0m4o0FpC9adwI/pSO5SfX24kvWhOsmLX9gGc5mb+m8EQ/nj8pkT0wpBYwbup9eZWAepQQMmI9TUXsUBRWJyUnf9uQQqYiub9mL9xVrEUDA6OBKHGhn6wElCzwgtAqs+0S1QixXHogAbAsYgWYR2Qo6EX5AousmBQetuJkMRmGVkuoczWryNyCicpov76EKvMjBKslASJfLyGe/vP558IfClUqvNl6Xqp3FNM+jtlcjDsBjT9IsaPTeX7Mby9igwonxz2VQZdhj+UkyWFNO9WnamkVQYESRjAY5laPPTsZrxX2vdF7Hvq3n5+VP8iVg1I6K5Wzkw==" />
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=MainContent_rrr_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d4.5.7.1213%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3af74e87aa-6b07-417a-8399-c9f4122515a5%3aea597d4b%3bTelerik.Web.UI%2c+Version%3d2014.1.403.45%2c+Culture%3dneutral%2c+PublicKeyToken%3d121fae78165ba3d4%3aen-US%3a68d9452f-f268-45b2-8db7-8c3bbf305b8d%3a16e4e7cd%3af7645509%3a24ee1bba%3a2003d0b8%3af46195d3%3a88144a7a%3a1e771326%3ae524c98b" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="DEF2B672" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="Aiive71Eilqs2MppNhZK7lwdTA8qSDF4zcoX6CQ1SRUPa8wXI1gTJoYTZyGRoge6kC3fnMFd6GLwGbeQz89Sev8cA4f7sM0Iiy4jIGBdolEtNOWnG3zVhAz9DrkTle0oTphwKdTC4p1y2XjUCIyic9LA3EFyGYvDeJa15d7FsAdp3x3dYuLkO0w0nl+TeHVu0NPWdZBGk0qQWHV37MifQA==" />
+        <div class="">
+            
+
+<style type="text/css">
+
+    @media only screen and (max-width: 1200px) {
+        header nav .row
+        {
+            background-image: none !important;
+        }
+    }
+</style>
+
+<header class="top-menu">
+    <div class="top-section">
+        <div class="container sm-width-100">
+            <div class="row">
+                <div class=" col-sm-12 col-md-8">
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الثلاثاء 06 آب 2024</div>
+
+                </div>
+                <div class=" col-sm-12 col-md-4">
+                    <ul class="social-icons bottom25 wow" data-wow-delay="300ms">
+                        <li><a href="javascript:void(0)"><i class="wow slideInUp fa fa-facebook"></i></a></li>
+                        <li><a href="javascript:void(0)"><i class="wow slideInUp fa fa-twitter"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navigation bar starts -->
+    <nav class="navbar box-nav white-background">
+        <div class="container sm-width-100">
+            <div class="row">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="javascript:void(0)">
+                        <img src="newdesign/images/logo2.png" alt="logo">
+                    </a>
+                </div>
+                <h2 class="red-color margin-top0 text-capitalize">الجامعة اللبنانية<br>
+                    <span class="text-color-grey">مركز الابحاث والدراسات في المعلوماتية القانونية </span></h2>
+            </div>
+            <div class="row">
+                <ul class="nav navbar-nav navlinks-outer collapse navbar-collapse">
+                    <li class="nav-tab"><a href="Default.aspx" class="font-style-1 nav-item" style="font-family: 'Droid Arabic Kufi', sans-serif !important;">الصفحة الرئيسية</a></li>
+                    <li class="nav-tab"><a href="LegisltaionSearch.aspx" class="font-style-1 nav-item" style="font-family: 'Droid Arabic Kufi', sans-serif !important;">النصوص القانونية</a></li>
+                    <li class="nav-tab"><a href="AdvancedRulingSearch.aspx" class="font-style-1 nav-item" style="font-family: 'Droid Arabic Kufi', sans-serif !important;">الأحكام</a></li>
+                    <li class="nav-tab"><a href="AgreementPage.aspx" class="font-style-1 nav-item" style="font-family: 'Droid Arabic Kufi', sans-serif !important;">الاتفاقيات</a></li>
+                    <li class="nav-tab"><a href="OpinionPage.aspx" class="font-style-1 nav-item" style="font-family: 'Droid Arabic Kufi', sans-serif !important;">الآراء الاستشارية</a></li>
+                    <li class="nav-tab dropdown"><a href="#" class="font-style-1 nav-item" style="font-family: 'Droid Arabic Kufi', sans-serif !important;">القاعدة البيبليوغرافية</a>
+                        <ul>
+                            <li><a href="ReferenceRulings.aspx" class="font-style-1 nav-item" style="font-family: 'Droid Arabic Kufi', sans-serif !important;">القرارات</a></li>
+                            <li><a href="ReferencesPage.aspx" class="font-style-1 nav-item" style="font-family: 'Droid Arabic Kufi', sans-serif !important;">المقالات</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-tab"><a href="PeriodsListPage.aspx" class="font-style-1 nav-item" style="font-family: 'Droid Arabic Kufi', sans-serif !important;">محاضر مجلس النواب</a></li>
+                    <li class="nav-tab"><a href="ResearchesList.aspx" class="font-style-1 nav-item" style="font-family: 'Droid Arabic Kufi', sans-serif !important;">الأبحاث والدراسات</a></li>
+                    <li class="nav-tab"><a href="SearchOfficialJournal.aspx" class="font-style-1 nav-item" style="font-family: 'Droid Arabic Kufi', sans-serif !important;">الجريدة الرسمية</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Navigation bar ends -->
+
+    <!-- Side-nav starts -->
+    <div class="navbar-toggle-visible left">
+        <!--side menu open button-->
+        <div id="menu_bars" class="left"><span></span><span></span><span></span></div>
+        <nav class="side-nav side-nav-left slide-nav static-nav">
+            <a class="sidenav-logo" href="index.html">
+                <img src="newdesign/images/logo2.png" alt="logo"></a>
+            <div class="side-nav-inner-setting">
+                <ul class="nav navbar-nav navbar-right navlinks-outer">
+                    <li class="nav-tab"><a href="Default.aspx" class="font-style-1 nav-item">الصقحة الرئيسية</a></li>
+                    <li class="nav-tab"><a href="LegisltaionSearch.aspx" class="font-style-1 nav-item">النصوص القانونية</a></li>
+                    <li class="nav-tab"><a href="AdvancedRulingSearch.aspx" class="font-style-1 nav-item">الأحكام</a></li>
+                    <li class="nav-tab"><a href="AgreementPage.aspx" class="font-style-1 nav-item">الاتفاقيات</a></li>
+                    <li class="nav-tab"><a href="OpinionPage.aspx" class="font-style-1 nav-item">الآراء الاستشارية</a></li>
+                    <li class="nav-tab"><a href="ReferenceRulings.aspx" class="font-style-1 nav-item">القاعدة البيبليوغرافية</a></li>
+                    <li class="nav-tab"><a href="PeriodsListPage.aspx" class="font-style-1 nav-item">محاضر مجلس النواب</a></li>
+                    <li class="nav-tab"><a href="ResearchesList.aspx" class="font-style-1 nav-item">الأبحاث والدراسات</a></li>
+                    <li class="nav-tab"><a href="SearchOfficialJournal.aspx" class="font-style-1 nav-item">الجريدة الرسمية</a></li>
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <!-- Side-nav ends -->
+    <div class="clearfix"></div>
+</header>
+
+            <section class="content">
+                
+
+    
+    <style type="text/css">
+        .smart-forms .frm-row {
+            margin: 0 10px;
+        }
+
+        .block-3 {
+            padding: 0px !important;
+        }
+
+        .smart-forms .checkbox, .smart-forms .radio {
+            top: -6px;
+        }
+
+        #MainContent_divNotes2 a {
+            color: #D9251C;
+        }
+
+        .text-1 a {
+            color: #D9251C;
+        }
+
+        .RadTreeView .rtUL {
+            font-size: 16px;
+            margin: 0;
+            padding: 0 20px;
+            line-height: 30px;
+            color: #d9251c;
+            font-family: 'Droid Arabic Kufi', sans-serif;
+            color: #D9251C;
+        }
+
+        #ctl00_MainContent_treeTopics {
+            float: none !important;
+        }
+    </style>
+    <input type="hidden" name="ctl00$MainContent$txthdnValue" id="MainContent_txthdnValue" value="212415" />
+    <div class="container">
+        <div class="row">
+            <div class="grid_4">
+                
+<div class="block-3 bord-1">
+    <div class="inside">
+        <h3 style="font-size: 20px; color: white">إبحث في مواد التشريع</h3>
+        <div class="smart-forms">
+            <div class="frm-row">
+                <label class="field-label colm colm4 align-right">رقم المادة:</label>
+                <div class="section colm colm8">
+                    <label class="field prepend-icon">
+                        <input name="ctl00$MainContent$articlesearch$txtartNumb" type="text" id="MainContent_articlesearch_txtartNumb" class="gui-input" placeholder="رقم المادة" />
+                    </label>
+                </div>
+                <!-- end section -->
+
+            </div>
+            <!-- end .frm-row section -->
+            <div class="frm-row">
+                <label class="field-label colm colm4 align-right">نص المادة:</label>
+                <div class="section colm colm8">
+                    <label class="field prepend-icon">
+                        <input name="ctl00$MainContent$articlesearch$txtarttext" type="text" id="MainContent_articlesearch_txtarttext" class="gui-input" placeholder="نص المادة" />
+                    </label>
+                </div>
+
+            </div>
+
+
+            <div class="frm-row">
+                <div class="section colm colm12">
+                    <label class="field align-left">
+                        <a id="MainContent_articlesearch_btnsearch" data-type="submit" class="btn" href="javascript:__doPostBack(&#39;ctl00$MainContent$articlesearch$btnsearch&#39;,&#39;&#39;)">إبحث</a>
+                    </label>
+                </div>
+                <!-- end section -->
+            </div>
+            <!-- end .frm-row section -->
+        </div>
+    </div>
+</div>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+
+                
+                <div class="block-3 bord-1">
+                    <div class="inside">
+                        <h3 style="font-size: 20px; color: white">الجريدة الرسمية</h3>
+                        <div class="smart-table">
+                            <div class="tbl-row">
+                                <div class="section first colm colm5">العدد</div>
+                                <div id="MainContent_divOJNumber" class="section second colm colm6">34</div>
+                            </div>
+                            <div class="tbl-row">
+                                <div class="section first colm colm5">تاريخ النشر</div>
+                                <div id="MainContent_divOJPublishDate" class="section second colm colm6">31/12/1922</div>
+                            </div>
+                            <div class="tbl-row">
+                                <div class="section first colm colm5">الصفحة</div>
+                                <div id="MainContent_divOJPage" class="section second colm colm6"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_8">
+                <div class="block-1 bord-1">
+                    <div class="">
+                        
+
+<div class="smart-table" style="background-color:#e8e8e8; line-height:33px">
+    <div class="tbl-row">
+        <div class="section first colm colm2"  style="color:#D9251C; margin-left:-25px; width:17%">
+             <a href="Default.aspx">الصفحة الرئيسية</a>
+        </div>
+         <div id="MainContent_nav_lblNavLink" class="section first colm colm6"><span class='NavLinkSep'> > </span><a href='LegisltaionSearch.aspx'>التشريعات النافذة</a><span class='NavLinkSep'> > </span>بتشكيل وتنفيذ ميزانية </div>
+        <div class="section first colm colm3" style="color:#D9251C;"><a href="javascript:history.go(-1)">عودة الى النتائج</a>
+        </div>
+          
+    </div>
+</div>
+
+
+                    </div>
+                    <h2 style="line-height: 33px;"><span id="MainContent_spanTitle">بتشكيل وتنفيذ ميزانية </span></h2>
+                    <h4 id="MainContent_subdetails" style="color: #626262">نوع النص: قرار&nbsp;|&nbsp; رقم 1179&nbsp;تاريخ: 31/12/1921</h4>
+                    <div class="tools-menu">
+                        <ul>
+                            <li><a href="LawView.aspx?opt=view&LawID=212415" id="MainContent_aView" target="_blank">استعراض <i class="fa fa-eye"></i></a></li>
+                            <li>
+                                <a id="MainContent_aPdf" href="javascript:__doPostBack(&#39;ctl00$MainContent$aPdf&#39;,&#39;&#39;)">PDF <i class="fa fa-file-pdf-o"></i>
+                                </a></li>
+                            <li><a href="LawView.aspx?opt&LawID=212415&TYPE=PRINT&language=ar" id="MainContent_aPrint" target="_blank">طباعة <i class="fa fa-print"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div id="MainContent_divNotes2" class="text-1"></div>
+                    <br />
+                    <div id="MainContent_divNotes" class="text-1"></div>
+
+                    <div id="MainContent_divSections">
+                        <h2>الفهرس</h2>
+
+                        <div id="ctl00_MainContent_treeTopics" class="RadTreeView RadTreeView_Default" ImagesBaseDir="Images/Lplus.png" AutoPostBackOnCheck="false" style="overflow-y: hidden;">
+	<!-- 2014.1.403.45 --><ul class="rtUL rtLines">
+		<li class="rtLI rtFirst"><div class="rtTop">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawTreeSectionID=214654&amp;LawID=212415&amp;language=ar">المواد :  (1 - 25)</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865829&amp;LawID=212415&amp;language=ar">مادة  1</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865830&amp;LawID=212415&amp;language=ar">مادة  2</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865831&amp;LawID=212415&amp;language=ar">مادة  3</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865832&amp;LawID=212415&amp;language=ar">مادة  4</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865833&amp;LawID=212415&amp;language=ar">مادة  5</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865834&amp;LawID=212415&amp;language=ar">مادة  6</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865835&amp;LawID=212415&amp;language=ar">مادة  7</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865836&amp;LawID=212415&amp;language=ar">مادة  8</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865837&amp;LawID=212415&amp;language=ar">مادة  9</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865838&amp;LawID=212415&amp;language=ar">مادة  10</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865839&amp;LawID=212415&amp;language=ar">مادة  11</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865840&amp;LawID=212415&amp;language=ar">مادة  12</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865841&amp;LawID=212415&amp;language=ar">مادة  13</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865842&amp;LawID=212415&amp;language=ar">مادة  14</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865843&amp;LawID=212415&amp;language=ar">مادة  15</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865844&amp;LawID=212415&amp;language=ar">مادة  16</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865845&amp;LawID=212415&amp;language=ar">مادة  17</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865846&amp;LawID=212415&amp;language=ar">مادة  18</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865847&amp;LawID=212415&amp;language=ar">مادة  19</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865848&amp;LawID=212415&amp;language=ar">مادة  20</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865849&amp;LawID=212415&amp;language=ar">مادة  21</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865850&amp;LawID=212415&amp;language=ar">مادة  22</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865851&amp;LawID=212415&amp;language=ar">مادة  23</a>
+		</div></li><li class="rtLI"><div class="rtMid">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865852&amp;LawID=212415&amp;language=ar">مادة  24</a>
+		</div></li><li class="rtLI rtLast"><div class="rtBot">
+			<span class="rtSp"></span><a class="rtIn MenuLink" href="LawArticles.aspx?LawArticleID=865853&amp;LawID=212415&amp;language=ar">مادة  25</a>
+		</div></li>
+	</ul><input id="ctl00_MainContent_treeTopics_ClientState" name="ctl00_MainContent_treeTopics_ClientState" type="hidden" />
+</div>
+                        
+
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+            </section>
+
+            
+
+<section class="aside-bg1 paddingtopbottom20px">
+    <div class="standard-transform"></div>
+    <div class="information-data">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="wow fadeIn">
+                        <img src="newDesign/images/logo2.png" class="footer-logo" alt="footer-img">
+                        <img src="newDesign/images/logo.png" class="footer-logo" alt="footer-img">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="contact-written-data wow fadeIn border-color-blue-4">
+                        <h5 class="font-style-1 text-color-gray text-capitalize" style="font-family:'Droid Arabic Kufi', sans-serif !important;">إتصل بنا</h5>
+                        <p class="font-weight-100" style="font-family:'Droid Arabic Kufi', sans-serif !important;"><i class="fa fa-phone"></i>هاتف: 01/492934 </p>
+                        <p class="font-weight-100" style="font-family:'Droid Arabic Kufi', sans-serif !important;"><i class="fa fa-print"></i>فاكس: 01/493145</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="contact-written-data wow fadeIn border-color-blue-4">
+                        <h5 class="font-style-1 text-color-gray text-capitalize" style="font-family:'Droid Arabic Kufi', sans-serif !important;">البريد الالكتروني</h5>
+                        <p class="font-weight-100" style="font-family:'Droid Arabic Kufi', sans-serif !important;"><i class="fa fa-envelope-o"></i>cij@ul.edu.lb </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="aside-bg paddingtopbottom30px">
+    <div class="standard-transform"></div>
+    <div class="information-data">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="contact-written-data wow fadeIn">
+                        <h3 class="font-style-1 text-color-white text-capitalize" style="background-color: transparent">حول الموقع</h3>
+                        <p class="line-height-30px font-weight-100 text-color-white" style="font-family:'Droid Arabic Kufi', sans-serif !important;">
+                            انشىء مركز الدراسات والأبحاث في المعلوماتية القانونية (المعروف بمركز المعلوماتية القانونية)، في العام 1986 كوحدة جامعية مستقلة. وذلك بالمرسوم رقم 3144 تاريخ 11/4/1986 المعدل بالمرسوم رقم 4166 تاريخ 16/9/1987. في العام 1993 تحول المركز إلى فرع من فروع كلية الحقوق والعلوم السياسية والإدارية وذلك بموجب المرسوم رقم 4141 تاريخ 13/10/1993. 
+
+
+                        </p>
+                    </div>
+                </div>
+                
+
+                        <div class="col-md-2 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+                            <div class="contact-written-data wow fadeIn">
+                                <h3 class="font-style-1 text-color-white text-capitalize" style="font-size: 20px; background-color: transparent; font-weight: bold;">حول المركز</h3>
+                                <ul class="font-style-1 text-color-white text-capitalize">
+                                    
+                                            <li style="display: block; margin-bottom: 10px"><a href="CustomPage.aspx?id=19&language=ar" id="FooterControl1_rptmainFooterLink_rptchildlinks_0_aLink_0" style="font-family:&#39;Droid Arabic Kufi&#39;, sans-serif !important;">رئيس المركز</a></li>
+                                        
+                                            <li style="display: block; margin-bottom: 10px"><a href="CustomPage.aspx?id=4&language=ar" id="FooterControl1_rptmainFooterLink_rptchildlinks_0_aLink_1" style="font-family:&#39;Droid Arabic Kufi&#39;, sans-serif !important;">نبذة عن المركز</a></li>
+                                        
+                                            <li style="display: block; margin-bottom: 10px"><a href="CustomPage.aspx?id=24&language=ar" id="FooterControl1_rptmainFooterLink_rptchildlinks_0_aLink_2" style="font-family:&#39;Droid Arabic Kufi&#39;, sans-serif !important;">رؤساء المركز السابقون</a></li>
+                                        
+                                            <li style="display: block; margin-bottom: 10px"><a href="CustomPage.aspx?id=18&language=ar" id="FooterControl1_rptmainFooterLink_rptchildlinks_0_aLink_3" style="font-family:&#39;Droid Arabic Kufi&#39;, sans-serif !important;">شكر خاص</a></li>
+                                        
+                                </ul>
+                            </div>
+                        </div>
+                    
+
+                        <div class="col-md-2 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+                            <div class="contact-written-data wow fadeIn">
+                                <h3 class="font-style-1 text-color-white text-capitalize" style="font-size: 20px; background-color: transparent; font-weight: bold;">روابط مفيدة</h3>
+                                <ul class="font-style-1 text-color-white text-capitalize">
+                                    
+                                            <li style="display: block; margin-bottom: 10px"><a href="CustomPage.aspx?id=16&language=ar" id="FooterControl1_rptmainFooterLink_rptchildlinks_1_aLink_0" style="font-family:&#39;Droid Arabic Kufi&#39;, sans-serif !important;">المواقع الرسمية اللبنانية</a></li>
+                                        
+                                            <li style="display: block; margin-bottom: 10px"><a href="CustomPage.aspx?id=17&language=ar" id="FooterControl1_rptmainFooterLink_rptchildlinks_1_aLink_1" style="font-family:&#39;Droid Arabic Kufi&#39;, sans-serif !important;">تاريخ الجريدة الرسمية</a></li>
+                                        
+                                </ul>
+                            </div>
+                        </div>
+                    
+
+                        <div class="col-md-2 col-sm-4 wow fadeInUp" data-wow-delay="400ms">
+                            <div class="contact-written-data wow fadeIn">
+                                <h3 class="font-style-1 text-color-white text-capitalize" style="font-size: 20px; background-color: transparent; font-weight: bold;">قوائم</h3>
+                                <ul class="font-style-1 text-color-white text-capitalize">
+                                    
+                                            <li style="display: block; margin-bottom: 10px"><a href="CustomPage.aspx?id=1&language=ar" id="FooterControl1_rptmainFooterLink_rptchildlinks_2_aLink_0" style="font-family:&#39;Droid Arabic Kufi&#39;, sans-serif !important;">روابط مفيدة</a></li>
+                                        
+                                            <li style="display: block; margin-bottom: 10px"><a href="CustomPage.aspx?id=3&language=ar" id="FooterControl1_rptmainFooterLink_rptchildlinks_2_aLink_1" style="font-family:&#39;Droid Arabic Kufi&#39;, sans-serif !important;">إتفاقية رفع المسؤولية</a></li>
+                                        
+                                            <li style="display: block; margin-bottom: 10px"><a href="Contact.aspx" id="FooterControl1_rptmainFooterLink_rptchildlinks_2_aLink_2" style="font-family:&#39;Droid Arabic Kufi&#39;, sans-serif !important;">اتصل بنا</a></li>
+                                        
+                                </ul>
+                            </div>
+                        </div>
+                    
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer id="site-footer" class="footer-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 text-center">
+              
+                <p class="font-style-1 paragraph-18 wow fadeInUp font-weight-100 margintop10px bottom10"><span class="copyrights" style="font-family:'Droid Arabic Kufi', sans-serif !important;">مركز المعلوماتية القانونية - الجامعة اللبنانية © </span></p>
+                <p class="font-style-1 paragraph-18 wow fadeInUp font-weight-100 margintop10px bottom10"><span class="copyrights" style="font-family:'Droid Arabic Kufi', sans-serif !important;">Made by <a target="_blank" href="http://ids.com.lb">IDS</a> </span></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+        </div>
+      
+
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Telerik.Web.UI.RadTreeView._preInitialize("ctl00_MainContent_treeTopics","0");Sys.Application.add_init(function() {
+    $create(Telerik.Web.UI.RadTreeView, {"_skin":"Default","_uniqueId":"ctl00$MainContent$treeTopics","attributes":{"ImagesBaseDir":"Images/Lplus.png","AutoPostBackOnCheck":"false"},"clientStateFieldID":"ctl00_MainContent_treeTopics_ClientState","collapseAnimation":"{\"duration\":200}","expandAnimation":"{\"duration\":200}","nodeData":[{"value":"00","cssClass":"MenuLink"},{"value":"1","cssClass":"MenuLink"},{"value":"2","cssClass":"MenuLink"},{"value":"3","cssClass":"MenuLink"},{"value":"4","cssClass":"MenuLink"},{"value":"5","cssClass":"MenuLink"},{"value":"6","cssClass":"MenuLink"},{"value":"7","cssClass":"MenuLink"},{"value":"8","cssClass":"MenuLink"},{"value":"9","cssClass":"MenuLink"},{"value":"10","cssClass":"MenuLink"},{"value":"11","cssClass":"MenuLink"},{"value":"12","cssClass":"MenuLink"},{"value":"13","cssClass":"MenuLink"},{"value":"14","cssClass":"MenuLink"},{"value":"15","cssClass":"MenuLink"},{"value":"16","cssClass":"MenuLink"},{"value":"17","cssClass":"MenuLink"},{"value":"18","cssClass":"MenuLink"},{"value":"19","cssClass":"MenuLink"},{"value":"20","cssClass":"MenuLink"},{"value":"21","cssClass":"MenuLink"},{"value":"22","cssClass":"MenuLink"},{"value":"23","cssClass":"MenuLink"},{"value":"24","cssClass":"MenuLink"},{"value":"25","cssClass":"MenuLink"}]}, null, null, $get("ctl00_MainContent_treeTopics"));
+});
+//]]>
+</script>
+</form>
+    <script src="newDesign/js/jquery.min.js"></script>
+    <script src="newDesign/js/bootstrap.min.js"></script>
+    <script src="newDesign/js/bootsnav.js"></script>
+    <script src="newDesign/js/morphext.min.js"></script>
+    <script src="newDesign/js/classie.js"></script>
+    <script src="newDesign/js/jquery.matchHeight-min.js"></script>
+    <script src="newDesign/js/parallax.min.js"></script>
+    <script src="newDesign/js/parallaxie.js"></script>
+    <script src="newDesign/js/jquery.cubeportfolio.min.js"></script>
+    <script src="newDesign/js/jquery.fancybox.min.js"></script>
+    <script src="newDesign/js/lity.js"></script>
+    <script src="newDesign/js/swiper.min.js"></script>
+    <script src="newDesign/js/owl.carousel.js"></script>
+    <script src="newDesign/js/jquery.appear.js"></script>
+    <script src="newDesign/js/jquery-ui.js"></script>
+    <script src="newDesign/js/aos.js"></script>
+    <script src="newDesign/js/wow.js"></script>
+    <script src="newDesign/js/jquery.vticker-min.js"></script>
+
+    <script src="newDesign/js/script.js"></script>
+</body>
+       
+</html>
