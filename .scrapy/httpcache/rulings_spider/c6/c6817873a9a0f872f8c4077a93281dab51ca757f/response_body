@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="SOJV8qmgOBl4BvUetjioeLmJGi7Xdi2ya7Gt3+e/zNQaEHjiDQlDOru5B7JiJK4WknIqzO6JkWwB/rFMzLe2t0H0dJyVQrm6TYtLSSrgiiZRxdkrncXw/RxAelrE/7bJuojqjf8UzQaVZiGA591QHfheGM+e1rZmBc3Nd3dK0pFa+ekaPVCeGQ6DgpBS6FoJRZIuQr8eX+G9xO3U0eh6TOC0ui+4+/YZJRuKyZiQXRiJ7AsRxXJykJ810Bgabks3M9E+5GQ6dV9cVRMygDCmjm0ZhcO37zSR9hLmwWrBHLCu78/YRi9DnLh1sivqcrJPzh9UsI+4sbLv3aNXcXRlBvOKG/rlZw+Qitt5wS5U18dPH6Y2QTnZo2HWbC0N/bzWmuLCMQrXMCUkcte/o5+ZgDvV2c/ZaBPDj/RwdL8HqkbuxNcqPecC2PKt1k97cjfnLLcesz9PwN6nc44DlyOEvSsP8TLC0+KNmTjlkHYjYK/9vzIIpBC3AzVNhMMnn5PZFA6aSbf83QOA4RWx8n/QNbfp0fsF0nCDZYMtVgCTA9AqDpTf3ZxFSKc3WRgBbNovVLyPijVyk5KWZXMR4UsDJv5Eakd34ypSXD1I1Mt2XL3sJo0/s6qjXLuQPcqOQWM37zFJQvVyfyLDBkRH9czKgsZ8FnmGrdEomw5C7DT+QIijLC6/plwsRpVI5WppFdsfggwVPjfy1v5kZD1K3iQ7p7cyyomg+UF0r4P59Wa97Jo1Jh6Fxe7pI6lYmcQrUw+aAsuhT7V3jEefKnxyX+lQYCOu0ap4T8imQsM1j3rwNIRR6nMpR2bgOXzBdu2GdhR1sMAG8apMlKJFNzglWQWEQdQ4uVAtS52R8GZjopnnP1pupzEvbYdQ/YsNf3WYo8eOYhiH9TQuJZIaQUhuxyiGSbR5TwYzVOkwU/HK1cbN+uTV8FfGSWRf4A8R8/W6Cis+l8BHrFwTHn/a14yUo3ZOoJKcqRyVROnkUCBVgwFXUUsTbYmo+4FxxHPsvPG/s8eYn5vf1u1VxVjxZHlUMiKWAY3jc/x3ac5Xrnl7IJbEyYNxS07UzxOmDNtJoxT9RLcy6BiB/WD4emDveBEu5ZJEZgtEqqO2heL3RKt1528khQCBuUC6PObwgDv93JR+splseoBKdLZRS0aQ+VCQzjdGUfZkYyYHEGGoyxJ43RbU7csbbjvfyi1N5I1ht+YDkW180g/nI8tVHhTCy0G9UPktOX5Z5debIW/6HBMUHrav63Ma22CJMALIGKXtXS9As/tkghhNS/TmJ6SG+BlGs/BA1gaiUr53BHQKagCaRnPJtMQ+REO2d2PoISTxGkVJ5ku4lHMssfISo4jlNMlsOnFE96kN3+txAY2cstRUDhawwdBv2as9iCoCWAJE3EnlH8FzUGSIHkB+SHmGikYUaOOO1wrXOmhduRjsXdcqrG/EpFh1ZHJj1lXHACwV9cUlIuy3SY7YHJM4acyX3g3wJq+/ri2t5Yc4C5cnaHG4Dahr69ODrnM3+TPwa9+zMeyY6kmNrY2OwnPQXHcgb5C9EUhMxXYHhxhths1mj/+FZxfVfn1fycZ7rafWLemuP7LbCzp0UVOOM20eoYr8qvxwClKQeLnTHdqAwCJcYGGzpeJTL9wlO7eR1JEOAApUglPQn8NbQ/ow2cZeK+ePd3JAMG6VPRSJZfWGhDuYdy0LPYsqlJsOU1JUd2A8mPQLxCAUbJTzjGZT055YlLVPIqgWEPo6qyWZ/H2TZCi8pphaSCQhOGl/PraLRk1fIZ/kdxeFOJA41xOW/BD+e2bCbC3xFj6gOzPCpsIOKgAQRyhtu8YyGde1wcKe+nDlqT394K8ykUni6izkZUZ/6ZY5AZH/ptrmkyB6c22FFy+cjmvlQ4s9ZpAsJVXPlvmMuINmlQ79TphFYduXvoffFtayVRKbFRGmJGKYANR2QtTTUKsYaswMMs1519IGd/VohjpAcDG0khARXwQOWP2W7gZOk7kFBzxJOp7e5CeVQQh9W5t8/Lf43lUCFpQhTj3pvaU8UMFap7+JAzazXJW0zunaovi/Tn9nUUowfXDlS9fxLE0KOPM8ODNy4q77iYtKIX4dszC+r8At3G/HaHb5VkUoqX2eNgolcuD+zWBp0c9jQzadAhSk2XB0hRdjuQPXSgz54KnoAivky/opMaoTsFWNZfYHLoxivV8dr2hUWc5V832Ek2FI3WC/3Zh1ijIEQjmMpICu9EpmevGO3zIaP/kwptxLYwnuIVrBbcHaAxjiE0jFUk09G2CVGrzDDVBu6MwZL0uqeyZvt42vA1OqbaMN3j1wM9oYJ+zz08dqxrCWyLfdvAM0D2LunDfa/miB7ynToiaDfC7uK8BgkilriH1iSPS/nqBOBaGyZptAJ/fWBQ9NMAuf+0cRwovb+Ji187ltYZnyfK4s1eqTrtmwjr1G3y5lvk5lNPsbpOFzWnXo5uxSaYnmVE/NUJafNOe2n8ui9cWX27wSnyhBy7ksIWfKUV10JJ9UXyVMqccTQlN+bsGBIS4NjQUUY64QJhBhIEF+vKKNDOMsKPTb9Tk+PNbXfozhryaeZN2zDUdwYPuSXzgNmBFmaCVgzvFuqKJenpTyQ8J6SmzUPLbuj5a59GPJzWtLFNuiepXE+cC0boxD92X75wFjMG037aUsM1+ydTj+8Wkgv1ouXTu5JxSB+AGc6Zf+TYVQHhhzJJHj0TmDk8hLiaaL/X+b5jjRisGXNm7qhqt0ODHtSkj9yF1l0VPRWKfw1j4fit7s/RBFpcn1UTpq7tjInjt32yJ19sZdZYoJ1OetX/2QnrMIFqMJMXhahhZRZDHONV6t36q8tyCtxJY7rvHaXRC2y1QfUs5RPF724zQZCDhLji4gOs9uCwCH8UsP9WEY2faFhFTV2uMbz/211Q91Sj+xM2ZIwUaNNHDaZ+jEUd2u5tJtITBW2v+07+5wSc25ZvTvM00RKeX9J09F/c/G+QS8ghv258fzjfBQ0dCnIOd8i+zU8yf1HrE9vd5k0drQIeiY8sVKx+jiATHTsUoa+ueBpgo2xsLAtP2mV+Q2j1UXMQgT/LXsGM0ftw+mcbhN34bQ6cH2uINtFuu6cI4kKhbBOF4DaiFKKm0g7IBeySbRx6ji47VC9nZXaRnybBc9tlEd8PO9vSL6hLa4J2TZgu6zpKNSzTL/q6hqmKjzHJf8zz5d5HjIXwX3sNcsxrVimnozl4kDzjDgzpA6Jk0syVI=" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1666,72 +1666,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                         <div id="MainContent_mainLegTr" class="box-1">
                             
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=123990&selection='>
-                                            <h4>حكم محكمة الاستئناف الناظرة بجرائم المطبوعات رقم 69 سنة 2016  /  <span>تاريخ 13/12/2016</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مطبوعات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ضرر معنوي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ذم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض رمزي</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=124007&selection='>
-                                            <h4>حكم محكمة الاستئناف الناظرة بجرائم المطبوعات رقم 67 سنة 2016  /  <span>تاريخ 13/12/2016</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مطبوعات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مفعول</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قدح وذم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شروط</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى الحق العام</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار مبرم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اسقاط الحق</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=124369&selection='>
                                             <h4>حكم استئناف جزائي رقم 429 سنة 2016  /  <span>تاريخ 13/12/2016</span></h4>
                                         </a>
@@ -1789,6 +1723,43 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=124007&selection='>
+                                            <h4>حكم محكمة الاستئناف الناظرة بجرائم المطبوعات رقم 67 سنة 2016  /  <span>تاريخ 13/12/2016</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مطبوعات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مفعول</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قدح وذم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شروط</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى الحق العام</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار مبرم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اسقاط الحق</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=124002&selection='>
                                             <h4>حكم محكمة الاستئناف الناظرة بجرائم المطبوعات رقم 68 سنة 2016  /  <span>تاريخ 13/12/2016</span></h4>
                                         </a>
@@ -1816,6 +1787,35 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">اصول شكلية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=123990&selection='>
+                                            <h4>حكم محكمة الاستئناف الناظرة بجرائم المطبوعات رقم 69 سنة 2016  /  <span>تاريخ 13/12/2016</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مطبوعات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ضرر معنوي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ذم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعويض رمزي</li>
                                                     
                                             </ul>
                                         </div>
@@ -1917,13 +1917,13 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=124364&selection='>
-                                            <h4>حكم استئناف جزائي رقم 412 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=124506&selection='>
+                                            <h4>حكم محكمة الجنايات رقم 820 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">موظف</li>
+                                                        <li style="display: inline-block;">كوكايين</li>
                                                     
                                                         /
                                                     
@@ -1931,145 +1931,24 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مسؤولية جزائية</li>
+                                                        <li style="display: inline-block;">مخدرات</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">افادة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شرطي بلدي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ايذاء</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سلطة عامة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فعل مادي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اعمال العنف والشدة</li>
+                                                        <li style="display: inline-block;">تعاطي</li>
                                                     
                                             </ul>
                                         </div>
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=124014&selection='>
-                                            <h4>حكم محكمة الاستئناف الناظرة بجرائم المطبوعات رقم 65 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=124533&selection='>
+                                            <h4>حكم محكمة الجنايات رقم 802 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مفهوم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">موقع الكتروني</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حق التقدير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">زوج</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">زوجة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تخفيفي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">زنا</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قتل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تهديد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى الطلاق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حرية الرأي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مقال صحفي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">جرم مشهود</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مؤسسة تلفزيونية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ذم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مراسل صحفي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تهديد بالسلاح</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عمل صحفي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تحقيق استقصائي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حرية الصحافة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;"> مس بالشرف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نشرة اخبارية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=124368&selection='>
-                                            <h4>حكم استئناف جزائي رقم 418 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قرار اداري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اختصاص</li>
+                                                        <li style="display: inline-block;">مدرسة</li>
                                                     
                                                         /
                                                     
@@ -2077,112 +1956,43 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مخالفة البناء</li>
+                                                        <li style="display: inline-block;">تزوير</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قضاء جزائي</li>
+                                                        <li style="display: inline-block;">جناية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قضاء اداري</li>
+                                                        <li style="display: inline-block;">مستند رسمي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قائمقام</li>
+                                                        <li style="display: inline-block;">مدير</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">ترخيص قانوني</li>
+                                                        <li style="display: inline-block;">موظف رسمي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">عنصر جرمي</li>
+                                                        <li style="display: inline-block;">وصف جرمي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مدرسة رسمية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">افادة مدرسية</li>
                                                     
                                             </ul>
                                         </div>
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=123991&selection='>
-                                            <h4>حكم تمييز جزائي - مطبوعات رقم 59 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مطبوعات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قاضي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعديل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقوبة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تمييز</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تشديد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ضرر معنوي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تلفزيون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حبس</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تحقير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">غرامة مالية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اذاعة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">موظف عام</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض رمزي</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=124323&selection='>
-                                            <h4>حكم استئناف جزائي رقم 413 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=124527&selection='>
+                                            <h4>حكم محكمة الجنايات رقم 825 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
                                         </a>
                                         <div>
                                             <ul>
@@ -2191,19 +2001,159 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مسؤولية جزائية</li>
+                                                        <li style="display: inline-block;">مخدرات</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">عطل وضرر</li>
+                                                        <li style="display: inline-block;">تعاطي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">شيك بدون مؤونة</li>
+                                                        <li style="display: inline-block;">تجارة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">فائدة قانونية</li>
+                                                        <li style="display: inline-block;">اسبقية جرمية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=124529&selection='>
+                                            <h4>حكم محكمة الجنايات رقم 817 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخدرات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعاطي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تجارة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حشيشة الكيف</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=124528&selection='>
+                                            <h4>حكم محكمة الجنايات رقم 822 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قانون مطبق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخدرات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعاطي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تجارة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">رخصة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حشيشة الكيف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حبوب مخدرة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دواء ممنوع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ترامادول</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=124535&selection='>
+                                            <h4>حكم محكمة الجنايات رقم 815 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تزوير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">استعمال المزور</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مستند رسمي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نية جرمية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شهادة البكالوريا اللبنانية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">امتحان رسمي</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=124522&selection='>
+                                            <h4>حكم محكمة الجنايات رقم 811 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخدرات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعاطي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تجارة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حشيشة الكيف</li>
                                                     
                                             </ul>
                                         </div>
@@ -2241,129 +2191,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">افادة جامعية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=124380&selection='>
-                                            <h4>حكم استئناف جزائي رقم 409 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قدح وذم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ضرر</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مسؤولية جزائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شاهد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تهديد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">متضرر</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قدح</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=124341&selection='>
-                                            <h4>حكم استئناف جزائي رقم 410 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مساهمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مسؤولية جزائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عطل وضرر</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شيك بدون مؤونة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">علم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عنصر جرمي</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=124552&selection='>
-                                            <h4>حكم محكمة الجنايات رقم 801 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مبدأ تفسير الشك لصالح المتهم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مفعول</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شك</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">افادة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سرقة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تناقض</li>
                                                     
                                             </ul>
                                         </div>
@@ -2415,25 +2242,62 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=124505&selection='>
-                                            <h4>حكم محكمة الجنايات رقم 826 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=124552&selection='>
+                                            <h4>حكم محكمة الجنايات رقم 801 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">تزوير</li>
+                                                        <li style="display: inline-block;">مبدأ تفسير الشك لصالح المتهم</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">استعمال المزور</li>
+                                                        <li style="display: inline-block;">مفعول</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">جامعة لبنانية</li>
+                                                        <li style="display: inline-block;">اثبات</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">افادة جامعية</li>
+                                                        <li style="display: inline-block;">شك</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">افادة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سرقة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تناقض</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=124551&selection='>
+                                            <h4>حكم محكمة الجنايات رقم 805 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">سبب تخفيفي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عملة اجنبية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عملة مزورة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ترويج العملة</li>
                                                     
                                             </ul>
                                         </div>
@@ -2473,49 +2337,25 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=124533&selection='>
-                                            <h4>حكم محكمة الجنايات رقم 802 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=124505&selection='>
+                                            <h4>حكم محكمة الجنايات رقم 826 سنة 2016  /  <span>تاريخ 29/11/2016</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مدرسة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
                                                         <li style="display: inline-block;">تزوير</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">جناية</li>
+                                                        <li style="display: inline-block;">استعمال المزور</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مستند رسمي</li>
+                                                        <li style="display: inline-block;">جامعة لبنانية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مدير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">موظف رسمي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وصف جرمي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مدرسة رسمية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">افادة مدرسية</li>
+                                                        <li style="display: inline-block;">افادة جامعية</li>
                                                     
                                             </ul>
                                         </div>

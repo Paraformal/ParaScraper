@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1917,43 +1917,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=62486&selection='>
-                                            <h4>حكم تمييز مدني رقم 133 سنة 1954  /  <span>تاريخ 29/12/1954</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">ارث</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قوة الزامية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مورث</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دين</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وارث</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعهد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ايفاء</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=68269&selection='>
                                             <h4>حكم تمييز مدني رقم 129 سنة 1954  /  <span>تاريخ 29/12/1954</span></h4>
                                         </a>
@@ -2001,6 +1964,43 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=62486&selection='>
+                                            <h4>حكم تمييز مدني رقم 133 سنة 1954  /  <span>تاريخ 29/12/1954</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">ارث</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قوة الزامية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مورث</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دين</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وارث</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعهد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ايفاء</li>
                                                     
                                             </ul>
                                         </div>
@@ -2419,35 +2419,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=62805&selection='>
-                                            <h4>حكم تمييز مدني رقم 121 سنة 1954  /  <span>تاريخ 13/12/1954</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قوة القضية المحكوم بها</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حكم قطعي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دفع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مرور الزمن</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دفاع</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=69769&selection='>
                                             <h4>حكم تمييز مدني رقم 122 سنة 1954  /  <span>تاريخ 13/12/1954</span></h4>
                                         </a>
@@ -2519,6 +2490,35 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">مراجعة ادارية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=62805&selection='>
+                                            <h4>حكم تمييز مدني رقم 121 سنة 1954  /  <span>تاريخ 13/12/1954</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قوة القضية المحكوم بها</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حكم قطعي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دفع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مرور الزمن</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دفاع</li>
                                                     
                                             </ul>
                                         </div>

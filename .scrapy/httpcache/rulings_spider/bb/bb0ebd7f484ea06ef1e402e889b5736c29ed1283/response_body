@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1666,6 +1666,39 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                         <div id="MainContent_mainLegTr" class="box-1">
                             
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=63478&selection='>
+                                            <h4>حكم تمييز مدني رقم 144 سنة 1951  /  <span>تاريخ 29/12/1951</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مسؤولية جزائية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار تمهيدي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شريك</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعاقد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شركة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مسؤولية مدنية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=63617&selection='>
                                             <h4>حكم تمييز مدني رقم 40 سنة 1951  /  <span>تاريخ 29/12/1951</span></h4>
                                         </a>
@@ -1722,39 +1755,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">غرفة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=63478&selection='>
-                                            <h4>حكم تمييز مدني رقم 144 سنة 1951  /  <span>تاريخ 29/12/1951</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مسؤولية جزائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار تمهيدي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شريك</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعاقد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شركة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مسؤولية مدنية</li>
                                                     
                                             </ul>
                                         </div>

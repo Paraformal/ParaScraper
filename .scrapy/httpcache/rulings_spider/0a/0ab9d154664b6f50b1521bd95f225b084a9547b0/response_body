@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1666,6 +1666,99 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                         <div id="MainContent_mainLegTr" class="box-1">
                             
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=65693&selection='>
+                                            <h4>حكم تمييز جزائي رقم 173 سنة 1975  /  <span>تاريخ 28/8/1975</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مخالفة جوهرية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عدم ذكر</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ادعاء شخصي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تفهيم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عدم تلاوة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">جلسة علنية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عدم مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اصول</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حكم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اسقاط</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">متهم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مادة جرمية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محكمة الجنايات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عرض</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حضور</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">كشف حسي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ملحق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">جلسة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محضر</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة قانونية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=65694&selection='>
                                             <h4>حكم تمييز جزائي رقم 174 سنة 1975  /  <span>تاريخ 28/8/1975</span></h4>
                                         </a>
@@ -1762,99 +1855,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">حق الدفاع</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=65693&selection='>
-                                            <h4>حكم تمييز جزائي رقم 173 سنة 1975  /  <span>تاريخ 28/8/1975</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مخالفة جوهرية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عدم ذكر</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ادعاء شخصي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تفهيم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عدم تلاوة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">جلسة علنية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عدم مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اصول</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حكم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اسقاط</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">متهم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مادة جرمية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محكمة الجنايات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عرض</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حضور</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">كشف حسي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ملحق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">جلسة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محضر</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة قانونية</li>
                                                     
                                             </ul>
                                         </div>
@@ -2075,17 +2075,17 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=69511&selection='>
-                                            <h4>حكم مجالس العمل التحكيمية رقم 707 سنة 1975  /  <span>تاريخ 05/8/1975</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=69508&selection='>
+                                            <h4>حكم مجالس العمل التحكيمية رقم 708 سنة 1975  /  <span>تاريخ 05/8/1975</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">عدم اختصاص</li>
+                                                        <li style="display: inline-block;">عمل سابق</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اختصاص</li>
+                                                        <li style="display: inline-block;">شروط</li>
                                                     
                                                         /
                                                     
@@ -2093,15 +2093,31 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">دعوى</li>
+                                                        <li style="display: inline-block;">اجير</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مجلس العمل التحكيمي</li>
+                                                        <li style="display: inline-block;">تعويض نهاية الخدمة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قانون اجنبي</li>
+                                                        <li style="display: inline-block;">استحقاق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دولة لبنانية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">استمرارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">الصندوق الوطني للضمان الاجتماعي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انتساب اختياري</li>
                                                     
                                             </ul>
                                         </div>
@@ -2153,17 +2169,17 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=69508&selection='>
-                                            <h4>حكم مجالس العمل التحكيمية رقم 708 سنة 1975  /  <span>تاريخ 05/8/1975</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=69511&selection='>
+                                            <h4>حكم مجالس العمل التحكيمية رقم 707 سنة 1975  /  <span>تاريخ 05/8/1975</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">عمل سابق</li>
+                                                        <li style="display: inline-block;">عدم اختصاص</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">شروط</li>
+                                                        <li style="display: inline-block;">اختصاص</li>
                                                     
                                                         /
                                                     
@@ -2171,31 +2187,15 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اجير</li>
+                                                        <li style="display: inline-block;">دعوى</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تعويض نهاية الخدمة</li>
+                                                        <li style="display: inline-block;">مجلس العمل التحكيمي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">استحقاق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دولة لبنانية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">استمرارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">الصندوق الوطني للضمان الاجتماعي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انتساب اختياري</li>
+                                                        <li style="display: inline-block;">قانون اجنبي</li>
                                                     
                                             </ul>
                                         </div>
@@ -2255,6 +2255,31 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=66683&selection='>
+                                            <h4>حكم تمييز جزائي رقم 176 سنة 1975  /  <span>تاريخ 31/7/1975</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">اصول المحاكمات الجزائية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">متهم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مادة جرمية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محكمة الجنايات</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=58608&selection='>
                                             <h4>حكم تمييز جزائي رقم 175 سنة 1975  /  <span>تاريخ 31/7/1975</span></h4>
                                         </a>
@@ -2290,31 +2315,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">رسم</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=66683&selection='>
-                                            <h4>حكم تمييز جزائي رقم 176 سنة 1975  /  <span>تاريخ 31/7/1975</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">اصول المحاكمات الجزائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">متهم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مادة جرمية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محكمة الجنايات</li>
                                                     
                                             </ul>
                                         </div>

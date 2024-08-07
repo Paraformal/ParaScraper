@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="hzsKe4GRA9jkEjobfAau2TEXHXRBsWb/U6ZrVZz8ak5GeK881Hk3+gDRg/k+rgcJKlvF3q60kSAZJd2JEwZ9+kgTBVXtLayWi+fyEvIbU8uFxqlWXTpFoa54EGMB2cGHIqm3y3wqkIfFYFk4ZLTIs6JERpamJKq/cMSFA1mqGnjltWkXdWlVYSBBhThoOxO/8BKHfAcmxMI6E+Sy/LUSi/WQKYpq6ZtaPSSjCx48S2D2ExQafrK8uJbP15uQ9LQxxMlhdB//zOo2pgTo5sHYodQF/mWnGqWesGEe1h5h4XUw7Rs8h1G2/fuV9BLMHpus2r6mrH0t4J/pTFCdFPRHNI1YdBp38adcKbdixJT8/7ez41PqJ4VblZz8fBofmRy/jRKbX02VNIFEUL0ENXdccX+tDtcCEYLlqciU6SuxQOaXtBWWPgZ1c8T2bzc24eHqZKW+w+BJP88ctDesv3c2vY6U3MM/qCaoGqiaxvVwtt38eIBFoHct3Kcp0Jv+/ubvCEnqAJyB3CS35qPAjrEXm+7JBWCCe4X8Pi2qT2WAcf6shxuzLltspCutpuLHjuer1oTXGPOBhjyoim8cKDAVvSJn4UBkdsmXmZW/DF3ga4P3XuVyNbV8Q+H4S840u0flpb94E5UeNPHaefcEOqQoSUk2GUCjg8By3RB/oeie7iWxNecUBewl40UhUYGxWa7E0uBJdKUD9hMbbppFKiTWHVK/SwFUwjovbs5G+IhP0+lkF5y3NEXxdso7JyPD6lPsKpGTD/8MaEUv9XigwRfmykId29GavqOmXDZRf0AhOrMZq4yZJPe7ZffvMBDeWBhWQFrO5WXlcnTy/k7bH+6Jg2s9BfNL3L/cqiOJ7D08caXPRc6lD8WKQzedlmIK0Lsyl/bFGdPRRmd4Kzn459QYeMpgNnjczzQaxo2rZYl9TgARnhVdhgRhqu/9yVZCNOuLWCT6b1+UyVx54qIwn1mmLLc0oGjWllUyjX5g846sgGcb+mTnhq93zv5YZWb8GgXPzq/44i+CvU9zVGzEOPmtcGT/Qv76pIzK9fimzeQDyLuFdfcpVq2wa1EuVRPmO6d+sLrdoKxjmyxwN+L0lZ7rJ8jXBMkT/PX36a+D7ugySFZDuJR8eCMZGWNnSI9U3idK26/pQKpL0YfCpmesO8ULVf/P11moclQND5ABftdIITTX2EezZee7ui3SerFXCfkdBxkb4xqRzNSsOQ0o9G2ETbkgJxgVL6DGMpTtcLGgy+vbhbCKLoYiiUdLp7c3Wqx00L2iOjZqaD2hPKCQ7nWo69C/bCIp0NhCrXi66aafrZ/ReJdpypdZBwPnUzjizwQ0DQx8Mcy6EackCZ7i4WNQD0hUofzKkhGDZfKREM7r1vEYr7mlC9abc3wDbcCoBB30ykTWQjxkM/KbVxoOgVCcAcYJ4rmq2hdqvTIdAE4E9l2Mq/p/usxxGJEXPi4fjZHrzbFftWOj3eQ6vLiMR/QGmP+vOnklIqffbPNYOmZOt/L81sE6Edq/U3it4kg9pi90dbwHXeP69oqvLREzkXtAF5zhTJ5GZNrFu/bSm+/U1nRmlNKkR6P3dtE9EgDn5B5TSYhG5WdOvWIPGR9gyBSPNdyfZhWEyUcCjUBdAD+jOlTLlgvq+jP35c7QTnKLApQCNLIrVPwhNAIq2kDpvxukygerOc82dliiTPw2mYJU1OfAlsvYNYMxS9bKT6K4/EgaweUualH566Fgs1YbvTg5NW0gkDELvw7NK2OunOhRfvBTv1v9kbiT+2yGXa8WfNz8S1bajn1AfoOyhZWWkDieCYpgMIiqWG6K4TDTjlnGgZE8vfcXxeK+oJeKigY0JZZHKa2/PGsBe0vwmFkTI9/spgL80z+qgZ54oka1KrM0H9naglHkGyQgjoN/zhCPvzqAGciZ0925TRPwRHbC8saDejPPIUBopiqbw7ionqwmmk92DRiG0HrnwY/1iEU3GMVbidzEOuZctiZxjMcZYgiAG5/yEbS7IWEsJTz9VZQGuR/l8PnX7BJ+zBxVliLrmEvjO3o/hzlRFbLF4trO3M/FXNZkAOeaJqMlULMH9Dz/xop2tQTcNfFPDrljCicg3IRR41EOVfRFt+4Fd6Dm0jhfiWdsX3mNB7dhX8mLaVZy74hxkOwuLIUI9pgteUOme6PYpHbOBUEZ0dfm5OEzbEEbaFkZFI4ybWt+cf4bLexXPEGsgmMUeu76v1O3PvDbnysINF7hrie+2v8ikx0k8bAJ1FyS20rZl/iiL2T8OW4VAZkNaoW0fC4MuavpYH2qylZ/VvIHpHBIl6ngtneWQhxSX7OZmTEwwDJ4ZpjgeCccFLsFEFTgnnb2QFDwdRhzoDPI0FnZDHXv1RqYWd7Z5FR1wYngGVeXlnal79CdGN3nyip+62eEqlOwD1Qe48GjTGNPZvkyR9qMkkO8Rrqzu4l1aLrc0Dt9dj5ANsoTR1Ul8wZ2/+qbgchYATEEYGlbSFVzq/LYjLttQXv1Z0kNK+eYc3xm6wGbnot7f3MJbMwsfLj5sZE+iKpqIRCVJa7t1nSiltoz7/xwxrAZu5jRDv6CjIdXS18hhE1PfC2SNv+RSlnFZUfpKwMTW+Kb0Cg+BcICQX6pBr5yXbZtNOfBeYBGdSE3p7VavYXBPEJoJVVgBCysrzzh6kSDYQNWdYKOuwqCeFMtCKlDhcGf5wqLWoofZSqNs+Xrety0GzzT1DCyNom4l8ohEasccZpddSx5OyxvBaeJR0lOgJ3jKy3bzBCh2NKTH+RL/B/XkwOfYpgF2+i1qi1axCBKrCd//jaBBq6PnEdcHS/wENDHpcUu9cmdI4kLGkv6LzvTTXcyFe8l/3ORYDlRKfb5mTHSBXWhkCjnu86a9LBG4x8O9qhVLanzMogvOer/KLgJnhrFMrA/+vNZ1VfhLFQG/WDjLVoCVMuqlaVsqOmDdPg3tj2DDObukssq/lSzcVHHYEWCZwUPfZFo6SNq0Ox836nuJscZbqpZUlsMmbhV/v7DlI5iHcMTJ5kUD70hnZHmyTvCLilc9cAyhIkd95PbNs/aKcc00SlNxQIJ0y9QX7WN4zUEfJUsKLBZjQzfewK1gAgGYEaq/Adtrkx7dnvCHn21Zgzewkv+pZA35gF1BJwoKUmkXfxVbgstlakQ5wBtsmX0+P8j/iNGjWVRhvPTcm2I5VhCR0lHnGWtXvLRjq/rXA1QU2e+OtPm1s1qjCIOQ/w+ZpogVx0=" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -2524,6 +2524,47 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=67155&selection='>
+                                            <h4>حكم تمييز مدني رقم 7 سنة 1961  /  <span>تاريخ 07/12/1961</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مشكلة تنفيذية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهلة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">استئناف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حكم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وقف التنفيذ</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مزاد علني</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مزاد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تنفيذ</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=62077&selection='>
                                             <h4>حكم تمييز مدني رقم 56 سنة 1961  /  <span>تاريخ 07/12/1961</span></h4>
                                         </a>
@@ -2676,47 +2717,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">سعر</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=67155&selection='>
-                                            <h4>حكم تمييز مدني رقم 7 سنة 1961  /  <span>تاريخ 07/12/1961</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مشكلة تنفيذية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">استئناف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حكم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وقف التنفيذ</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مزاد علني</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مزاد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تنفيذ</li>
                                                     
                                             </ul>
                                         </div>

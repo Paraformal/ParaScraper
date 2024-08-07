@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1666,31 +1666,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                         <div id="MainContent_mainLegTr" class="box-1">
                             
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=58121&selection='>
-                                            <h4>حكم تمييز مدني رقم 148 سنة 1957  /  <span>تاريخ 31/12/1957</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قرار اعدادي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اساس النزاع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حكم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تمييز</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=63108&selection='>
                                             <h4>حكم تمييز مدني رقم 149 سنة 1957  /  <span>تاريخ 31/12/1957</span></h4>
                                         </a>
@@ -1714,6 +1689,31 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">لجنة الاستملاك</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=58121&selection='>
+                                            <h4>حكم تمييز مدني رقم 148 سنة 1957  /  <span>تاريخ 31/12/1957</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قرار اعدادي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اساس النزاع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حكم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تمييز</li>
                                                     
                                             </ul>
                                         </div>
@@ -1956,25 +1956,50 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=61194&selection='>
-                                            <h4>حكم شورى رقم 649 سنة 1957  /  <span>تاريخ 24/12/1957</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=51455&selection='>
+                                            <h4>حكم شورى رقم 646 سنة 1957  /  <span>تاريخ 24/12/1957</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
+                                                        <li style="display: inline-block;">اقرار</li>
+                                                    
+                                                        /
+                                                    
                                                         <li style="display: inline-block;">موظف</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">شروط</li>
+                                                        <li style="display: inline-block;">ادارة عامة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تعويض الانتقال</li>
+                                                        <li style="display: inline-block;">راتب</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=60387&selection='>
+                                            <h4>حكم شورى رقم 645 سنة 1957  /  <span>تاريخ 24/12/1957</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مراجعة  استرحامية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">امر السفر</li>
+                                                        <li style="display: inline-block;">مهلة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طعن</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار اداري</li>
                                                     
                                             </ul>
                                         </div>
@@ -2010,50 +2035,25 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=60387&selection='>
-                                            <h4>حكم شورى رقم 645 سنة 1957  /  <span>تاريخ 24/12/1957</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=61194&selection='>
+                                            <h4>حكم شورى رقم 649 سنة 1957  /  <span>تاريخ 24/12/1957</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مراجعة  استرحامية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طعن</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار اداري</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=51455&selection='>
-                                            <h4>حكم شورى رقم 646 سنة 1957  /  <span>تاريخ 24/12/1957</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">اقرار</li>
-                                                    
-                                                        /
-                                                    
                                                         <li style="display: inline-block;">موظف</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">ادارة عامة</li>
+                                                        <li style="display: inline-block;">شروط</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">راتب</li>
+                                                        <li style="display: inline-block;">تعويض الانتقال</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">امر السفر</li>
                                                     
                                             </ul>
                                         </div>
@@ -2129,82 +2129,33 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=61196&selection='>
-                                            <h4>حكم شورى رقم 636 سنة 1957  /  <span>تاريخ 20/12/1957</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=62452&selection='>
+                                            <h4>حكم تمييز مدني رقم 144 سنة 1957  /  <span>تاريخ 20/12/1957</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">حق الرقابة</li>
+                                                        <li style="display: inline-block;">وسيلة الاثبات</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">طعن</li>
+                                                        <li style="display: inline-block;">محكمة الاساس</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قرار</li>
+                                                        <li style="display: inline-block;">اغفال بت مطلب</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مختار</li>
+                                                        <li style="display: inline-block;">تمييز</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">ملاحقة جزائية</li>
+                                                        <li style="display: inline-block;">ايصال</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اقالة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قضاء اداري</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=60380&selection='>
-                                            <h4>حكم شورى رقم 632 سنة 1957  /  <span>تاريخ 20/12/1957</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">اختصاص</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طعن</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تنظيم قضائي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى عقارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار اداري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">استملاك</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تأليف</li>
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
                                                     
                                             </ul>
                                         </div>
@@ -2236,103 +2187,37 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=60385&selection='>
-                                            <h4>حكم شورى رقم 633 سنة 1957  /  <span>تاريخ 20/12/1957</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=61196&selection='>
+                                            <h4>حكم شورى رقم 636 سنة 1957  /  <span>تاريخ 20/12/1957</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">اصطياف</li>
+                                                        <li style="display: inline-block;">حق الرقابة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">شروط</li>
+                                                        <li style="display: inline-block;">طعن</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">بناء</li>
+                                                        <li style="display: inline-block;">قرار</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تاريخ سابق</li>
+                                                        <li style="display: inline-block;">مختار</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تراجع</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=60381&selection='>
-                                            <h4>حكم شورى رقم 635 سنة 1957  /  <span>تاريخ 20/12/1957</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">نزاع</li>
+                                                        <li style="display: inline-block;">ملاحقة جزائية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اختصاص</li>
+                                                        <li style="display: inline-block;">اقالة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">سجل عقاري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قيد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقار</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">بلدية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ضم وفرز</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مالك مجاور</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=62452&selection='>
-                                            <h4>حكم تمييز مدني رقم 144 سنة 1957  /  <span>تاريخ 20/12/1957</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">وسيلة الاثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محكمة الاساس</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اغفال بت مطلب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تمييز</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ايصال</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                        <li style="display: inline-block;">قضاء اداري</li>
                                                     
                                             </ul>
                                         </div>
@@ -2401,33 +2286,144 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=66530&selection='>
-                                            <h4>حكم تمييز جزائي رقم 463 سنة 1957  /  <span>تاريخ 17/12/1957</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=60380&selection='>
+                                            <h4>حكم شورى رقم 632 سنة 1957  /  <span>تاريخ 20/12/1957</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">يمين قانونية</li>
+                                                        <li style="display: inline-block;">اختصاص</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تحليف</li>
+                                                        <li style="display: inline-block;">طعن</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">خبير</li>
+                                                        <li style="display: inline-block;">تنظيم قضائي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">شاهد</li>
+                                                        <li style="display: inline-block;">محكمة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تقرير</li>
+                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">يمين</li>
+                                                        <li style="display: inline-block;">دعوى عقارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار اداري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">استملاك</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تأليف</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=60381&selection='>
+                                            <h4>حكم شورى رقم 635 سنة 1957  /  <span>تاريخ 20/12/1957</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">نزاع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اختصاص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سجل عقاري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قيد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">بلدية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ضم وفرز</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مالك مجاور</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=60385&selection='>
+                                            <h4>حكم شورى رقم 633 سنة 1957  /  <span>تاريخ 20/12/1957</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">اصطياف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شروط</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">بناء</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تاريخ سابق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تراجع</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=58124&selection='>
+                                            <h4>حكم تمييز مدني رقم 141 سنة 1957  /  <span>تاريخ 17/12/1957</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">دعوى</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قيمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تمييز</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار استئنافي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حد ادنى</li>
                                                     
                                             </ul>
                                         </div>

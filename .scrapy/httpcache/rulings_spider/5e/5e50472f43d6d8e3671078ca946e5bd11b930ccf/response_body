@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -2301,6 +2301,39 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=63839&selection='>
+                                            <h4>حكم تمييز مدني رقم 105 سنة 1958  /  <span>تاريخ 20/12/1958</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">عقد النقل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقد النقل البري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">خطأ</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قوة قاهرة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حادث السير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سائق</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=63269&selection='>
                                             <h4>حكم تمييز مدني رقم 106 سنة 1958  /  <span>تاريخ 20/12/1958</span></h4>
                                         </a>
@@ -2383,113 +2416,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=63839&selection='>
-                                            <h4>حكم تمييز مدني رقم 105 سنة 1958  /  <span>تاريخ 20/12/1958</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">عقد النقل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقد النقل البري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">خطأ</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قوة قاهرة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حادث السير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سائق</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=61472&selection='>
-                                            <h4>حكم شورى رقم 549 سنة 1958  /  <span>تاريخ 19/12/1958</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">موظف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ابطال</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">استقالة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مرسوم</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=65945&selection='>
-                                            <h4>حكم شورى رقم 548 سنة 1958  /  <span>تاريخ 19/12/1958</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">وضع مسلكي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اصول</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">موظف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سن</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قانون مطبق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تحديد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صفة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وظيفة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تقاعد</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=66613&selection='>
                                             <h4>حكم تمييز جزائي رقم 297 سنة 1958  /  <span>تاريخ 19/12/1958</span></h4>
                                         </a>
@@ -2535,6 +2461,35 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=61472&selection='>
+                                            <h4>حكم شورى رقم 549 سنة 1958  /  <span>تاريخ 19/12/1958</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">موظف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ابطال</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">استقالة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مرسوم</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=61223&selection='>
                                             <h4>حكم شورى رقم 550 سنة 1958  /  <span>تاريخ 19/12/1958</span></h4>
                                         </a>
@@ -2570,6 +2525,51 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">استاذ</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=65945&selection='>
+                                            <h4>حكم شورى رقم 548 سنة 1958  /  <span>تاريخ 19/12/1958</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">وضع مسلكي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اصول</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">موظف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سن</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قانون مطبق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تحديد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صفة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وظيفة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تقاعد</li>
                                                     
                                             </ul>
                                         </div>
@@ -2669,21 +2669,34 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=76559&selection='>
-                                            <h4>حكم إستئناف مدني رقم 1933 سنة 1958  /  <span>تاريخ 16/12/1958</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=64071&selection='>
+                                            <h4>حكم تمييز مدني رقم 75 سنة 1958  /  <span>تاريخ 16/12/1958</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">افلاس</li>
+                                                        <li style="display: inline-block;">تناقض فقرات
+الحكم</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">دين عادي</li>
+                                                        <li style="display: inline-block;">تمييز</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">دين ممتاز</li>
+                                                        <li style="display: inline-block;">قرار استئنافي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعويض  اضافي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عمل اضافي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
                                                     
                                             </ul>
                                         </div>

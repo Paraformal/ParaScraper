@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="nd5rLSMDgjS18FQjKdmSELBbm7yBhn0u7xltM9KaTrdpHn+mXNcruunDPpkf7mnAqYfM7SgYIDHuzBttGjuX5+y7djDUarZTvQAbhZNZljWui6dcDnhrGvdmP+6a+dHUSHU0hSrlfTLmwqu1yW96Slm0K+YjfXY2fplau1PKSmnsPVlg6lRJqHWXuDxWWAqlb9grV+P/F6glCm7l3vBCXbPufWRBlWZE0bFwnsZC3YXcLneG+G1rRqMYnqrklHFaU4oUIylp6iwYTWw7h1PKeaDVvFheZAz4PE/YedVpzOuYgIpdP+XQQpghd9zkEHKcD9SITJowQOAUTBtWU15nqHxNtlJQD8JoupkQznRD9/qkr64Miy0zQGE/eY9svvznIPup51nZsLH+1tZSZLrJQHFuP8Vf8QZe4p/xK/muMzjxnUkSfhtSe7BFX3VqNzN8Hz2JvKitSBhfY4Ow/VnI0xp43YGUHxQ5sgR/YZgLfPa/Hb7uY58QNgWznMse5HbeM4fTgfSCymCqWVqhN+1eXIsX2wyxH7Ue6AuHsN4uKZlQuvKPqECq3LHqmE+I5iur4uelKxZNGw2KubXDKaPWFH5hXdxk0gz2yUeDZ3l5Biv8NC3wV7SMWnpljWDCFM0UKcCjX0az5gxe5JfFsSXpRtoDKucxrWPA0R1ffTFUC8LNWcWF2mEU1n99v3iChnsKO/ppeOLxkdXnFUSL5QWYd6hdtu7kF0imJziOJAM5+3SutoUUDuA5XECMs1W6Y/8YYAPdN07fm6KUl8Rk3EIf/cfwUVSXRFzcSnM07XCbzQVL0lp0XNqba1lTGMDXqY6SVgCpzbhEz4mq9XJ2tJWPxntkhkH+PTHlD0IH1G9y/HmgXpYOy23Q0cV/8+i9+a027IXexnjSMi0AY3EeG8d2JLilcvjlOH3OoV0qoStkvFPk1yvZA2AC0KL5yNIx3Eb8UBlK/TdOhFk0xQUFp5QwKvVHsHG15i2R/m1BcuSsVGkaVF486BRz/iAyp9EbMbI0esTKaD8LaIxA1Jg29jx0bWX2ETBLFtYytNB9kogdEqGtIpiX4mGyCCNgyDYyFlFi7Pi/nfuCY/js+Wy+IJHUzAorRLJcYpJZHPPA4lj5jyLQi+ZCvMAIfROTvaSfagDJs1P7qULQ1q98rLkCydP1rm7oAQjYrYA1hwcT1p5IDQ/oIZ2hWc4qNXlbTAcz4EisSYZsvPASqptiPB/+UkEw4QoSySInQ5LuibFLhqJNjwlx8QUz7gEkgrj4kFtaHXYWieRYKQB/FJzrPy/7la2MfyLhlYUOfj0o0zaDxeMlsz5gNOk9vKI/Qh3v0vtSXPZ1f4xZofDA9C5oy1H7D8BUin+8MJzerIEj0qYZ70JQ2qpdhp7mGJCi9NZVlCujGLxu0CoEOu72ynQnzow8jyyWn7nNOz3J36nUiCXZ4BkAxgYNtJLzWgx04nJoIdaibQuGGiOicfNw4DoDCr9jJ8q4SjEJ3T5Qr7QK/ru07Q/vHwmTN7WqwwmbsNdzEYj6TOrwfgVv7xgcAFuHzDyAQqKKdToiWlc7T6h8TwomE1w/+Lr7mi9H+rt2xBQ8DyEEtgnxx9m/jBDrQRL4cCrvzsVYHKqAJbTaKgHefs0hnn+cmmn0FyjcsA46oPtNROUNbB/d40EcL+0RFRjgSQtKVZ8cFAK647dwAc9BaRwanHkJ+xu/kSn438crUrHEMocZcGgqbUNWctURW3/oqE3BJdp83R2/AioWsL3KstuntntI7TGAJg97qd1hjhFfmhOxH/wV4+cj5hIdOtFSD7YXyGyv49g7nsP2ptbiC5u4GPb579pFS5Lf83dGguU28+26rHGFKXvarPsX37TqhuNbuBw3j644yyElCCthJOZzo9fzlOSY/qtGbEjpxCafDHNMuNpSByYymrvvUIIS40DnD2sQJbg7jLDpWNVmxr1XkYEoSr3KmM58lNOuwr+Jcf4ifJVJhIt5DK8zeyh7JVVXjGvXIcoQB+3aEffZ820BiTGHTHdv7IWw79wId6AD9XVLvAwhjd9QrDuEWv/tAaLlZ4xkuPMLBBgzmm3tmeW/CsE+LLpwr3R7+7tPKd+qCdzYdAEo1B8zNNyoV4jCnxOS1+6ggn9++ZPVTzFPwQvOEmfBZeFy0PaB8mykdM2K/IsHKxb9iDb1IdsjpzkWAseSkBHsoSFItxpjQ2wD7NZ9AWdGRiLsit1Za4RvbEgw3fdBvSEyFpDjiJMyusTgYPEwPNYFjKnMfS6R3g8PbazZH4Th3hA0W5ymD+zKasiQgffNkWpvaU+MZZlkjzuzp/KB9/MM8YY53oV6iic1bvoNUZ+xWcuSmVH+7sSwW10Ez6xGgVor6DKLNQtPdHYhIfHoE895NGADK5YSLHZBjNEn6u8TC5FztVJF+pfZd2v9cQaBwlgC0OGIEB8cZulUs3rHXFejDr+WJUNxlOkdCeHmqX/rZmkrz6PswG6zYQR4gx9LSWXAs+bUhroE63iz/dwJf/cUttdIWzciu0bXdmamShxW63rOzs7Lpg8zKCHkZ2rK0FzA5RLqbWKbAnLSIEHk9D9FeZb/xZGm1OoijDUDr824HAOUKURbqe4bJ3krgqlIR7vEXcWQgMv3en7PjysBduUUI3M92S0shjWI2qJuLOBXtmmhHcJYst6SgVwbITWjUKoRHmtOZXrdlW+e8aSByeU6/eC5F7sGSfEB7gnOlBdYDEiuM25MLWGYD3VQm1A2o71fw1duf2a6qajGYT6czba5zVTTEdu+m3KOM/jeAjXT/dHEpdAvQvETCDmrQmHiP2M5kViulPlwMDlRLkpui3mmRFaQe/EyvsnaGelTDD6gM3XS2HV1d3ETVaBAmxZyXG6OG69ns6gPDIoXf+u/fZjRSXQ6QHm4uko3H1/u+lLtHeiKD6Afc6BzBF8Z55R10B6XjdQrMjJm3ElluzN2M2Z4/wabU5/NDt+btyOnUVf+F9LLbHGWBxwt4b40SnpIxNAMZciHAXpwqZ5wyEe7U5exi2bfw259/Z1C9VYR4C7b8fKpZmBSdJEwTKhlnncYLfrTdbiECMnPPboNfzdiP2xZQlp+n1OluD6NaSWUz2akTwnuMROE2+MTcrpRj6B/MdRpYMLGsV/wzSGoPl5k/F7y8DR/kKPdS4wc3bkmYNu/ph+SWZqB0pi4kwORp3+4C2LVKvu5OTluqOGwyxiJjxEfrdc9+PXufdPzegd2Ve1ugvw=" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1666,43 +1666,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                         <div id="MainContent_mainLegTr" class="box-1">
                             
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=74222&selection='>
-                                            <h4>حكم تمييز مدني رقم 145 سنة 2012  /  <span>تاريخ 31/12/2012</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قبول التمييز شكلا</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مفهوم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تحكيم عادي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تحكيم مطلق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تفسير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى تحكيمية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عبارة العدل</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=74172&selection='>
                                             <h4>حكم تمييز مدني رقم 144 سنة 2012  /  <span>تاريخ 31/12/2012</span></h4>
                                         </a>
@@ -1776,8 +1739,8 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=86201&selection='>
-                                            <h4>حكم تمييز مدني رقم 63 سنة 2012  /  <span>تاريخ 27/12/2012</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=74222&selection='>
+                                            <h4>حكم تمييز مدني رقم 145 سنة 2012  /  <span>تاريخ 31/12/2012</span></h4>
                                         </a>
                                         <div>
                                             <ul>
@@ -1786,23 +1749,27 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">محام وكيل</li>
+                                                        <li style="display: inline-block;">مفهوم</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">صورة طبق الاصل</li>
+                                                        <li style="display: inline-block;">تحكيم عادي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">توقيع</li>
+                                                        <li style="display: inline-block;">تحكيم مطلق</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قرار مطعون فيه</li>
+                                                        <li style="display: inline-block;">تفسير</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">شروط شكلية</li>
+                                                        <li style="display: inline-block;">دعوى تحكيمية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عبارة العدل</li>
                                                     
                                             </ul>
                                         </div>
@@ -1886,6 +1853,39 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=86201&selection='>
+                                            <h4>حكم تمييز مدني رقم 63 سنة 2012  /  <span>تاريخ 27/12/2012</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قبول التمييز شكلا</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محام وكيل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صورة طبق الاصل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">توقيع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار مطعون فيه</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شروط شكلية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=73627&selection='>
                                             <h4>حكم تمييز مدني رقم 135 سنة 2012  /  <span>تاريخ 26/12/2012</span></h4>
                                         </a>
@@ -1945,87 +1945,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">تناقض بين حكمين صادرين بالدرجة الاخيرة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى عمل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صلاحية مجلس العمل التحكيمي</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=73568&selection='>
-                                            <h4>حكم تمييز مدني رقم 134 سنة 2012  /  <span>تاريخ 26/12/2012</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">عقد عمل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقد عمل محدد المدة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سريان</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض نهاية الخدمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">احتساب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صرف من الخدمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ربح فائت</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فائدة قانونية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فسخ العقد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تشويه مضمون المستندات</li>
                                                     
                                                         /
                                                     
@@ -2117,78 +2036,231 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=84870&selection='>
-                                            <h4>حكم محكمة الجنايات رقم 539 سنة 2012  /  <span>تاريخ 20/12/2012</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=73568&selection='>
+                                            <h4>حكم تمييز مدني رقم 134 سنة 2012  /  <span>تاريخ 26/12/2012</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">اختصاص</li>
+                                                        <li style="display: inline-block;">عقد عمل</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">حق التقدير</li>
+                                                        <li style="display: inline-block;">عقد عمل محدد المدة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تحديد</li>
+                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">متهم</li>
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">محكمة الجنايات</li>
+                                                        <li style="display: inline-block;">تعويض</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">هوية</li>
+                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سريان</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعويض نهاية الخدمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">احتساب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صرف من الخدمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ربح فائت</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">فائدة قانونية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">فسخ العقد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تشويه مضمون المستندات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى عمل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صلاحية مجلس العمل التحكيمي</li>
                                                     
                                             </ul>
                                         </div>
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=84850&selection='>
-                                            <h4>حكم محكمة الجنايات رقم 536 سنة 2012  /  <span>تاريخ 20/12/2012</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=73787&selection='>
+                                            <h4>حكم تمييز مدني رقم 138 سنة 2012  /  <span>تاريخ 20/12/2012</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">حق التقدير</li>
+                                                        <li style="display: inline-block;">قبول التمييز</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">شيك</li>
+                                                        <li style="display: inline-block;">قرار رئيس دائرة التنفيذ</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اثبات</li>
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تزوير</li>
+                                                        <li style="display: inline-block;">نقض</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">احتيال</li>
+                                                        <li style="display: inline-block;">دعوى جزائية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">استعمال المزور</li>
+                                                        <li style="display: inline-block;">دين</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">سرقة</li>
+                                                        <li style="display: inline-block;">سقوط</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">كسر وخلع</li>
+                                                        <li style="display: inline-block;">حجز احتياطي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اثبات</li>
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نشر الدعوى</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نيابة عامة استئنافية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تصديق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى اثبات دين</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى تنفيذية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=71133&selection='>
+                                            <h4>حكم تمييز مدني رقم 101 سنة 2012  /  <span>تاريخ 20/12/2012</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قبول التمييز</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نقض</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب امني</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تفسير خاطىء للقانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تمديد قانوني</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب صحي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نشر الدعوى</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تصديق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تطبيق خاطىء للقانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حكم ابتدائي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تقرير الخبير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ترك الماجور</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى اسقاط</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى ايجار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقد ايجار</li>
                                                     
                                             </ul>
                                         </div>
@@ -2278,75 +2350,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">انذار بالدفع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى تنفيذية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=73787&selection='>
-                                            <h4>حكم تمييز مدني رقم 138 سنة 2012  /  <span>تاريخ 20/12/2012</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قبول التمييز</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار رئيس دائرة التنفيذ</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نقض</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى جزائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دين</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سقوط</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حجز احتياطي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نشر الدعوى</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نيابة عامة استئنافية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تصديق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى اثبات دين</li>
                                                     
                                                         /
                                                     
@@ -2543,6 +2546,84 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=84850&selection='>
+                                            <h4>حكم محكمة الجنايات رقم 536 سنة 2012  /  <span>تاريخ 20/12/2012</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">حق التقدير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شيك</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تزوير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">احتيال</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">استعمال المزور</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سرقة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">كسر وخلع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=84870&selection='>
+                                            <h4>حكم محكمة الجنايات رقم 539 سنة 2012  /  <span>تاريخ 20/12/2012</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">اختصاص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حق التقدير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تحديد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">متهم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محكمة الجنايات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">هوية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=84868&selection='>
                                             <h4>حكم محكمة الجنايات رقم 538 سنة 2012  /  <span>تاريخ 20/12/2012</span></h4>
                                         </a>
@@ -2611,87 +2692,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">اثبات</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=71133&selection='>
-                                            <h4>حكم تمييز مدني رقم 101 سنة 2012  /  <span>تاريخ 20/12/2012</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قبول التمييز</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نقض</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب امني</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تفسير خاطىء للقانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تمديد قانوني</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب صحي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نشر الدعوى</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تصديق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تطبيق خاطىء للقانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حكم ابتدائي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تقرير الخبير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ترك الماجور</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى اسقاط</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى ايجار</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقد ايجار</li>
                                                     
                                             </ul>
                                         </div>

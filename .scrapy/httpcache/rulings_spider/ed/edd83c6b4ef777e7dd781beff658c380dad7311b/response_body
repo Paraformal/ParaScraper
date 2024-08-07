@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -2464,6 +2464,35 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=54323&selection='>
+                                            <h4>حكم شورى رقم 18 سنة 1934  /  <span>تاريخ 15/3/1934</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قانون جديد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عدم رجعية القوانين</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">موظف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قانون مطبق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">احالة على التقاعد</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=52556&selection='>
                                             <h4>حكم شورى رقم 19 سنة 1934  /  <span>تاريخ 15/3/1934</span></h4>
                                         </a>
@@ -2507,35 +2536,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">مخالفة قانونية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=54323&selection='>
-                                            <h4>حكم شورى رقم 18 سنة 1934  /  <span>تاريخ 15/3/1934</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قانون جديد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عدم رجعية القوانين</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">موظف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قانون مطبق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">احالة على التقاعد</li>
                                                     
                                             </ul>
                                         </div>

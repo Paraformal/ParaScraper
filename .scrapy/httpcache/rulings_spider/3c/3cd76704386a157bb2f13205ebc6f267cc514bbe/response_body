@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -2399,12 +2399,38 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=81938&selection='>
-                                            <h4>حكم تمييز جزائي رقم 368 سنة 1972  /  <span>تاريخ 28/11/1972</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=66906&selection='>
+                                            <h4>حكم تمييز مدني رقم 68 سنة 1972  /  <span>تاريخ 28/11/1972</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
+                                                        <li style="display: inline-block;">رجوع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شطب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تمييز</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اشارة</li>
+                                                    
                                             </ul>
                                         </div>
                                     </div>

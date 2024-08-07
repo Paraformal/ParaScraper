@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1810,13 +1810,13 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=60587&selection='>
-                                            <h4>حكم شورى رقم 1511 سنة 1963  /  <span>تاريخ 23/12/1963</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=60589&selection='>
+                                            <h4>حكم شورى رقم 1513 سنة 1963  /  <span>تاريخ 23/12/1963</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">اثبات</li>
+                                                        <li style="display: inline-block;">مهلة</li>
                                                     
                                                         /
                                                     
@@ -1824,40 +1824,15 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">بلدية</li>
+                                                        <li style="display: inline-block;">سريان</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مخالفة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انتخاب</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=60592&selection='>
-                                            <h4>حكم شورى رقم 1506 سنة 1963  /  <span>تاريخ 23/12/1963</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">طعن</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">بلدية</li>
+                                                        <li style="display: inline-block;">مختار</li>
                                                     
                                                         /
                                                     
                                                         <li style="display: inline-block;">انتخاب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">كتابة</li>
                                                     
                                             </ul>
                                         </div>
@@ -1906,13 +1881,38 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=60589&selection='>
-                                            <h4>حكم شورى رقم 1513 سنة 1963  /  <span>تاريخ 23/12/1963</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=60592&selection='>
+                                            <h4>حكم شورى رقم 1506 سنة 1963  /  <span>تاريخ 23/12/1963</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مهلة</li>
+                                                        <li style="display: inline-block;">طعن</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">بلدية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انتخاب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">كتابة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=60587&selection='>
+                                            <h4>حكم شورى رقم 1511 سنة 1963  /  <span>تاريخ 23/12/1963</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">اثبات</li>
                                                     
                                                         /
                                                     
@@ -1920,11 +1920,11 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">سريان</li>
+                                                        <li style="display: inline-block;">بلدية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مختار</li>
+                                                        <li style="display: inline-block;">مخالفة</li>
                                                     
                                                         /
                                                     
@@ -2161,6 +2161,35 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=59777&selection='>
+                                            <h4>حكم تمييز مدني رقم 33 سنة 1963  /  <span>تاريخ 10/12/1963</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">خطأ جسيم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">واقعة مادية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى مخاصمة القضاء</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">خطأ</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تفسير</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=50655&selection='>
                                             <h4>حكم تمييز مدني رقم 34 سنة 1963  /  <span>تاريخ 10/12/1963</span></h4>
                                         </a>
@@ -2200,35 +2229,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">محكمة مدنية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=59777&selection='>
-                                            <h4>حكم تمييز مدني رقم 33 سنة 1963  /  <span>تاريخ 10/12/1963</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">خطأ جسيم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">واقعة مادية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى مخاصمة القضاء</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">خطأ</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تفسير</li>
                                                     
                                             </ul>
                                         </div>

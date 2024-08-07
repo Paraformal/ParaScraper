@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1666,46 +1666,94 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                         <div id="MainContent_mainLegTr" class="box-1">
                             
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=69210&selection='>
-                                            <h4>حكم شورى رقم 1480 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=63736&selection='>
+                                            <h4>حكم تمييز مدني رقم 69 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">تعويض الصرف من الخدمة</li>
+                                                        <li style="display: inline-block;">تشويه الوقائع</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">ضريبة الدخل</li>
+                                                        <li style="display: inline-block;">قوة ثبوتية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">ربح صافي</li>
+                                                        <li style="display: inline-block;">مالك</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">معاش التقاعد</li>
+                                                        <li style="display: inline-block;">تسجيل</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تنزيل</li>
+                                                        <li style="display: inline-block;">حقوق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ملكية عقارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قيد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تحديد وتحرير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محضر</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مساح</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة قانونية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تنفيذ</li>
                                                     
                                             </ul>
                                         </div>
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=58031&selection='>
-                                            <h4>حكم مجالس العمل التحكيمية رقم 1076 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=63776&selection='>
+                                            <h4>حكم تمييز مدني رقم 70 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مطالبة</li>
+                                                        <li style="display: inline-block;">رجوع</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">عذر شرعي</li>
+                                                        <li style="display: inline-block;">سوء النية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طلب الادخال</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">متدخل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى</li>
                                                     
                                                         /
                                                     
@@ -1713,19 +1761,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اجير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صرف من الخدمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صرف تعسفي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انتفاء</li>
+                                                        <li style="display: inline-block;">تمييز</li>
                                                     
                                             </ul>
                                         </div>
@@ -1801,65 +1837,306 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=63736&selection='>
-                                            <h4>حكم تمييز مدني رقم 69 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=69210&selection='>
+                                            <h4>حكم شورى رقم 1480 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">تشويه الوقائع</li>
+                                                        <li style="display: inline-block;">تعويض الصرف من الخدمة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قوة ثبوتية</li>
+                                                        <li style="display: inline-block;">ضريبة الدخل</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مالك</li>
+                                                        <li style="display: inline-block;">ربح صافي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تسجيل</li>
+                                                        <li style="display: inline-block;">معاش التقاعد</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">حقوق</li>
+                                                        <li style="display: inline-block;">تنزيل</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=52750&selection='>
+                                            <h4>حكم مجالس العمل التحكيمية رقم 1071 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">سبب</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">ملكية عقارية</li>
+                                                        <li style="display: inline-block;">واجبات</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قيد</li>
+                                                        <li style="display: inline-block;">اجير متدرب</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">عقار</li>
+                                                        <li style="display: inline-block;">فسخ</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تحديد وتحرير</li>
+                                                        <li style="display: inline-block;">مسؤولية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">محضر</li>
+                                                        <li style="display: inline-block;">اجير</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مساح</li>
+                                                        <li style="display: inline-block;">عقد العمل</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مخالفة قانونية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                        <li style="display: inline-block;">عامل</li>
                                                     
                                                         /
                                                     
                                                         <li style="display: inline-block;">تنفيذ</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=52752&selection='>
+                                            <h4>حكم مجالس العمل التحكيمية رقم 1074 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">سبب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تكرار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شهر اضافي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مدة وجيزة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اصول</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شروط</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعويض</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مسؤولية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اجير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صرف من الخدمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعويض الصرف من الخدمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نظام داخلي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">غياب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صاحب العمل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نسبة مئوية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سنة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=52753&selection='>
+                                            <h4>حكم مجالس العمل التحكيمية رقم 1075 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مطالبة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">كفيل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اختصاص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعويض</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">فسخ</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مسؤولية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اجير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مجلس العمل التحكيمي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقد العمل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صاحب العمل</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=58031&selection='>
+                                            <h4>حكم مجالس العمل التحكيمية رقم 1076 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مطالبة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عذر شرعي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعويض</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اجير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صرف من الخدمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صرف تعسفي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انتفاء</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=58040&selection='>
+                                            <h4>حكم مجالس العمل التحكيمية رقم 1072 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">سبب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قوة القضية المحكوم بها</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مطالبة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عجز كلي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تفاقم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حالة صحية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حكم سابق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعويض</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تحديد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اجير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تجديد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اصول المحاكمات المدنية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طارىء العمل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تقرير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صدور</li>
                                                     
                                             </ul>
                                         </div>
@@ -1984,283 +2261,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=52750&selection='>
-                                            <h4>حكم مجالس العمل التحكيمية رقم 1071 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">سبب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">واجبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اجير متدرب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فسخ</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مسؤولية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اجير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقد العمل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عامل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تنفيذ</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=63776&selection='>
-                                            <h4>حكم تمييز مدني رقم 70 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">رجوع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سوء النية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طلب الادخال</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">متدخل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تمييز</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=52752&selection='>
-                                            <h4>حكم مجالس العمل التحكيمية رقم 1074 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">سبب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تكرار</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شهر اضافي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مدة وجيزة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اصول</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شروط</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مسؤولية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اجير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صرف من الخدمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض الصرف من الخدمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نظام داخلي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">غياب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صاحب العمل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نسبة مئوية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سنة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=58040&selection='>
-                                            <h4>حكم مجالس العمل التحكيمية رقم 1072 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">سبب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قوة القضية المحكوم بها</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مطالبة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عجز كلي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تفاقم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حالة صحية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حكم سابق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تحديد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اجير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تجديد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اصول المحاكمات المدنية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طارىء العمل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تقرير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صدور</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=52753&selection='>
-                                            <h4>حكم مجالس العمل التحكيمية رقم 1075 سنة 1966  /  <span>تاريخ 30/12/1966</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مطالبة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">كفيل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اختصاص</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فسخ</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مسؤولية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اجير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مجلس العمل التحكيمي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقد العمل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صاحب العمل</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=58039&selection='>
                                             <h4>حكم مجالس العمل التحكيمية رقم 1069 سنة 1966  /  <span>تاريخ 28/12/1966</span></h4>
                                         </a>
@@ -2364,25 +2364,29 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=86765&selection='>
-                                            <h4>حكم تمييز جزائي رقم 675 سنة 1966  /  <span>تاريخ 23/12/1966</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=53786&selection='>
+                                            <h4>حكم شورى رقم 1450 سنة 1966  /  <span>تاريخ 23/12/1966</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">عقوبات</li>
+                                                        <li style="display: inline-block;">عدم اختصاص</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">سرقة موصوفة</li>
+                                                        <li style="display: inline-block;">جمرك</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">جناية</li>
+                                                        <li style="display: inline-block;">مجلس شورى الدولة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تشديد العقوبة</li>
+                                                        <li style="display: inline-block;">محضر الضبط</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ضابطة عدلية</li>
                                                     
                                             </ul>
                                         </div>
@@ -2420,6 +2424,31 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">تنظيم</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=86765&selection='>
+                                            <h4>حكم تمييز جزائي رقم 675 سنة 1966  /  <span>تاريخ 23/12/1966</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">عقوبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سرقة موصوفة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">جناية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تشديد العقوبة</li>
                                                     
                                             </ul>
                                         </div>
@@ -2477,35 +2506,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">صاحب العمل</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=53786&selection='>
-                                            <h4>حكم شورى رقم 1450 سنة 1966  /  <span>تاريخ 23/12/1966</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">عدم اختصاص</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">جمرك</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مجلس شورى الدولة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محضر الضبط</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ضابطة عدلية</li>
                                                     
                                             </ul>
                                         </div>

@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -2133,21 +2133,83 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=143206&selection='>
-                                            <h4>حكم تمييز جزائي رقم 86 سنة 2021  /  <span>تاريخ 28/9/2021</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=154302&selection='>
+                                            <h4>حكم تمييز جزائي رقم 90 سنة 2021  /  <span>تاريخ 28/9/2021</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">طلب</li>
+                                                        <li style="display: inline-block;">اثبات</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">نقل الدعوى</li>
+                                                        <li style="display: inline-block;">استدعاء تمييزي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">ارتياب مشروع</li>
+                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مستند جديد</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=143209&selection='>
+                                            <h4>حكم تمييز جزائي رقم 145 سنة 2021  /  <span>تاريخ 28/9/2021</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مخالفة اصول جوهرية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حق التقدير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مبدأ شفاهية المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخدرات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شاهد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اخلاء سبيل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مبدأ علانية المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سلطة استنسابية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تطبيق خاطىء
+للقانون</li>
                                                     
                                             </ul>
                                         </div>
@@ -2244,6 +2306,27 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=143206&selection='>
+                                            <h4>حكم تمييز جزائي رقم 86 سنة 2021  /  <span>تاريخ 28/9/2021</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">طلب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نقل الدعوى</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ارتياب مشروع</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=143210&selection='>
                                             <h4>حكم تمييز جزائي رقم 144 سنة 2021  /  <span>تاريخ 28/9/2021</span></h4>
                                         </a>
@@ -2287,118 +2370,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">سلطة استنسابية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=154302&selection='>
-                                            <h4>حكم تمييز جزائي رقم 90 سنة 2021  /  <span>تاريخ 28/9/2021</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">استدعاء تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مستند جديد</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=143209&selection='>
-                                            <h4>حكم تمييز جزائي رقم 145 سنة 2021  /  <span>تاريخ 28/9/2021</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مخالفة اصول جوهرية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حق التقدير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مبدأ شفاهية المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخدرات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شاهد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اخلاء سبيل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مبدأ علانية المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سلطة استنسابية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تطبيق خاطىء
-للقانون</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=154309&selection='>
-                                            <h4>حكم تمييز جزائي رقم 81 سنة 2021  /  <span>تاريخ 23/9/2021</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">تشويه الوقائع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تناقض في التعليل</li>
                                                     
                                             </ul>
                                         </div>
@@ -2534,6 +2505,59 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">اسبقية جرمية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=154304&selection='>
+                                            <h4>حكم تمييز جزائي رقم 82 سنة 2021  /  <span>تاريخ 23/9/2021</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">حق التقدير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تشويه الوقائع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخدرات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شاهد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تطبيق خاطىء للقانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سلطة استنسابية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تجارة ممنوعة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
                                                     
                                             </ul>
                                         </div>

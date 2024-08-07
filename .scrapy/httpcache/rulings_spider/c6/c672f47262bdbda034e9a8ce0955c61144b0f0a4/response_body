@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="eQcGh9aW60P51FIMPsMxImneG32jWrRRuYuUAFm4U4DW8gM+RXxiauADO8qUTFvXxENIcu1t1/LZZg7dDspX5qF7CAtnozYSW+rVQQ6lNeHhU5o30Cc/45qBIhF21dlraNJspgqbQsr4j6feYM2h6I0cR2tUDBtaA4kwkkHIh/worJw1TlqLFl7wEVNQEdrIkBvYPwUCPZ6k9565fDmRwvCDM27fOJjoyZxuQ4b560wg+19gnqEKk0XZD2p1j6a9WUPJe2AE3QuSIGO14NkPvzX+fU5yqFekPtMMLc5BUW1Txozc8xgy+NhiruEGu2vG7F+yLnPLc7MxKKTuHUqYhya0aLSozBdLvabWcfL4IBWgfrifFLP5c7UWoyMB61KYnR2op7RS2O3KzYqmG+nP1kQ2HKRtwZTJyrPjryaM7+IOJa62ykDyhnOmCbyKlQcDRV7Bf5+44Es+keK3Yzc9Ie6JB8j9iFxhI1TzWk11TWI9GDj1JIR7CRfjER/rDrCSr0Na1QGGTogi/01/1Xv2D2xO63AgyyhesULbXazD+oXFqsMNIycMkeBle/JjIm6kvhGoB0MneJSuB6ghyQ2mF8bd4xX4ndAlLMUQKqxvh4K3iZFEg1aKc7UBtT7cv5StjSbJSLitpu2lIBblpvVaEuHY/prrBCCns0AdHQ0rvnorX036n3Oaqq6Jpd+2r4Xx7+q/Lxd3pDSZY2srh/KbAjj3/IKf6HNG3/HcQDcQ5jvLjIVxK3NILA7VNnogYSBNpQlvUD1jdEavsuxW50FfVEzUQVQjPvLhKBoLrrzTOpvzDKukzN6m5Bgw2JNyi0hFyJA39qDIYBTX39Xk2aE6ruwb3UGg2wcUbhkwoHsQGa575NSb+Y1TRMGQnslOD6glV8Sv7QyrzgPCbTan89siTuO5mrgJ3XKEUcAJRIz2mB3DlcnY4+usORSqjzWD6e+pcpIA9mnGMl9aabls6Zv4hn/rlODQlHJStyVpqG8xS6xGw7uSn98X+qIi3eULHq/9rIwi/q//GkvgZNhK1SPxHRIYbTut0vBugiQRl5khZDGDZXI4+Z2dAffUXcG82Urh8BF3Camm2cJn39mAcMVCVjEPYphsyru/bok6vRwypyWrT7pCvMbYJkSeYR4M3GEns30p2immWP9feqAkd1llYRrH4lOv0yoor7bIhaqixaQJaXuqm6xlyK0v5Z6poQxdmt9KQxT4zTNFcksIbtMyS0QtprB2TPDwoz9zCXJVDYLsJpgLiLEVjTxLdEHSNsmgWa1VZx4yrQembocBXcVJcNAwAjKS8anqjlntgpgM6S7bOrwzX6y7z7GNd43Tm179O/UGmuLr0hKcG+mV/fKNMkJCMZfSI+3lvdsyI/ZXKFyJCsopDQmMDQxi2zJz7OUQM/6ILQUEFOWSvSPvscA3ill9KVbGnmj3v3+dW2kIFKeSKvKEE9hp7/M3K5mF1WmpXua61Aa0DShkVC4YKkfDOv+FmfcxvrqITCz3Vfm/h+S+HT7VEMkbzGenyW69YGYE9DjrOnAfPJE8X1pQ0JuGvJsTjXygx5EXJBCIQdDuSo6u40yyG++wbjS6ZylghTBg4hrXelJZKd5gtYVH+zhbNyUfuI1T5dhYthUVFsBLpz7rgJE4HDbRUxZoTd1piAJTAzqwS0Ckkj896isyqDjEC0cCGdtm0JjScN7CZKocxgZuZi3q4R8FCQh5RUGo5F1dUAtDBkSobdzgEyzZWi8lZdiMS7up96d8vA9jQTEMjuHOnx0BrcyX4moXvcfpRGJi6Z0BpBM7sCRXxeMAOVbtzJHT+VZFx0QXv018vnPh+I9IHDyxgDcaVu4kHdMqE9Sf6iojrXQ6EMRDv2OTkvvW/xfyV9W4GgCBO0hlGWEdU3dKOq3qGlepULf1uDglLTK3zb+BUAdWDrg7aJXllDpkyNz9t5EQ9GvRCBlRQEPiNWzm6N6VMT0S13/yBUsrAdLlhjFGTuWvx5Z8o5JaaqI1QrC04fknld9pHHzBLaa3/GayTPjKxHDHNRiE4/L10rj8TbgnpkTgcEeNgXjtxoeL7fRlMHONuRiuUQhJAA2f/B88zYmL2sOOXxDkkJpdeRIvj/9r19v0/R+FRJRia90Bi4JiHcJCqgXUfXYnasJGukPddiJugRjlBSB3m5gpyiKd2v79EvWss0ltzUgx3ytb1VyHOMCCRPHTbGJJJpTg3+KAZeQhm3YRaqZ4wwUoluLVJ69p8XMuujDhie6p8Cokq1jX5T+gq0+zeOTKxpFLbIjB4fZNkPHk0a7U9EgOLJDICQ+VoRHG6FonSuAJPSF+LSjn5QAJBu014klLq21TxjxtUSjoh/pUjVo6yu12e+j4wyBAx1XPuDk2V8rePtDO18K1mB/QQpreMd/nQXR8kMIIW/4dtKQo14yB4cf8Qw07JvBqlriNA0y2sbkhg4bOco8hhETVKj54DYwaL7ZDSJ1AYvlKKjcySDwd7kSVZ2Yve8+lBDfYkOzjzSjUhgkAzGjpS181J+5vjJscxhDrTXDOW+w2C6qe01g2C4nPB6w665PV5yvtsQlRf1dAXb9EubvDa61EW1AQ/6dZaTeLKs1GbzgOT+0Lwq1z24ZtcAGMDNp21RIkMI9tvaOcTm5JJmWj3KhBVRH/anR0oi1AHqII6lPDZMxOEoUh5cxJFLz0hF8RTMeDX3FJW5BwTy/6CRqjAo0ukWULT4aXCnwjWhHGEAZQsG+6AQJ4yf4LlJQYmTbf/GZKBEcrH6IM2x8SLt/fhw9sS3RK756J32G/8eARSk5mHiGxU1xfqrd3A3H8Cn6dFgN4MetsRCupAgReyLTzR2u+XqeAorrdE/a0J8HN4DcS1Xw8J0zcc5DB5kb2b15RB43Hjt6Lh4TcycCihBjR6SLxVHmV4VzJpttPzOU0bCtxj8Qt/ecM2ZwX8PU+MYM4SDwLwUvqbUQWFXxJmqCdBa3dXqwpkZQfAl2MQ/aA0cwquqeR2/IwOO1TxLnYWo75wNn/OI13k4pWUis+r/9YknJ0zNGhkrXUXJZ4M49JdAsTemLvHZ1fOFuz5/WUHdUsPtB51e3QS1ruW0ncyw0FdHFitOPtp9XqQENGhOgxYz70VH4dWB94+WF/skvSuipk1aoJ2tTxD6wqQ243Wp4SzcUkjyGM8xbykO6WAxE4YZtyGTEgUsgDD6lzFM6HsyGUvn+3Pt2f3T2tX44BqmtBfWqZpWRsQrJA+X0ka00=" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1666,43 +1666,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                         <div id="MainContent_mainLegTr" class="box-1">
                             
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=54265&selection='>
-                                            <h4>حكم شورى رقم 33 سنة 1930  /  <span>تاريخ 30/10/1930</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قائمة الشطب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مختار</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انتخاب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">هيئة اختيارية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=54266&selection='>
                                             <h4>حكم شورى رقم 34 سنة 1930  /  <span>تاريخ 30/10/1930</span></h4>
                                         </a>
@@ -1775,6 +1738,43 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">سلطة ادارية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=54265&selection='>
+                                            <h4>حكم شورى رقم 33 سنة 1930  /  <span>تاريخ 30/10/1930</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قائمة الشطب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهلة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مختار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انتخاب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">هيئة اختيارية</li>
                                                     
                                             </ul>
                                         </div>

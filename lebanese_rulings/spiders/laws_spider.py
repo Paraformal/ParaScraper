@@ -34,7 +34,7 @@ class LawsSpider(scrapy.Spider):
         self.visited_pages = set()
         self.processed_laws = set()
         self.lock = threading.Lock()
-        self.executor = ThreadPoolExecutor(max_workers=10)  # Adjust the number of workers as needed
+        self.executor = ThreadPoolExecutor(max_workers=90)
         self.file_years = {}
 
     def start_requests(self):

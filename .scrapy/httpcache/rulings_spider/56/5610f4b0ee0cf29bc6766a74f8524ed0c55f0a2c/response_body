@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1666,71 +1666,66 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                         <div id="MainContent_mainLegTr" class="box-1">
                             
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=75097&selection='>
-                                            <h4>حكم تمييز مدني رقم 160 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=71262&selection='>
+                                            <h4>حكم تمييز جزائي رقم 103 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">محامي وكيل</li>
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تمييز</li>
+                                                        <li style="display: inline-block;">مخالفة حق الدفاع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صدور الحكم</li>
                                                     
                                             </ul>
                                         </div>
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=75194&selection='>
-                                            <h4>حكم تمييز مدني رقم 163 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=81418&selection='>
+                                            <h4>حكم تمييز جزائي رقم 344 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">فسخ عقد الايجار</li>
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مرور الزمن</li>
+                                                        <li style="display: inline-block;">نقض القرار</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تمييز</li>
+                                                        <li style="display: inline-block;">انتظام عام</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=75122&selection='>
-                                            <h4>حكم تمييز مدني رقم 161 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">اشغال غير مشروع</li>
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تمييز</li>
+                                                        <li style="display: inline-block;">محكمة الجنايات</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">دعوى الايجار</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقد الايجار</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى الاسقاط من حق التمديد القانوني</li>
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
                                                     
                                                         /
                                                     
@@ -1812,6 +1807,128 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=77388&selection='>
+                                            <h4>حكم شورى رقم 211 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">عقوبة مقنعة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وصف المراجعة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عمل اداري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار اداري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">موظف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انذار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صرف من الخدمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهلة المراجعة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تدبير اداري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وظيفة عامة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">استدعاء المراجعة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار اداري نافذ</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة مسلكية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقوبة مسلكية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انقطاع عن العمل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قبول الطلب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سلطة الادارة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صلاحية القاضي</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=77244&selection='>
+                                            <h4>حكم شورى رقم 209 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مجلس بلدي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مجلس اختياري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انتخابات بلدية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار قابل للطعن</li>
                                                     
                                             </ul>
                                         </div>
@@ -1936,17 +2053,92 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=74977&selection='>
-                                            <h4>حكم تمييز مدني رقم 159 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=77220&selection='>
+                                            <h4>حكم شورى رقم 208 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=75122&selection='>
+                                            <h4>حكم تمييز مدني رقم 161 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">اشغال غير مشروع</li>
+                                                    
+                                                        /
+                                                    
                                                         <li style="display: inline-block;">تمييز</li>
                                                     
                                                         /
                                                     
                                                         <li style="display: inline-block;">دعوى الايجار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقد الايجار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى الاسقاط من حق التمديد القانوني</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=75097&selection='>
+                                            <h4>حكم تمييز مدني رقم 160 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">محامي وكيل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تمييز</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=75194&selection='>
+                                            <h4>حكم تمييز مدني رقم 163 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">فسخ عقد الايجار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مرور الزمن</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تمييز</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
                                                     
                                             </ul>
                                         </div>
@@ -2020,99 +2212,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=77388&selection='>
-                                            <h4>حكم شورى رقم 211 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">عقوبة مقنعة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وصف المراجعة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عمل اداري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار اداري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">موظف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انذار</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صرف من الخدمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة المراجعة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تدبير اداري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى ادارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وظيفة عامة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">استدعاء المراجعة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار اداري نافذ</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة مسلكية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقوبة مسلكية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انقطاع عن العمل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قبول الطلب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سلطة الادارة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صلاحية القاضي</li>
                                                     
                                             </ul>
                                         </div>
@@ -2193,116 +2292,17 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=77220&selection='>
-                                            <h4>حكم شورى رقم 208 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=74977&selection='>
+                                            <h4>حكم تمييز مدني رقم 159 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                        <li style="display: inline-block;">تمييز</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=71262&selection='>
-                                            <h4>حكم تمييز جزائي رقم 103 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة حق الدفاع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صدور الحكم</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=81418&selection='>
-                                            <h4>حكم تمييز جزائي رقم 344 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نقض القرار</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انتظام عام</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محكمة الجنايات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=77244&selection='>
-                                            <h4>حكم شورى رقم 209 سنة 2004  /  <span>تاريخ 30/12/2004</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مجلس بلدي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مجلس اختياري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى ادارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انتخابات بلدية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار قابل للطعن</li>
+                                                        <li style="display: inline-block;">دعوى الايجار</li>
                                                     
                                             </ul>
                                         </div>
@@ -2320,6 +2320,39 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">اعادة المحاكمة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=77028&selection='>
+                                            <h4>حكم شورى رقم 202 سنة 2004  /  <span>تاريخ 29/12/2004</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قبول طلب اعادة المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية في التحقيق والحكم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار اداري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مراجعة ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انتخابات بلدية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تبليغ قانوني</li>
                                                     
                                             </ul>
                                         </div>
@@ -2392,66 +2425,21 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=77042&selection='>
-                                            <h4>حكم شورى رقم 202 سنة 2004  /  <span>تاريخ 29/12/2004</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=77117&selection='>
+                                            <h4>حكم شورى رقم 205 سنة 2004  /  <span>تاريخ 29/12/2004</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية في التحقيق والحكم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة حق الدفاع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى ادارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انقضاء المهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اسباب اعادة المحاكمة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=77061&selection='>
-                                            <h4>حكم شورى رقم 203 سنة 2004  /  <span>تاريخ 29/12/2004</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">عمل اداري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار اداري</li>
-                                                    
-                                                        /
-                                                    
                                                         <li style="display: inline-block;">انتخابات بلدية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">متعاقد متفرغ</li>
+                                                        <li style="display: inline-block;">مخالفة جسيمة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تعاقد بالساعة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تمانع قانوني</li>
+                                                        <li style="display: inline-block;">فرز الاصوات</li>
                                                     
                                             </ul>
                                         </div>

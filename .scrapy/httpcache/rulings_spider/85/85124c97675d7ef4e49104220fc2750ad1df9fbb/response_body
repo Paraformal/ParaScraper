@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="6SXSzivgRD2+sxD6dhfkwdepxbOUTOmdKLkalOSH19N/LukCsKxGB7JN+cu9zTNi3Sd19PMw3w4d+O3rPcjd/OiAMYEIKBtH5lhaqfTOz5HMPrJHfX+AJfvb7yZgNcJn1a77fyspVMCHk/+7h24B9Y9P+4m5c8pMSjRcpTmg5+29JMtYTcdtaoHO9ib4XNeyWHGBwBb8z4UkQhFcL4D+KM8uZ4vwUe7ovuJgEhUj25Qjgd9asnowr2P1elnoMsVZHy78RsLn5pjluvNTm01pnET0BetwO88cLR9QpGdyKQ0n6B/HG9qPgErwDo4lhoeyxx+kjmhBALdDa+xJlH1PzDRE+QypVpZW/9IfrsI4lYWvl7vrdP/lSqwAkWdluIaZv+PWWEBTWRH+OICTDjTPRpXjocGQYuIGZtJNR5Ht6rMRWki/DxOlSh50Z0ipLdJDHHY9fSm8R9l7+xIfvQRHibVq9905xO3aCgKJo5O2JhNx8LDbPFEOGCPRpcX7xYZ7o5+1ojfPMiP4/QCgCdFuueu5fsFgMZn8wjIZU9SVXiqZLw1FC7OKN6E/mgfl4si6DvVkk11mczvmguRYgDbWw27l+CtEkDI7dwS0AH/gtCpX0lPAH1IPQYlvYjaSF3RpoIfIDU/eOVu69yayJzWICioNEc2TXFrTvITexfhbE9xeYWLEXthKvsB0ckIBqEfOFLYCnpuDDKVB8EPFHTLOJmpbfv+dfgDO+btWNiamnTLH43BmqtrwxDXdujaZjr/qVrDHOWtECMMpbS+KpskEXvg15faaZjBHcUMC0Q1TaMzbb4amOG90l+2iVpshQrDGSWk3/qiP8fUTf4ZppFQxQGAFiUoH5oxYwanM/dciPlrYFXi0U/l81Ws4PDkYYJcohqZPKVu5YMSNjhzJM0NZ4RF4oMlyOKyefD+WowAlyX1gLdhK/P2S7aAajlRPEU2WiW8m5VnBZ7LUaetzsgweh0AdcNigWxhECCrLbYVp0aC1odluhcTAZNMIax8C0R7ofMd9VYegwnfHiZXX8ouRGHDjqQbUAvNcc0tmFWl70vs0mE7/itGDOC36r+nvSYMx3dvPD31/J7FhuF0Zdxxrhz4gtU6OhfpKLLbZOMceoTZmdGM3GRc1MyTnKhA6VWxFGsAuLKA8Xjerl8Yn2AqlUp17MVIzMD0nSR1ud8nRl+83urInF47hkJSDq7JAD9FUppx7SFZ0J8qySWSlROpzUhvxo2tZPTQZRpk+gf01knn8oP6c6+Ekvy226Ul8dS/M10fMbcJ6DfbhS1H2EcYSw8TCORxo2gGDVXpbtG/DAWPfTEg0vFbJ+mUBAFol6dfCw2N2QiMyHb6pbsgZmHrmL3FWY5h7pNikr2Cl07XX59SsUzcaVUiu56mAmlVaeD552XyBmhb+waZH+05o5sywkTyb2+zSC6BnI/a//UJ8AY7EAfFEOCalfvMsTjDaUWl8L9H12lMXJXC311NMVzM3BY8BOhzjzzDigFjme5WLRN8kIcdHgp6pnHQVpz5AAXe28XsC4LKWdRepfu/LVz4I3lWz6ZNf0U+mluz47Dux7RvbnE2VjtGYuZJZN3udBXT/G6nBYPxJGL57VbPzTRU+XpuQY1jsKmopqkQJwdW5MjZXgYaUbu9rMyBW29R3vdYtc4UinqPurq/ZgMhUxqBJSh5zWp0n/Tn2PZ+WnsGFeqMUd9iPFS1i1UNWac+o4qlmkyqK08Kwf05jZ5jwQE2klnKvbwX9N5e5LcM8+OK3sd7ekryUoxB2rSpI4TVDUNfgdOHBlkDvIMBIqKX55sssoDLpN8kW7z5kMFkrTzFXr5yWTZIbvuQTotJhAyOX1crqi7Ahdh1200C4hq3+sAqexCxKkrqs6pVPbziJd+CeEcXfr3AzHhMKteHKdcsxiOtMILekvVaSwOYq9630vyQRz+R8L3I5dxvoIjdF6la/aXu/S+ktLj+wtDnoXRtGH+MQ3TqvW/tkxYzbZ4WepJT+Yo9f3rfgG8R7DHoQTAU+3eHnvrFyZKe06xt5T2pHHy8KfcP9tlcGxyWxjAu15PgaAQjRIdcEylbEvcZCP5JK/iletDcpec2Ki2hH2pgEggnRjKtNyz987+Ebai2VhnFyoJnXSA6CCXcdvdt0eMBKPsD6AcjNpP+GpPrZBYJl1+1KNzYZVV3Ztmdw5/8WRUG8ibB9fABmO56II+ibf9673SrbCvdcPefKgjxtOSqhpuYnWuWa2mbl/KcGQM19FwG1mlQkDssMuITiWy/ruueN/FSnOhWOQhNozRZbneayJSm6Hhfv/ufv/p1g6XodTx3ZF+Irc8e0LBckt8INNuxV9UY6UyKTxzUN3iOkiOUSgadTCVRO0SmBtcjx0M2/lrCbowyo6N720mEqwuspaXTF7jpbm2pcM5GPLKh4rKaN7SGU+IzvgYO+9FwlYmCVBxHSq7tAQqCPsLQnp3sq5YwiT8SPL17P2jE9Gkgu6OmPXBz1bypE6FNWs6uI6GGyhJX3ZP8AEmSLPF58xZv/iRa5G+IuPPT6E0JQDw0nXkZaEMDT7G36MugxIoswR4VKnoNmuUjFsrr3nQjsCv7FC3K2cNWYrYo22M6QvABDjq2vuEIGhzPWNzz86ddptfjhePzyUisWnNSHIVhMc07sT/vMLacfogn+hWm2bFQB05mdWXxYp3SwzouC5Q3W64gBzyGfn/OqHhkJz0X69QXyQrtpfbdT2csRUszVimbGvBXRfqfjnFxeBDiwTSQtzYb0Tvs8Q3PyP7pq4UJ9VXIaaTUWNoDrCDwD8sgsFrj0FnCjx9HEBdnjprdBBdJWHqDlvmohgAE7TK51X8zjjMWRwcJMeMaHLOYX6jVbIHP61YQERGN6GDMW8nuHRNjp/4Cti0qyuabzvFPmDCQeNkl1gXDIpzUIbFUI5JuQzieUmMalAvsDXllaqKjDaqH0kyhDOjloqho90/rgHx6o4ASaYQKRKw1G51opWR94ZbD57y3XEEcnQpbv3k1TY1lCDGCNM1aLtM21K584tLSngfdEoO9tc/jAW+j6oHT3Jfu5sUuwDm1gBFatg2cCrDTmx7L5Zc8sbKjdi7h6J2d/E2rDwIGJswQRFMB4bEuTTs+5BdyCzEUCbs6eUgw3DzFNwPzHjWP8uKt0OI2aaaDSTkT6WgRzKaost9rIeQYaHyEV21NbccUU0UKSg6fcX6KQAAViooLbM9vaDWQplkr1CV+UCehp+I0=" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1910,97 +1910,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=51996&selection='>
-                                            <h4>حكم شورى رقم 1316 سنة 1962  /  <span>تاريخ 24/12/1962</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">والد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">موظف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وفاة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">استحقاق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض الصرف</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=51927&selection='>
-                                            <h4>حكم شورى رقم 1314 سنة 1962  /  <span>تاريخ 24/12/1962</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">شهادة بالمراسلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قبول</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شهادة جامعية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=58471&selection='>
-                                            <h4>حكم شورى رقم 1318 سنة 1962  /  <span>تاريخ 24/12/1962</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مياه عمومية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طعن</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تأمين</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دولة لبنانية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حق الانتفاع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صلاحية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مرسوم تنظيمي</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=51949&selection='>
                                             <h4>حكم شورى رقم 1323 سنة 1962  /  <span>تاريخ 24/12/1962</span></h4>
                                         </a>
@@ -2036,6 +1945,56 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">قضاء اداري</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=51927&selection='>
+                                            <h4>حكم شورى رقم 1314 سنة 1962  /  <span>تاريخ 24/12/1962</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">شهادة بالمراسلة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قبول</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شهادة جامعية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=51996&selection='>
+                                            <h4>حكم شورى رقم 1316 سنة 1962  /  <span>تاريخ 24/12/1962</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">والد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">موظف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وفاة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">استحقاق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعويض الصرف</li>
                                                     
                                             </ul>
                                         </div>
@@ -2096,13 +2055,17 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=59684&selection='>
-                                            <h4>حكم شورى رقم 1320 سنة 1962  /  <span>تاريخ 24/12/1962</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=58471&selection='>
+                                            <h4>حكم شورى رقم 1318 سنة 1962  /  <span>تاريخ 24/12/1962</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">اختصاص</li>
+                                                        <li style="display: inline-block;">مياه عمومية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهلة</li>
                                                     
                                                         /
                                                     
@@ -2110,19 +2073,23 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">انتخاب</li>
+                                                        <li style="display: inline-block;">تأمين</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قضاء اداري</li>
+                                                        <li style="display: inline-block;">دولة لبنانية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مفتي الجمهورية</li>
+                                                        <li style="display: inline-block;">حق الانتفاع</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">المجلس الشرعي الاسلامي الاعلى</li>
+                                                        <li style="display: inline-block;">صلاحية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مرسوم تنظيمي</li>
                                                     
                                             </ul>
                                         </div>
@@ -2152,6 +2119,39 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">تقاعد</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=59684&selection='>
+                                            <h4>حكم شورى رقم 1320 سنة 1962  /  <span>تاريخ 24/12/1962</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">اختصاص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طعن</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انتخاب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قضاء اداري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مفتي الجمهورية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">المجلس الشرعي الاسلامي الاعلى</li>
                                                     
                                             </ul>
                                         </div>
@@ -2409,21 +2409,25 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=59650&selection='>
-                                            <h4>حكم شورى رقم 1270 سنة 1962  /  <span>تاريخ 17/12/1962</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=59587&selection='>
+                                            <h4>حكم شورى رقم 1271 سنة 1962  /  <span>تاريخ 17/12/1962</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">دعوى ادارية</li>
+                                                        <li style="display: inline-block;">اختصاص</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مراجعة مشتركة</li>
+                                                        <li style="display: inline-block;">جمعية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قضاء اداري</li>
+                                                        <li style="display: inline-block;">محكمة عدلية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تنظيم</li>
                                                     
                                             </ul>
                                         </div>

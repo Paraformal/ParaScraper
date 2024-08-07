@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1980,6 +1980,43 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=111557&selection='>
+                                            <h4>حكم المجلس العدلي رقم 40 سنة 2014  /  <span>تاريخ 05/12/2014</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">شروط</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دفع شكلي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قوة القضية المحكوم بها</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اخفاء</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مجرم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مرتكب جناية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=111561&selection='>
                                             <h4>حكم المجلس العدلي رقم 39 سنة 2014  /  <span>تاريخ 05/12/2014</span></h4>
                                         </a>
@@ -2019,43 +2056,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">كتم المعلومات</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=111557&selection='>
-                                            <h4>حكم المجلس العدلي رقم 40 سنة 2014  /  <span>تاريخ 05/12/2014</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">شروط</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دفع شكلي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قوة القضية المحكوم بها</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اخفاء</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مجرم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مرتكب جناية</li>
                                                     
                                             </ul>
                                         </div>
@@ -2548,6 +2548,47 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=80772&selection='>
+                                            <h4>حكم استئناف جزائي رقم 317 سنة 2014  /  <span>تاريخ 30/10/2014</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تهديد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قوة ثبوتية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ايذاء</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عنصر جرمي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">خوف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تقرير خبير</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=80647&selection='>
                                             <h4>حكم تمييز جزائي رقم 310 سنة 2014  /  <span>تاريخ 30/10/2014</span></h4>
                                         </a>
@@ -2591,47 +2632,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">اثبات</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=80772&selection='>
-                                            <h4>حكم استئناف جزائي رقم 317 سنة 2014  /  <span>تاريخ 30/10/2014</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تهديد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قوة ثبوتية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ايذاء</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عنصر جرمي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">خوف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تقرير خبير</li>
                                                     
                                             </ul>
                                         </div>

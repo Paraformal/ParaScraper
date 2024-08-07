@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="XddKDqBo7+gThn9uqJoxheZT49NsEcpc83soJoue4pc477oxgvcNeVaxapFClszH6XADz5NaBbKW/XfgQl0XHthBtJxdJQlvID+Rr8DDR6ZN8VIFM+BUwG89Y8LUlmtxShKQwtKfVKvRTG30is+jsyIR82iuHJMu90qDKeKGxE0HJDV6Do3n5bJDpIasiOBMxSLzr42g6PpSInCPAB2O1gj7UoAg/K1VHYvNLVO3Q04NpYMWGStcbyZc7wLF1GgOBfi+MSHSPW09B3pmxTi4l4/sSHwgAl7Ja/obEXV7F+fFXRU9NK2V2Jjd+x2nD7/UPMP7X0ySOaiidmKyiWQ0ausqiD+ZZ1ypg0Lhj9b6AU1dfX+EcmW6fhtzr6MsMt9tm57209XoJrsevY84iGT5Ad2ecYXHUAIzyhk96DmmJ+JGPEmF5VigAVTNu5nI6Jy0ilXoeGy5fPeJFrk2kgdx+oTVlbSo94mBVfeJGChi7ZXVJr3vJch4cLQQOwqMnMF48ckndD2MyFONS4MI/yBMouYTKu6FLNJSkxnC3FAH2tj7g9/+1OSQDM7UKYOgH/d698jc6Xg4lig9aEnt+5NROO2IXO3x2vejP3sXvLUaqTYJ18UwAG0nXSL6bl1Z9fCpKrWYgalQ30S60+BtgwMaXl7/lGZAwuKgXgLr3lZ6F7PkJok3IshVtCNHPNC9LydI1jKy42/LYi3Riukc3obpTEY9Tbaz4V/GlB6P/ozhjaHfvsO36T5iAB28IvQj+JvMx6zc0dqJ98ZbS9dNc1JxO6dwu4/3jIbQ1uK/o6hfDTwID79ts/ckuJWi/wl+3BKnGHjS/rabQKwwpddlfawBZSWHWICFCqHLkT5yQrPdtiHjcARhUkasKgigDNXmqoqvUEDMpxnI6LwpY0aKYz2v/JTjtXC7bVnJ1KhLRhafWqbOk0hax95rE6RMhN93Dvh7UVdjrpnaFBMrqzxv6xpqG2rBhe7LVLQNPMZS5Bx1ZRKdvOWk9vSZn69BHnwoOAFqohxr+eqtYU4HTjk94+7NCxD+FGwCv5219WEc0vnI1AKgJM3MkopYxvaPwh8AtRZe97/6n0tZxyY0h+hB3wIPFdHvPZhXbv/7H6dGArKTZ/s/pVo1Clf0AtO7BVBOCAy8fiEBnqPkRwq8vEAuMWa5MXmfKRW+B6rPpT6+LGLhixHeckrNeKVYCx7O3DunklbbU6ggkv2NjTSUL8Iq1+5dCSDy+Y7uDnCtWdUfT0BGFLDOSuF9JXq1JwwiZQPOO+jOGHjMghGRh0CjrjilxX7gMYHjoM2lUXbZWp2qreZpeAwd6dhfuz8MiPOtQFUkma+UsxZk2OuJbIDID5ZLRHayWDvj+1o4h+b/IaRf64VZarj1Aua3Xcp3a8g03/szxmqooUc+ABzUEjXZxTeqHloyoSoja6Z7TIQIsSyIjasPZkmDzXpCUvmyQJLhhmX0W1hKA4gFw/1pM90lr+FLyQqz/d/7XG05HqPVA4in2065jFO9AFWFbf8Oi53sXodtFRXS/2vcqWPUk9UIpmGR7X9qfe+ilvPo7AhqeJJqXbJXEN1ACwS+h7A4oq07slvM8jLlaIv8KKsDlDxrLUn8c8xawEgPmKqBuK/52ESYFcvC8feYjZGQGBSqZIPpachDlji/5/GU5lizAP7c5dNbjT8u+MgWQ+mRGCO5jcD5+YRobXUZtZYfjHQFAzggkn3kAzl0cOL0u+gyrNmEfnawALG6oR5KoJ3N+aHOlC+kOKMkLAh+W80rc1xFmVSwIIy5l8c0dCN0z59VJpQMDzZ8YRNBrRfZQT1uZezdxHkV2HwSZarwpNQyjeb/VfTfBOBQCD0GeQQrNBhJmGqJPtzlz5GUJB5YnP+OLYb1L7RLRwlcBS43Oz3cvIQDw6Sr9dZGq7SH4QdN1UZNYpmhI9vTTwlN4L37v/a0zmw0j3QoP1NiIjiz1pGlUHLkAcNc1k4K7tfTEiQvKOB6wxZvcNvxwT5VsJ+QxXIqKK/qH9+upUHc6kG4f4xZ+Za3mkcldtHlqIvVXfwzRpevCDTrl66EZrQw7XSuPh+20m4MjFzvfR8E3/idggCAULXN2NicJgZa9aHEtBg12jQpFaf6woUk5UFoShDPL8QBJlQQX7hGm6+ZAzPEUVvv8E1Ptm0SGbaYWdDCyGQUz+3C9Omg7zuXa5oeB2quF5/zYh6B8fP57kAfmWv0cEIolRP6E1aEroqExlbfIAOcpT53JojnkJ4R2KO1+WhbrDLoY8tfrAXWGmEs0XCWCK5YPmSJom3k6tTuIg9Vj3pi/24c44SktVlo8lfbkm8EEaaMNueC+zVEcPg2yomOplKgwzkrgXq9VjaLlXJj+Z0lNFtt/rxTZdMh9x6hMiXtiGtgUXAZCs4tefpRnGUg+bpLcWRUX198DqlzmH298sW4CaatV6svndmirWKdZSv9zN614FNFIHpj4iHLJIUZ6CoOwQpU1PF4HfIcR7hfYkeSlgHjCKc/kiDqfhNJuU0yZjqn1m7p9gp3F4h3ZCQ+P3VZtYkR8Rd0JWvEpqFJOL8Fzk/r6w303IvS8Ei1yaeKfg6DqR1hqBEZT/mi6RtmNG+YkEGhn7/TGrBRVqWPtqz3vH9GiuQAe6G+szwIgwzAiqUWepRLPx7Rhf5OPkiXVWEvX844xuXqz8lnhuUQDxBJMMd3RAeBKcVcTpTZwcbhekiZqAt0I2fPAT1W6hXi74uCNsZ/9oU9rlomSz5Dj02jPp2HZ25uwUk29VOZX1ImsJhcI8L4X0KqlnE/Ek+RHL7ENfqaQC8x764HamXV5q4aYggrVXHasZmRoIATNl9gYBQezyH0ylMsamSgm61NZsSdS0mpZDSU/rTzVCpaMt+GAOh2uK0r2f+jRmRXPkhmFwkeDkAF4l1UTD3+xIAnKSp2YXxT8COH/+BDnMNF2loUZ2ihWFrfPSJQgJgQF47ZBXDh1OrRRcKd3KSPqM97Lga/WKvGmg+IIHNOV50fFZo7nB+3EOhywsIIcR6+kEt0tPze0T1QhWmg11eI/byRAS3c6zlyfls77RWH16GBvrTlTZw62rx21FoVKhK+3MJid1veb2eaKXgChAKIW7bk4Fo8j9XkPewJ12NCRv67XZybq3AeSvTeUPoMT49Qs+hxM+gQnvi1zOHHAmA+OwLlMVBRvh24aC9EVpxQboonkV5cCVktDfTmm6YSqPJOKn6089owoNiWzle3c9PG8GA=" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1748,6 +1748,31 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=152268&selection='>
+                                            <h4>حكم تمييز جزائي رقم 255 سنة 2020  /  <span>تاريخ 24/12/2020</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى مدنية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تطبيق خاطىء للقانون</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=152271&selection='>
                                             <h4>حكم تمييز جزائي رقم 254 سنة 2020  /  <span>تاريخ 24/12/2020</span></h4>
                                         </a>
@@ -1806,17 +1831,29 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=152268&selection='>
-                                            <h4>حكم تمييز جزائي رقم 255 سنة 2020  /  <span>تاريخ 24/12/2020</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=152264&selection='>
+                                            <h4>حكم تمييز جزائي رقم 253 سنة 2020  /  <span>تاريخ 23/12/2020</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
+                                                        <li style="display: inline-block;">حق التقدير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تشويه الوقائع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
+                                                    
+                                                        /
+                                                    
                                                         <li style="display: inline-block;">اثبات</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">دعوى مدنية</li>
+                                                        <li style="display: inline-block;">مرور الزمن</li>
                                                     
                                                         /
                                                     
@@ -1825,6 +1862,10 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">تطبيق خاطىء للقانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سلطة استنسابية</li>
                                                     
                                             </ul>
                                         </div>
@@ -1878,47 +1919,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">مبدأ شفهية المحاكمة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=152264&selection='>
-                                            <h4>حكم تمييز جزائي رقم 253 سنة 2020  /  <span>تاريخ 23/12/2020</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">حق التقدير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تشويه الوقائع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مرور الزمن</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تطبيق خاطىء للقانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سلطة استنسابية</li>
                                                     
                                             </ul>
                                         </div>
@@ -2199,6 +2199,55 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=152270&selection='>
+                                            <h4>حكم تمييز جزائي رقم 242 سنة 2020  /  <span>تاريخ 10/12/2020</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">حق التقدير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تشويه الوقائع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شاهد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">خطأ في تطبيق القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سلطة استنسابية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تناقض في التعليل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مبدأ علنية المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مبدأ شفهية المحاكمة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=152272&selection='>
                                             <h4>حكم تمييز جزائي رقم 230 سنة 2020  /  <span>تاريخ 10/12/2020</span></h4>
                                         </a>
@@ -2228,57 +2277,42 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=152282&selection='>
-                                            <h4>حكم تمييز جزائي رقم 241 سنة 2020  /  <span>تاريخ 10/12/2020</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=152273&selection='>
+                                            <h4>حكم تمييز جزائي رقم 164 سنة 2020  /  <span>تاريخ 10/12/2020</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مخالفة اصول جوهرية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حق التقدير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تشويه الوقائع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
-                                                    
-                                                        /
-                                                    
                                                         <li style="display: inline-block;">اثبات</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مبدأ شفاهية المحاكمة</li>
+                                                        <li style="display: inline-block;">نقل الدعوى</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مبدأ حق الدفاع</li>
+                                                        <li style="display: inline-block;">محكمة الاحداث</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">خطأ في تطبيق القانون</li>
+                                                        <li style="display: inline-block;">ارتياب مشروع</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=152274&selection='>
+                                            <h4>حكم تمييز جزائي رقم 244 سنة 2020  /  <span>تاريخ 10/12/2020</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">تشويه الوقائع</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مبدأ علانية المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نقص في التعليل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سلطة استنسابية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تناقض في التعليل</li>
+                                                        <li style="display: inline-block;">اثبات</li>
                                                     
                                             </ul>
                                         </div>
@@ -2383,37 +2417,16 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=152273&selection='>
-                                            <h4>حكم تمييز جزائي رقم 164 سنة 2020  /  <span>تاريخ 10/12/2020</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=152282&selection='>
+                                            <h4>حكم تمييز جزائي رقم 241 سنة 2020  /  <span>تاريخ 10/12/2020</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">اثبات</li>
+                                                        <li style="display: inline-block;">مخالفة اصول جوهرية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">نقل الدعوى</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محكمة الاحداث</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ارتياب مشروع</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=152270&selection='>
-                                            <h4>حكم تمييز جزائي رقم 242 سنة 2020  /  <span>تاريخ 10/12/2020</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
                                                         <li style="display: inline-block;">حق التقدير</li>
                                                     
                                                         /
@@ -2430,11 +2443,23 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">شاهد</li>
+                                                        <li style="display: inline-block;">مبدأ شفاهية المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مبدأ حق الدفاع</li>
                                                     
                                                         /
                                                     
                                                         <li style="display: inline-block;">خطأ في تطبيق القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مبدأ علانية المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نقص في التعليل</li>
                                                     
                                                         /
                                                     
@@ -2443,31 +2468,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">تناقض في التعليل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مبدأ علنية المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مبدأ شفهية المحاكمة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=152274&selection='>
-                                            <h4>حكم تمييز جزائي رقم 244 سنة 2020  /  <span>تاريخ 10/12/2020</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">تشويه الوقائع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
                                                     
                                             </ul>
                                         </div>

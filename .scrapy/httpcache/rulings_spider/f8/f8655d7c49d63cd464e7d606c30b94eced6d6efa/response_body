@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1854,31 +1854,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=67147&selection='>
-                                            <h4>حكم تمييز مدني رقم 135 سنة 1973  /  <span>تاريخ 05/12/1973</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">خطر داهم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اختصاص</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قضاء مستعجل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عجلة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=62419&selection='>
                                             <h4>حكم تمييز مدني رقم 138 سنة 1973  /  <span>تاريخ 05/12/1973</span></h4>
                                         </a>
@@ -2030,6 +2005,72 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=67147&selection='>
+                                            <h4>حكم تمييز مدني رقم 135 سنة 1973  /  <span>تاريخ 05/12/1973</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">خطر داهم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اختصاص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قضاء مستعجل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عجلة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=62054&selection='>
+                                            <h4>حكم تمييز مدني رقم 0 سنة 1973  /  <span>تاريخ 30/11/1973</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">دعوى النفوس</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مكتب القيد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وثيقة الولادة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهلة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حكم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قيد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نسب</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=62056&selection='>
                                             <h4>حكم تمييز مدني رقم 0 سنة 1973  /  <span>تاريخ 30/11/1973</span></h4>
                                         </a>
@@ -2081,47 +2122,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">دعوى الجنسية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=62054&selection='>
-                                            <h4>حكم تمييز مدني رقم 0 سنة 1973  /  <span>تاريخ 30/11/1973</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">دعوى النفوس</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مكتب القيد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وثيقة الولادة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حكم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قيد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نسب</li>
                                                     
                                             </ul>
                                         </div>
@@ -2340,71 +2340,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=62412&selection='>
-                                            <h4>حكم تمييز مدني رقم 0 سنة 1973  /  <span>تاريخ 15/11/1973</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">راشد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حق التقدير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى النفوس</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محكمة الاساس</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قوة ثبوتية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مكتب القيد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وثيقة الولادة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">والد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محكمة التمييز</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اختصاص</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حكم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قيد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قاضي منفرد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">رقابة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=62410&selection='>
                                             <h4>حكم تمييز مدني رقم 115 سنة 1973  /  <span>تاريخ 15/11/1973</span></h4>
                                         </a>
@@ -2464,6 +2399,71 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">دائن</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=62412&selection='>
+                                            <h4>حكم تمييز مدني رقم 0 سنة 1973  /  <span>تاريخ 15/11/1973</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">راشد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حق التقدير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى النفوس</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محكمة الاساس</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قوة ثبوتية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مكتب القيد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وثيقة الولادة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">والد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محكمة التمييز</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اختصاص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حكم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قيد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قاضي منفرد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">رقابة</li>
                                                     
                                             </ul>
                                         </div>
@@ -2597,8 +2597,8 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=62055&selection='>
-                                            <h4>حكم تمييز مدني رقم 0 سنة 1973  /  <span>تاريخ 31/10/1973</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=74002&selection='>
+                                            <h4>حكم إستئناف مدني رقم 1407 سنة 1973  /  <span>تاريخ 31/10/1973</span></h4>
                                         </a>
                                         <div>
                                             <ul>
@@ -2607,35 +2607,27 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">وسيلة الاثبات</li>
+                                                        <li style="display: inline-block;">تحكيم</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">محكمة الاساس</li>
+                                                        <li style="display: inline-block;">قرار تحكيمي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">محكمة التمييز</li>
+                                                        <li style="display: inline-block;">مهلة قانونية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اختصاص</li>
+                                                        <li style="display: inline-block;">الحكم بما لم يطلب</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">جنسية لبنانية</li>
+                                                        <li style="display: inline-block;">بت النزاع</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">رقابة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى الجنسية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محكمة عدلية</li>
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
                                                     
                                             </ul>
                                         </div>

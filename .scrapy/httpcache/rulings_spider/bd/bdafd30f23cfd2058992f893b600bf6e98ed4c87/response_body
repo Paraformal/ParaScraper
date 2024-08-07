@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1744,43 +1744,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=79479&selection='>
-                                            <h4>حكم تمييز جزائي رقم 276 سنة 1959  /  <span>تاريخ 30/12/1959</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قتل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عمل ارهابي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اختصاص القضاء العسكري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طلب تعيين المرجع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عصابة مسلحة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=63072&selection='>
                                             <h4>حكم تمييز مدني رقم 94 سنة 1959  /  <span>تاريخ 30/12/1959</span></h4>
                                         </a>
@@ -1824,6 +1787,43 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">ناقل</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=79479&selection='>
+                                            <h4>حكم تمييز جزائي رقم 276 سنة 1959  /  <span>تاريخ 30/12/1959</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قتل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عمل ارهابي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اختصاص القضاء العسكري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طلب تعيين المرجع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عصابة مسلحة</li>
                                                     
                                             </ul>
                                         </div>
@@ -1964,17 +1964,21 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=58402&selection='>
-                                            <h4>حكم شورى رقم 331 سنة 1959  /  <span>تاريخ 21/12/1959</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=54625&selection='>
+                                            <h4>حكم شورى رقم 332 سنة 1959  /  <span>تاريخ 21/12/1959</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مهلة</li>
+                                                        <li style="display: inline-block;">محل مصنف</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">سريان</li>
+                                                        <li style="display: inline-block;">محل خطر</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهلة</li>
                                                     
                                                         /
                                                     
@@ -1982,7 +1986,15 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">ضريبة الدخل</li>
+                                                        <li style="display: inline-block;">مسؤولية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ترخيص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محافظ</li>
                                                     
                                             </ul>
                                         </div>
@@ -2034,6 +2046,43 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=58396&selection='>
+                                            <h4>حكم شورى رقم 336 سنة 1959  /  <span>تاريخ 21/12/1959</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">اختصاص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ادارة عامة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقد العمل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مصلحة عامة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">المصلحة الوطنية للتعمير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محكمة ادارية خاصة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=58405&selection='>
                                             <h4>حكم شورى رقم 335 سنة 1959  /  <span>تاريخ 21/12/1959</span></h4>
                                         </a>
@@ -2075,58 +2124,17 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=58396&selection='>
-                                            <h4>حكم شورى رقم 336 سنة 1959  /  <span>تاريخ 21/12/1959</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=58402&selection='>
+                                            <h4>حكم شورى رقم 331 سنة 1959  /  <span>تاريخ 21/12/1959</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">اختصاص</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ادارة عامة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقد العمل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مصلحة عامة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">المصلحة الوطنية للتعمير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محكمة ادارية خاصة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=54625&selection='>
-                                            <h4>حكم شورى رقم 332 سنة 1959  /  <span>تاريخ 21/12/1959</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">محل مصنف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محل خطر</li>
-                                                    
-                                                        /
-                                                    
                                                         <li style="display: inline-block;">مهلة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سريان</li>
                                                     
                                                         /
                                                     
@@ -2134,15 +2142,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مسؤولية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ترخيص</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محافظ</li>
+                                                        <li style="display: inline-block;">ضريبة الدخل</li>
                                                     
                                             </ul>
                                         </div>
@@ -2239,17 +2239,21 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=54618&selection='>
-                                            <h4>حكم شورى رقم 327 سنة 1959  /  <span>تاريخ 11/12/1959</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=54609&selection='>
+                                            <h4>حكم شورى رقم 318 سنة 1959  /  <span>تاريخ 11/12/1959</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مرجع مختص</li>
+                                                        <li style="display: inline-block;">شرط</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قرار صرف</li>
+                                                        <li style="display: inline-block;">رجوع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حسن السلوك</li>
                                                     
                                                         /
                                                     
@@ -2257,23 +2261,23 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">سريان</li>
+                                                        <li style="display: inline-block;">مهلة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">استقالة</li>
+                                                        <li style="display: inline-block;">شطب</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قبول</li>
+                                                        <li style="display: inline-block;">قرار اداري</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تقديم</li>
+                                                        <li style="display: inline-block;">وظيفة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تاريخ سابق</li>
+                                                        <li style="display: inline-block;">مخالفة قانونية</li>
                                                     
                                             </ul>
                                         </div>
@@ -2321,21 +2325,17 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=54609&selection='>
-                                            <h4>حكم شورى رقم 318 سنة 1959  /  <span>تاريخ 11/12/1959</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=54618&selection='>
+                                            <h4>حكم شورى رقم 327 سنة 1959  /  <span>تاريخ 11/12/1959</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">شرط</li>
+                                                        <li style="display: inline-block;">مرجع مختص</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">رجوع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حسن السلوك</li>
+                                                        <li style="display: inline-block;">قرار صرف</li>
                                                     
                                                         /
                                                     
@@ -2343,23 +2343,23 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مهلة</li>
+                                                        <li style="display: inline-block;">سريان</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">شطب</li>
+                                                        <li style="display: inline-block;">استقالة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قرار اداري</li>
+                                                        <li style="display: inline-block;">قبول</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">وظيفة</li>
+                                                        <li style="display: inline-block;">تقديم</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مخالفة قانونية</li>
+                                                        <li style="display: inline-block;">تاريخ سابق</li>
                                                     
                                             </ul>
                                         </div>

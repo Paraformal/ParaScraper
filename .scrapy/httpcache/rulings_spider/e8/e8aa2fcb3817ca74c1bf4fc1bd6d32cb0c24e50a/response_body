@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1874,218 +1874,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=128687&selection='>
-                                            <h4>حكم شورى رقم 252 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">واقعة مادية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محضر الضبط</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سلطة تقديرية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انتخابات بلدية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">علامة فارقة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ورقة انتخابية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اقتراع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محضر الانتخاب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فرز الاصوات</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=128432&selection='>
-                                            <h4>حكم شورى رقم 256 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مجلس شورى الدولة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اختصاص</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ضرر</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مراجعة قضائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اعتراض الغير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">خصم اساسي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شخص ثالث</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=128717&selection='>
-                                            <h4>حكم شورى رقم 251 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية في التحقيق والحكم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">واقعة مادية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مختار</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">خطأ مادي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سهو</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تمانع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">موظف عام</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=128436&selection='>
-                                            <h4>حكم شورى رقم 259 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قرار اداري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مراجعة قضائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تمديد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">جيش</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تسريح</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عسكري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة المراجعة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وظيفة عامة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">خدمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حق الخيار</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سلطة عسكرية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة مسلكية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انهاء الخدمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة الشهرين</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">موظف عام</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=128433&selection='>
                                             <h4>حكم شورى رقم 262 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
                                         </a>
@@ -2179,49 +1967,143 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=128150&selection='>
-                                            <h4>حكم شورى رقم 268 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=128718&selection='>
+                                            <h4>حكم شورى رقم 258 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
+                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية في التحقيق والحكم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">واقعة مادية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهلة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حسم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سلطة استنسابية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محافظ</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اقتراع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة حاسمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اقتراع مزدوج</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نتيجة غير قانونية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=128432&selection='>
+                                            <h4>حكم شورى رقم 256 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مجلس شورى الدولة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اختصاص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ضرر</li>
+                                                    
+                                                        /
+                                                    
                                                         <li style="display: inline-block;">مراجعة قضائية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">عقار</li>
+                                                        <li style="display: inline-block;">اعتراض الغير</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قرار صريح</li>
+                                                        <li style="display: inline-block;">خصم اساسي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قرار تأكيدي</li>
+                                                        <li style="display: inline-block;">شخص ثالث</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=128717&selection='>
+                                            <h4>حكم شورى رقم 251 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية في التحقيق والحكم</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مهلة المراجعة</li>
+                                                        <li style="display: inline-block;">واقعة مادية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">ملكية فردية</li>
+                                                        <li style="display: inline-block;">مهلة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مراجعة ادارية</li>
+                                                        <li style="display: inline-block;">سبب</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قيمة تأجيرية</li>
+                                                        <li style="display: inline-block;">مختار</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">وزارة المالية</li>
+                                                        <li style="display: inline-block;">خطأ مادي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قرار رفض ضمني</li>
+                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سهو</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تمانع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">موظف عام</li>
                                                     
                                             </ul>
                                         </div>
@@ -2271,72 +2153,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">درجة ثانية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=128147&selection='>
-                                            <h4>حكم شورى رقم 269 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية في التحقيق والحكم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">غرامة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مستند</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تحقيق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وزارة العمل</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=128431&selection='>
-                                            <h4>حكم شورى رقم 254 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">تعيين</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عميد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اجراءات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">جامعة لبنانية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">معهد العلوم الاجتماعية</li>
                                                     
                                             </ul>
                                         </div>
@@ -2420,6 +2236,247 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=128147&selection='>
+                                            <h4>حكم شورى رقم 269 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية في التحقيق والحكم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">غرامة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مستند</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تحقيق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وزارة العمل</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=128436&selection='>
+                                            <h4>حكم شورى رقم 259 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قرار اداري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مراجعة قضائية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تمديد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">جيش</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تسريح</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عسكري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهلة المراجعة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وظيفة عامة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">خدمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حق الخيار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سلطة عسكرية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة مسلكية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انهاء الخدمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهلة الشهرين</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">موظف عام</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=128431&selection='>
+                                            <h4>حكم شورى رقم 254 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">تعيين</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عميد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اجراءات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">جامعة لبنانية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">معهد العلوم الاجتماعية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=128687&selection='>
+                                            <h4>حكم شورى رقم 252 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">واقعة مادية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محضر الضبط</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سلطة تقديرية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انتخابات بلدية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">علامة فارقة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ورقة انتخابية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اقتراع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محضر الانتخاب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">فرز الاصوات</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=128150&selection='>
+                                            <h4>حكم شورى رقم 268 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مراجعة قضائية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار صريح</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار تأكيدي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهلة المراجعة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ملكية فردية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مراجعة ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قيمة تأجيرية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وزارة المالية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار رفض ضمني</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=128430&selection='>
                                             <h4>حكم شورى رقم 255 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
                                         </a>
@@ -2455,116 +2512,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">ادخال</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=128718&selection='>
-                                            <h4>حكم شورى رقم 258 سنة 2017  /  <span>تاريخ 19/12/2017</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية في التحقيق والحكم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">واقعة مادية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حسم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سلطة استنسابية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محافظ</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اقتراع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة حاسمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اقتراع مزدوج</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نتيجة غير قانونية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=128137&selection='>
-                                            <h4>حكم شورى رقم 250 سنة 2017  /  <span>تاريخ 18/12/2017</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية في التحقيق والحكم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تبليغ</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اهلية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مصاهرة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اختبار</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تمانع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">معرفة القراءة والكتابة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تاريخ</li>
                                                     
                                             </ul>
                                         </div>
@@ -2657,41 +2604,114 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=128410&selection='>
-                                            <h4>حكم شورى رقم 243 سنة 2017  /  <span>تاريخ 14/12/2017</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=128137&selection='>
+                                            <h4>حكم شورى رقم 250 سنة 2017  /  <span>تاريخ 18/12/2017</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مبدأ "ما بني على باطل فهو باطل"</li>
+                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية في التحقيق والحكم</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                        <li style="display: inline-block;">تبليغ</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تلازم</li>
+                                                        <li style="display: inline-block;">مهلة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مراجعة قضائية</li>
+                                                        <li style="display: inline-block;">سبب</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">وظيفة عامة</li>
+                                                        <li style="display: inline-block;">اهلية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اجازة ادارية</li>
+                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">موظف عام</li>
+                                                        <li style="display: inline-block;">مصاهرة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">ضم المراجعات</li>
+                                                        <li style="display: inline-block;">اختبار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تمانع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">معرفة القراءة والكتابة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تاريخ</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=128157&selection='>
+                                            <h4>حكم شورى رقم 246 سنة 2017  /  <span>تاريخ 14/12/2017</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">عمل اداري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مجلس شورى الدولة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اختصاص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">استقالة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مرسوم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عمل حكومي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صلاحية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مفعول اعلاني</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وزارة العدل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مفعول انشائي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وزير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مبدأ الشرعية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">الكاتب العدل</li>
                                                     
                                             </ul>
                                         </div>

@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1666,35 +1666,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                         <div id="MainContent_mainLegTr" class="box-1">
                             
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=66785&selection='>
-                                            <h4>حكم تمييز جزائي رقم 75 سنة 1988  /  <span>تاريخ 15/12/1988</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">بطلان</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محاكمة جزائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اصول</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تبليغ</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى جزائية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=66783&selection='>
                                             <h4>حكم تمييز جزائي رقم 123 سنة 1988  /  <span>تاريخ 15/12/1988</span></h4>
                                         </a>
@@ -1763,6 +1734,35 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">يمين</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=66785&selection='>
+                                            <h4>حكم تمييز جزائي رقم 75 سنة 1988  /  <span>تاريخ 15/12/1988</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">بطلان</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محاكمة جزائية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اصول</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تبليغ</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى جزائية</li>
                                                     
                                             </ul>
                                         </div>
@@ -1855,35 +1855,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=51211&selection='>
-                                            <h4>حكم شورى رقم 198 سنة 1988  /  <span>تاريخ 13/12/1988</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">رسم الارصفة والمجارير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">رسم بلدي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تكليف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">رسم اضافي</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=57609&selection='>
                                             <h4>حكم شورى رقم 199 سنة 1988  /  <span>تاريخ 13/12/1988</span></h4>
                                         </a>
@@ -1963,6 +1934,35 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">ضرائب ورسوم</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=51211&selection='>
+                                            <h4>حكم شورى رقم 198 سنة 1988  /  <span>تاريخ 13/12/1988</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">رسم الارصفة والمجارير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهلة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">رسم بلدي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تكليف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">رسم اضافي</li>
                                                     
                                             </ul>
                                         </div>
@@ -2144,35 +2144,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=61627&selection='>
-                                            <h4>حكم تمييز جزائي رقم 71 سنة 1988  /  <span>تاريخ 01/12/1988</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">تزوير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اختصاص مكاني</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقوبة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">جواز السفر</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">خارج لبنان</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=61626&selection='>
                                             <h4>حكم تمييز جزائي رقم 72 سنة 1988  /  <span>تاريخ 01/12/1988</span></h4>
                                         </a>
@@ -2200,6 +2171,35 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">جريمة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=61627&selection='>
+                                            <h4>حكم تمييز جزائي رقم 71 سنة 1988  /  <span>تاريخ 01/12/1988</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">تزوير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اختصاص مكاني</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقوبة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">جواز السفر</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">خارج لبنان</li>
                                                     
                                             </ul>
                                         </div>
@@ -2493,37 +2493,45 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=52223&selection='>
-                                            <h4>حكم تمييز جزائي رقم 34 سنة 1988  /  <span>تاريخ 16/11/1988</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=65529&selection='>
+                                            <h4>حكم تمييز جزائي رقم 0 سنة 1988  /  <span>تاريخ 16/11/1988</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">معاملة جوهرية</li>
+                                                        <li style="display: inline-block;">وصف قانوني</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تلاوة</li>
+                                                        <li style="display: inline-block;">اختلاف</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تقرير استئنافي</li>
+                                                        <li style="display: inline-block;">مرور الزمن الثلاثي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تمييز</li>
+                                                        <li style="display: inline-block;">قانون مطبق</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تنظيم</li>
+                                                        <li style="display: inline-block;">مهلة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مخالفة قانونية</li>
+                                                        <li style="display: inline-block;">مرور الزمن</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                        <li style="display: inline-block;">جنحة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محكمة الاستئناف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قاضي منفرد جزائي</li>
                                                     
                                             </ul>
                                         </div>

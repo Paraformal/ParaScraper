@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1666,31 +1666,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                         <div id="MainContent_mainLegTr" class="box-1">
                             
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=59810&selection='>
-                                            <h4>حكم شورى رقم 199 سنة 1993  /  <span>تاريخ 29/12/1993</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">طلب الابطال</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مراجعة  استرحامية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مراجعة قضائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مرسوم</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=56106&selection='>
                                             <h4>حكم تمييز مدني رقم 64 سنة 1993  /  <span>تاريخ 29/12/1993</span></h4>
                                         </a>
@@ -1724,6 +1699,31 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=59810&selection='>
+                                            <h4>حكم شورى رقم 199 سنة 1993  /  <span>تاريخ 29/12/1993</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">طلب الابطال</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مراجعة  استرحامية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مراجعة قضائية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مرسوم</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=67748&selection='>
                                             <h4>حكم تمييز مدني رقم 84 سنة 1993  /  <span>تاريخ 28/12/1993</span></h4>
                                         </a>
@@ -1751,6 +1751,64 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">عقد الايجار</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=67758&selection='>
+                                            <h4>حكم تمييز مدني رقم 83 سنة 1993  /  <span>تاريخ 28/12/1993</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">ايجار موسمي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محكمة الاساس</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نزاع جدي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اختصاص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قضاء مستعجل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقد الايجار</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=56108&selection='>
+                                            <h4>حكم تمييز مدني رقم 62 سنة 1993  /  <span>تاريخ 28/12/1993</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">خطأ جسيم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى مخاصمة القضاء</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مسؤولية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قاضي عدلي</li>
                                                     
                                             </ul>
                                         </div>
@@ -1804,64 +1862,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">طائفة مارونية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=56108&selection='>
-                                            <h4>حكم تمييز مدني رقم 62 سنة 1993  /  <span>تاريخ 28/12/1993</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">خطأ جسيم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى مخاصمة القضاء</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مسؤولية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قاضي عدلي</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=67758&selection='>
-                                            <h4>حكم تمييز مدني رقم 83 سنة 1993  /  <span>تاريخ 28/12/1993</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">ايجار موسمي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محكمة الاساس</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نزاع جدي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اختصاص</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قضاء مستعجل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقد الايجار</li>
                                                     
                                             </ul>
                                         </div>
@@ -1953,6 +1953,55 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=68636&selection='>
+                                            <h4>حكم تمييز مدني رقم 105 سنة 1993  /  <span>تاريخ 23/12/1993</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">تعويض الصرف التعسفي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اجتهاد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عرف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تمييز</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">رقابة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اجير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعويض الصرف من الخدمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نزاع العمل الجماعي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة قانونية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=64322&selection='>
                                             <h4>حكم تمييز مدني رقم 106 سنة 1993  /  <span>تاريخ 23/12/1993</span></h4>
                                         </a>
@@ -2020,84 +2069,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=68636&selection='>
-                                            <h4>حكم تمييز مدني رقم 105 سنة 1993  /  <span>تاريخ 23/12/1993</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">تعويض الصرف التعسفي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اجتهاد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عرف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تمييز</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">رقابة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اجير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض الصرف من الخدمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نزاع العمل الجماعي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة قانونية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=53344&selection='>
-                                            <h4>حكم شورى رقم 187 سنة 1993  /  <span>تاريخ 21/12/1993</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">دين اكيد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دين</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سريان</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فائدة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">استحقاق</li>
                                                     
                                             </ul>
                                         </div>
@@ -2227,17 +2198,17 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=60069&selection='>
-                                            <h4>حكم شورى رقم 184 سنة 1993  /  <span>تاريخ 20/12/1993</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=53344&selection='>
+                                            <h4>حكم شورى رقم 187 سنة 1993  /  <span>تاريخ 21/12/1993</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">قرار فردي</li>
+                                                        <li style="display: inline-block;">دين اكيد</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">طعن</li>
+                                                        <li style="display: inline-block;">دين</li>
                                                     
                                                         /
                                                     
@@ -2245,7 +2216,11 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مهلة قانونية</li>
+                                                        <li style="display: inline-block;">فائدة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">استحقاق</li>
                                                     
                                             </ul>
                                         </div>
@@ -2343,42 +2318,25 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=56107&selection='>
-                                            <h4>حكم تمييز مدني رقم 60 سنة 1993  /  <span>تاريخ 17/12/1993</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=60069&selection='>
+                                            <h4>حكم شورى رقم 184 سنة 1993  /  <span>تاريخ 20/12/1993</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">خطأ جسيم</li>
+                                                        <li style="display: inline-block;">قرار فردي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">دعوى مخاصمة القضاء</li>
+                                                        <li style="display: inline-block;">طعن</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قاضي عدلي</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=56109&selection='>
-                                            <h4>حكم تمييز مدني رقم 59 سنة 1993  /  <span>تاريخ 17/12/1993</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">خطأ جسيم</li>
+                                                        <li style="display: inline-block;">سريان</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">دعوى مخاصمة القضاء</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قاضي عدلي</li>
+                                                        <li style="display: inline-block;">مهلة قانونية</li>
                                                     
                                             </ul>
                                         </div>
@@ -2420,6 +2378,48 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">قوات الردع العربية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=56109&selection='>
+                                            <h4>حكم تمييز مدني رقم 59 سنة 1993  /  <span>تاريخ 17/12/1993</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">خطأ جسيم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى مخاصمة القضاء</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قاضي عدلي</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=56107&selection='>
+                                            <h4>حكم تمييز مدني رقم 60 سنة 1993  /  <span>تاريخ 17/12/1993</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">خطأ جسيم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى مخاصمة القضاء</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قاضي عدلي</li>
                                                     
                                             </ul>
                                         </div>

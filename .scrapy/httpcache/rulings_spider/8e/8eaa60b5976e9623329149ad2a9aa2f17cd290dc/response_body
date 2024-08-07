@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="91UOc2xXS805MweudsYmJp3FTXkkQYS0PaFMPUQuMghRqRAy0ddf5F81l4UP0yEY/d8Dc7w19RitRZuqNv0kRFyOP9hLkwbbAenQIbtpXLCJEY2nwoldQWGuSDgBlxpkkCBzF+VktZlZI2ZwiLh0vD5dNSiO20NlVUqt6Xo7/1TN0H3YSDMISHBzu3QvAnN9iUQKowwOE0mqWCBlD+9kqv5qIa0IC5itlLSgU6QCeWKJ55W5UEj45TZHBTw7YzCPBt0/3k9VEkyidbxIo+h0K9Pd9vUtMTqAyndOxY+BBOTiycanr8+2RtAAs31ZvPJU6yB/O7XX+/z50pbcOEBj9WxeFmDNYMMMXpaGNQdy+kVcD22yn2p3ttp4FkEwbPBnFh+u6fx9gEOzoWRfsh1b3MFMbCHDocx/SwL4y0mWBDvfktAOs8LmxpRoCM6gN2U++5VxznZYw2nebs8uC1RH9bbyrVzEdgro7k/NPPaHgJABdDEcfuL4X069BhodOAR6q2pSsoE2mJX6i7XWwF3iG5aDBfBiIxWxHbQzA8YkY/PqnIXOaQoTQP4eXOi1rvK5EDldQOV1+G6DRdHHV7gzgR5slZq705TUxxFm8SYLwrGAae54OyMREyNT0S0oquEkf9uJeqcXzjJMrrykl44RwyL4CM8xhYEI7huIQShNqZf4BIu8N62udMvGRrMfGgX08LLxW6S4u1g/sLSv8w7DYscKzEgYSjxWKem/ed0JVQE6N8CrGUMMaqgp/V+RWPmGAYV5czck/CYXwHnkcKbPjv7kwrHJOGgrITBkTelqPUm6ZIdhL4Slvl74CuYVnuSsAqlKmJuec2mj1K1ZX/cwcVO+XSPLlVzExvQwCfIuIYhY9exKsWAdBkn57gOFGwY9eZz2rd5d70L5Cjl3T6VWD1RxE9u5ZeHFTASTY9nA9ln2O3sDvb3p9gMZMDk3aEr+uFLGF+qeeB3cLyFIbEMQgJh98dEpWrKYQ9n7M5Qb5ShB3LeWRCcSC6FQN4yTNKuum1ZHDH22Z8bEiuB/gAr8F1RkiK8mO+PQYqNQLElE8DBQKmq4UJVEh4mBDhLxcu5IHQNBo2bVeYmrhccFsGLbSGyuxBRpPxQbCBKJ4xtG/vKx/toHJfTjNHSDMB5OjWiFHGzcSVUJD9H89f7vHFZIfALIOBPDn3Bbk1BPHVauYYEHEY0WWLsssDAxvrV4RcIiOSwOV9dHsAAawWINxeY/VDSBc8B3UssUfucXHeSWDifgjXOnbuLb2+k9X1EgQI355IqZ9soqttu58fJPEYqP/0S2iul7gHdoPtqx8bLONjpaf+yVdQUz8fmn37z7fB6tKVgt3UfKELAbuh0P9uwVfBCSxOJSwI+eH7ZYo+6sL7j0pCuv8N9wo60KVDtItEqiWzfLgkwfnoC2QPNcifbXYQEF5Mnqp0lscQ+aR7CbEU+1fch182y8Yh3UpoSxlrg7mK9No31nfOhBCd9xUwKtvWMW+JDempBLeBGQgY5clmi5qOXqkYgs3/MIfs9NAeOtTfTCyVrS+d0u/nyX9eSXkgUlVE0svqfITD5zVoSQwS5Sip2FEpgF04eo5yIHXe4ZNNAmxCEE6HuHjlYprnINmCteELgKf5UGDxSKryImzVMSGTvAKqumK0RRWAhhy1y3PzxJ6YwamsXJqvxjXfMi9iNJ8HUVne/eMpjgiM/JtllC5tsc3+AkE4ynGFU6XdPJo1gwGMedVvTQkaHASTBrvsMXT0LU9frH6lMD9L23AP6OmdQPf9tjFjhi3r5nNdIVYLDHD3I2P/wuvKTiubZZg/GmOFuoWmR4ReAYAP8Pp9WsERHsWpSpxcs3BdXhGdZFG/fYK/9HPCfH9Q3DfRWkGHKRReVrVxwi0iD3FWbdzsezj4DKHJNy6rOIKY5+9TpjJ4Jz3tcMdjyg8UJmNY7rExq16z/b8tzPTCNPQSshVpuoDsX5eZSmNkAWg2bwrsa2PqNjcV/JoI4U7JB6ODM0EkWSS4C1nylDfTjbjVCfhN0/L0n/ogMDiTfTQU6407xtA/2Mvnku86JBywlS3pxDyo0+KmAeYcRWACU5xdR5tGjJBquxeCp3UXKl8gF4Ed3fnA8mPWIgOWSyA59k+0o3QSfMacMI2Iv3IYlzsWbQT2C4rWkvZ3jkCbTNWWIZD84I4UW77cf3xbScRctqbZs3lXbB3wzj3/YjCFAOLekRPuRqsX4jCTSiU4LZTlhbncQLN4wXzFA0gidro1G+xeV150cs3AQVQlpsAjHwCEuf7F/geb7lJtr6Eg2OXbR+2MfJpviBfJfP/xUrJArf37MIIX0zCuycEP32Up+ZOQWvKha2kgC5N3cy9rFU7lRJfjuVFnMcj8JJFb5uCnWJkLxMzDWChZxEZu3w8TEJ7RMtjrEs/ILUQfxT+CF2XBWqsQhrUVB1EjIRgXgVflcejhYvYJNSQe7Jadkbxcb5c7vVbXk9Yinj76NLNzWr6n3uilj+zINleo/rxwBvU8Vwb/dUVArCVmUn/jWKMRI51VvgDcQ70WyLqoITvynNjz3sgZW9wBP2oXvwnqIUwaq1xLlBSF2LcxbMbOCcR1KLd8wLGgs2SUlm7ZN9paAEktd0orN0nWBEG/hKoh+FF7oAQqH5qRxtEBVMuwypMGs3n1W64MQaXnOxfB2a6ClV5pMKfOc6BlJ/qwShSefd5XtHIpr6zxWr+L7yaLzQtqudWDnkWFsdyqdfFAVZ2VazP1R3Jy6nrPWF7wSg52/3VT/LcA/3W/xG+MMh/lHKR1iHMka7ha4XIwij07bnGF+BUZ3csLOHvYm/5rT88mop/TBSkxEbZKi7eyndLubpl70VnK2KfjmSSJQyuXV8rU+8kyEhvBbhVXf0UeqL0LQG9qR56rT51HKQ+3D3BgHlG02DV14VXgsvI2cvo2MfnMfro/J6s+A0mMAuiyAvYuxvUXi4AytLz/Rgkibn6Z5ySyCyDswmZya+r3wbOaOhBoyoPz2hwI0DsQC9olCoaslHEMdW2J8HFJAw9UprG4oOJFG6D07AZHib4TQZIIE6cBQC2pTJnpyaA2huvpTiW7K/OWGWm+IDrS/LtTEmUKJiRGhvY4TpW6eNfRehsUbc9EziBYEbZucVGtuiG9mwyrVIm9aSkC9csDNmAWlyq1OLPH0KwBO7yE6lDq6F44oidrp0Ca6De47Ai0MkvMy/RQ5xbIEzGprcBdBe4caFPBV/87GDrtvc56s=" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1666,432 +1666,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                         <div id="MainContent_mainLegTr" class="box-1">
                             
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=75158&selection='>
-                                            <h4>حكم تمييز مدني رقم 162 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">تمييز</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار تحكيمي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=75326&selection='>
-                                            <h4>حكم تمييز مدني رقم 166 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قبول التمييز</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حكم اجنبي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صيغة تنفيذية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تمييز</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=78602&selection='>
-                                            <h4>حكم شورى رقم 249 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مصلحة الادعاء</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى ادارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طلب الابطال لتجاوز حد السلطة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=79923&selection='>
-                                            <h4>حكم تمييز مدني رقم 29 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مسؤولية الدولة عن اعمال القضاة العدليين</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شيك مصرفي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صلاحية محكمة الاساس</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=78815&selection='>
-                                            <h4>حكم شورى رقم 255 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قبول طلب اعادة المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى ادارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تفسير القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ضم المراجعات</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=80575&selection='>
-                                            <h4>حكم تمييز مدني رقم 31 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">محاكمة استئنافية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محكمة استئنافية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=78708&selection='>
-                                            <h4>حكم شورى رقم 250 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">عمل اداري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عمل حكومي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى ادارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صحة الخصومة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اختصاص مجلس الشورى</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">بدء سريان المهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صفة الادعاء</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=79806&selection='>
-                                            <h4>حكم تمييز جزائي رقم 287 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مستند رسمي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محضر المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=78723&selection='>
-                                            <h4>حكم شورى رقم 251 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">دعوى ادارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى التفسير</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=78753&selection='>
-                                            <h4>حكم شورى رقم 252 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قرار اداري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى ادارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وظيفة عامة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=78571&selection='>
-                                            <h4>حكم شورى رقم 248 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مصلحة الادعاء</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى ادارية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=78772&selection='>
-                                            <h4>حكم شورى رقم 253 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مراجعة ادارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى جاهزة للحكم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صحة الخصومة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=74925&selection='>
-                                            <h4>حكم تمييز مدني رقم 158 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">نقابة اطباء الاسنان</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اصول خاصة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=75253&selection='>
-                                            <h4>حكم تمييز مدني رقم 164 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نقض القرار المطعون فيه</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تمييز</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">خطأ مادي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">بيان النص القانوني</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=78799&selection='>
-                                            <h4>حكم شورى رقم 254 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مراجعة ادارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى بدون موضوع</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=74976&selection='>
-                                            <h4>حكم تمييز مدني رقم 159 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مخالفة قواعد الاختصاص</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نزاع جدي</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=79831&selection='>
-                                            <h4>حكم تمييز جزائي رقم 288 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قابلية القرار للتمييز على حدة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قبول التمييز شكلا</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تلازم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار تمهيدي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صلاحية مكانية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صلاحية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=75094&selection='>
-                                            <h4>حكم تمييز مدني رقم 160 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">تمييز</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=79783&selection='>
                                             <h4>حكم تمييز جزائي رقم 286 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
                                         </a>
@@ -2149,6 +1723,64 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=79806&selection='>
+                                            <h4>حكم تمييز جزائي رقم 287 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مستند رسمي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محضر المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=79831&selection='>
+                                            <h4>حكم تمييز جزائي رقم 288 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قابلية القرار للتمييز على حدة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قبول التمييز شكلا</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تلازم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار تمهيدي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صلاحية مكانية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صلاحية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=79849&selection='>
                                             <h4>حكم تمييز جزائي رقم 289 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
                                         </a>
@@ -2160,6 +1792,374 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">جنحة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=74925&selection='>
+                                            <h4>حكم تمييز مدني رقم 158 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">نقابة اطباء الاسنان</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اصول خاصة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=75094&selection='>
+                                            <h4>حكم تمييز مدني رقم 160 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">تمييز</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=74976&selection='>
+                                            <h4>حكم تمييز مدني رقم 159 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مخالفة قواعد الاختصاص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نزاع جدي</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=75326&selection='>
+                                            <h4>حكم تمييز مدني رقم 166 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قبول التمييز</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حكم اجنبي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صيغة تنفيذية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تمييز</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=75253&selection='>
+                                            <h4>حكم تمييز مدني رقم 164 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نقض القرار المطعون فيه</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تمييز</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">خطأ مادي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">بيان النص القانوني</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=75158&selection='>
+                                            <h4>حكم تمييز مدني رقم 162 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">تمييز</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار تحكيمي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=79580&selection='>
+                                            <h4>حكم تمييز مدني رقم 28 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مسؤولية الدولة عن اعمال القضاة العدليين</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حكم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى الايجار</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=79923&selection='>
+                                            <h4>حكم تمييز مدني رقم 29 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مسؤولية الدولة عن اعمال القضاة العدليين</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شيك مصرفي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صلاحية محكمة الاساس</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=80575&selection='>
+                                            <h4>حكم تمييز مدني رقم 31 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">محاكمة استئنافية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محكمة استئنافية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=82601&selection='>
+                                            <h4>حكم تمييز مدني رقم 4 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مهلة الاعتراض</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صيغة تنفيذية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=78708&selection='>
+                                            <h4>حكم شورى رقم 250 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">عمل اداري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عمل حكومي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صحة الخصومة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اختصاص مجلس الشورى</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">بدء سريان المهلة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صفة الادعاء</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=78723&selection='>
+                                            <h4>حكم شورى رقم 251 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">دعوى ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى التفسير</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=78753&selection='>
+                                            <h4>حكم شورى رقم 252 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قرار اداري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وظيفة عامة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=78815&selection='>
+                                            <h4>حكم شورى رقم 255 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قبول طلب اعادة المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تفسير القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ضم المراجعات</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=78772&selection='>
+                                            <h4>حكم شورى رقم 253 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مراجعة ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى جاهزة للحكم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صحة الخصومة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=78799&selection='>
+                                            <h4>حكم شورى رقم 254 سنة 2001  /  <span>تاريخ 27/12/2001</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مراجعة ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى بدون موضوع</li>
                                                     
                                             </ul>
                                         </div>

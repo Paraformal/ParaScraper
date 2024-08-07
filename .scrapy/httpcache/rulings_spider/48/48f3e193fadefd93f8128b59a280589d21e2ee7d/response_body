@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1858,47 +1858,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=69480&selection='>
-                                            <h4>حكم مجالس العمل التحكيمية رقم 80 سنة 1984  /  <span>تاريخ 04/12/1984</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">حوادث لبنانية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شروط</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تطبيق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صرف من الخدمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعليق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صرف تعسفي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقد العمل</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=63652&selection='>
                                             <h4>حكم تمييز مدني رقم 16 سنة 1984  /  <span>تاريخ 04/12/1984</span></h4>
                                         </a>
@@ -1995,6 +1954,47 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">تعليق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقد العمل</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=69480&selection='>
+                                            <h4>حكم مجالس العمل التحكيمية رقم 80 سنة 1984  /  <span>تاريخ 04/12/1984</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">حوادث لبنانية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شروط</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تطبيق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صرف من الخدمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعليق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صرف تعسفي</li>
                                                     
                                                         /
                                                     
@@ -2315,45 +2315,17 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=55354&selection='>
-                                            <h4>حكم شورى رقم 238 سنة 1984  /  <span>تاريخ 12/11/1984</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=57552&selection='>
+                                            <h4>حكم شورى رقم 236 سنة 1984  /  <span>تاريخ 12/11/1984</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">اصول المحاكمات  الادارية</li>
+                                                        <li style="display: inline-block;">خصومة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">رئيس دائرة المحاسبة والصناديق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">رئيس مصلحة الخزينة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محتسب المالية المركزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">موظف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تحديد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قيمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سريان</li>
+                                                        <li style="display: inline-block;">صفة</li>
                                                     
                                                         /
                                                     
@@ -2361,85 +2333,15 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">وظيفة عامة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مرسوم تنظيمي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وزارة المالية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مراجعة الابطال</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عائدات</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=55344&selection='>
-                                            <h4>حكم شورى رقم 246 سنة 1984  /  <span>تاريخ 12/11/1984</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">ضرر</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مسؤولية ادارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">منشأ عام</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مجرور عام</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=57554&selection='>
-                                            <h4>حكم شورى رقم 247 سنة 1984  /  <span>تاريخ 12/11/1984</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">اختصاص</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ضرر</li>
-                                                    
-                                                        /
-                                                    
                                                         <li style="display: inline-block;">انتظام عام</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">محكمة</li>
+                                                        <li style="display: inline-block;">شخص معنوي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قضاء عدلي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مسؤولية ادارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حادث السير</li>
+                                                        <li style="display: inline-block;">تفويض</li>
                                                     
                                             </ul>
                                         </div>
@@ -2483,6 +2385,43 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=57554&selection='>
+                                            <h4>حكم شورى رقم 247 سنة 1984  /  <span>تاريخ 12/11/1984</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">اختصاص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ضرر</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انتظام عام</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قضاء عدلي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مسؤولية ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حادث السير</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=57555&selection='>
                                             <h4>حكم شورى رقم 255 سنة 1984  /  <span>تاريخ 12/11/1984</span></h4>
                                         </a>
@@ -2520,33 +2459,70 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=57552&selection='>
-                                            <h4>حكم شورى رقم 236 سنة 1984  /  <span>تاريخ 12/11/1984</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=53227&selection='>
+                                            <h4>حكم شورى رقم 245 سنة 1984  /  <span>تاريخ 12/11/1984</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">خصومة</li>
+                                                        <li style="display: inline-block;">فائدة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">صفة</li>
+                                                        <li style="display: inline-block;">التزام</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مراجعة قضائية</li>
+                                                        <li style="display: inline-block;">اشغال عامة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">انتظام عام</li>
+                                                        <li style="display: inline-block;">تنفيذ</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=53228&selection='>
+                                            <h4>حكم شورى رقم 258 سنة 1984  /  <span>تاريخ 12/11/1984</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">فعل الغير</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">شخص معنوي</li>
+                                                        <li style="display: inline-block;">حدث غير مرتقب</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تفويض</li>
+                                                        <li style="display: inline-block;">حدث مفاجىء</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعويض</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ضرر</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">بلدية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مسؤولية ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">منشأ عام</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مجرور عام</li>
                                                     
                                             </ul>
                                         </div>

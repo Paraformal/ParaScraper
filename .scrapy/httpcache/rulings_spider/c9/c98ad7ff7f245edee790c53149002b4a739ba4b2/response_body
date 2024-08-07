@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1666,87 +1666,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                         <div id="MainContent_mainLegTr" class="box-1">
                             
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=154834&selection='>
-                                            <h4>حكم تمييز جزائي رقم 59 سنة 2023  /  <span>تاريخ 27/6/2023</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">تفسير خاطىء للقانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تشويه الوقائع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شهادة الشهود</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">متهم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قتل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فعل جرمي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سلطة تقديرية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محاكمة جزائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محكمة الجنايات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">هيئة اتهامية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تحقيق اولي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تطبيق خاطىء للقانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شهادة كاذبة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عنصر جرمي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حلف اليمين</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=154832&selection='>
                                             <h4>حكم تمييز جزائي رقم 58 سنة 2023  /  <span>تاريخ 27/6/2023</span></h4>
                                         </a>
@@ -1861,6 +1780,87 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=154834&selection='>
+                                            <h4>حكم تمييز جزائي رقم 59 سنة 2023  /  <span>تاريخ 27/6/2023</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">تفسير خاطىء للقانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تشويه الوقائع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شهادة الشهود</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">متهم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قتل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">فعل جرمي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سلطة تقديرية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محاكمة جزائية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محكمة الجنايات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">هيئة اتهامية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تحقيق اولي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تطبيق خاطىء للقانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شهادة كاذبة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عنصر جرمي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حلف اليمين</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=154836&selection='>
                                             <h4>حكم تمييز جزائي رقم 71 سنة 2023  /  <span>تاريخ 22/6/2023</span></h4>
                                         </a>
@@ -1952,6 +1952,107 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=154835&selection='>
+                                            <h4>حكم تمييز جزائي رقم 68 سنة 2023  /  <span>تاريخ 22/6/2023</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">لائحة شهود الحق العام</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محضر ضبط المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سرقة موصوفة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تبليغ</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اشتراك جرمي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">خطأ مادي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">فعل جرمي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تهديد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مستدعي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مال خاص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مدعي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نقص في التعليل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار الاتهام</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نقل السلاح</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محضر التحقيق الاولي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اسم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سكين</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سلاح ممنوع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ضرب</li>
                                                     
                                             </ul>
                                         </div>
@@ -2118,107 +2219,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">ترويج عملة مزورة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=154835&selection='>
-                                            <h4>حكم تمييز جزائي رقم 68 سنة 2023  /  <span>تاريخ 22/6/2023</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">لائحة شهود الحق العام</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محضر ضبط المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سرقة موصوفة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تبليغ</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اشتراك جرمي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">خطأ مادي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فعل جرمي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تهديد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مستدعي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مال خاص</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مدعي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نقص في التعليل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار الاتهام</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نقل السلاح</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محضر التحقيق الاولي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اسم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سكين</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سلاح ممنوع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ضرب</li>
                                                     
                                             </ul>
                                         </div>
@@ -3122,13 +3122,21 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=154859&selection='>
-                                            <h4>حكم تمييز جزائي رقم 27 سنة 2023  /  <span>تاريخ 20/4/2023</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=154848&selection='>
+                                            <h4>حكم تمييز جزائي رقم 30 سنة 2023  /  <span>تاريخ 20/4/2023</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">سلامة عامة</li>
+                                                        <li style="display: inline-block;">حق التقدير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تشويه الوقائع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
                                                     
                                                         /
                                                     
@@ -3136,36 +3144,80 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اصول المحاكمات الجزائية</li>
+                                                        <li style="display: inline-block;">عقوبة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">نقل الدعوى</li>
+                                                        <li style="display: inline-block;">مخدرات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعاطي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ادغام</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تطبيق خاطىء للقانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سلطة استنسابية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تجارة ممنوعة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اسباب تخفيفية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تسهيل تعاطي المخدرات</li>
                                                     
                                             </ul>
                                         </div>
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=154858&selection='>
-                                            <h4>حكم تمييز جزائي رقم 29 سنة 2023  /  <span>تاريخ 20/4/2023</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=154862&selection='>
+                                            <h4>حكم تمييز جزائي رقم 26 سنة 2023  /  <span>تاريخ 20/4/2023</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
+                                                        <li style="display: inline-block;">قتل قصدي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سلاح غير مرخص</li>
+                                                    
+                                                        /
+                                                    
                                                         <li style="display: inline-block;">اثبات</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">صفة</li>
+                                                        <li style="display: inline-block;">كسر وخلع</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اصول المحاكمات الجزائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى عامة</li>
+                                                        <li style="display: inline-block;">سلاح حربي</li>
                                                     
                                             </ul>
                                         </div>

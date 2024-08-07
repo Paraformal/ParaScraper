@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1666,8 +1666,8 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                         <div id="MainContent_mainLegTr" class="box-1">
                             
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=78594&selection='>
-                                            <h4>حكم تمييز مدني رقم 249 سنة 2005  /  <span>تاريخ 31/12/2005</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=78732&selection='>
+                                            <h4>حكم تمييز مدني رقم 251 سنة 2005  /  <span>تاريخ 31/12/2005</span></h4>
                                         </a>
                                         <div>
                                             <ul>
@@ -1688,8 +1688,19 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=78732&selection='>
-                                            <h4>حكم تمييز مدني رقم 251 سنة 2005  /  <span>تاريخ 31/12/2005</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=78594&selection='>
+                                            <h4>حكم تمييز مدني رقم 249 سنة 2005  /  <span>تاريخ 31/12/2005</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=71438&selection='>
+                                            <h4>حكم تمييز مدني رقم 105 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
                                         </a>
                                         <div>
                                             <ul>
@@ -1705,6 +1716,165 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                         <div>
                                             <ul>
                                                 
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=76155&selection='>
+                                            <h4>حكم تمييز مدني رقم 184 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=76162&selection='>
+                                            <h4>حكم تمييز مدني رقم 185 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=84436&selection='>
+                                            <h4>حكم تمييز جزائي رقم 507 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=84448&selection='>
+                                            <h4>حكم تمييز جزائي رقم 508 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">اساءة استعمال حق التقاضي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=84521&selection='>
+                                            <h4>حكم تمييز جزائي رقم 510 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">تفسير خاطىء للقانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اغفال بت مطلب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تطبيق خاطىء للقانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دفع بسبق الادعاء</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=84536&selection='>
+                                            <h4>حكم تمييز جزائي رقم 511 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قبول السبب التمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ملاحقة قانونية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تشويه الوقائع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قاصر</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نقض جزئي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صلاحية محكمة الاساس</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=75417&selection='>
+                                            <h4>حكم شورى رقم 168 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قرار اداري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">جيش</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مسؤولية ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">خدمة العلم</li>
+                                                    
                                             </ul>
                                         </div>
                                     </div>
@@ -1757,67 +1927,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">انتفاء الموضوع</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=84521&selection='>
-                                            <h4>حكم تمييز جزائي رقم 510 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">تفسير خاطىء للقانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اغفال بت مطلب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تطبيق خاطىء للقانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دفع بسبق الادعاء</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=71438&selection='>
-                                            <h4>حكم تمييز مدني رقم 105 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=84448&selection='>
-                                            <h4>حكم تمييز جزائي رقم 508 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">اساءة استعمال حق التقاضي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
                                                     
                                             </ul>
                                         </div>
@@ -1885,81 +1994,8 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=84536&selection='>
-                                            <h4>حكم تمييز جزائي رقم 511 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قبول السبب التمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ملاحقة قانونية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تشويه الوقائع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قاصر</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نقض جزئي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صلاحية محكمة الاساس</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=76162&selection='>
-                                            <h4>حكم تمييز مدني رقم 185 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=84436&selection='>
-                                            <h4>حكم تمييز جزائي رقم 507 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=75417&selection='>
-                                            <h4>حكم شورى رقم 168 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=75239&selection='>
+                                            <h4>حكم شورى رقم 164 سنة 2005  /  <span>تاريخ 28/12/2005</span></h4>
                                         </a>
                                         <div>
                                             <ul>
@@ -1968,55 +2004,57 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">جيش</li>
+                                                        <li style="display: inline-block;">بناء</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مسؤولية ادارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">خدمة العلم</li>
+                                                        <li style="display: inline-block;">تجاوز حد السلطة</li>
                                                     
                                             </ul>
                                         </div>
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=76155&selection='>
-                                            <h4>حكم تمييز مدني رقم 184 سنة 2005  /  <span>تاريخ 29/12/2005</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=75136&selection='>
+                                            <h4>حكم شورى رقم 161 سنة 2005  /  <span>تاريخ 28/12/2005</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
+                                                        <li style="display: inline-block;">عمل اداري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">موضوع النزاع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اختصاص القضاء الاداري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اختصاص المحاكم المدنية</li>
+                                                    
                                             </ul>
                                         </div>
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=75275&selection='>
-                                            <h4>حكم شورى رقم 165 سنة 2005  /  <span>تاريخ 28/12/2005</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=75174&selection='>
+                                            <h4>حكم شورى رقم 162 سنة 2005  /  <span>تاريخ 28/12/2005</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
                                                         <li style="display: inline-block;">قرار اداري</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">نزاع ضريبي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قيمة تأجيرية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                        <li style="display: inline-block;">دعوى ادارية</li>
                                                     
                                             </ul>
                                         </div>
@@ -2056,29 +2094,29 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=75136&selection='>
-                                            <h4>حكم شورى رقم 161 سنة 2005  /  <span>تاريخ 28/12/2005</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=75275&selection='>
+                                            <h4>حكم شورى رقم 165 سنة 2005  /  <span>تاريخ 28/12/2005</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">عمل اداري</li>
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">دعوى ادارية</li>
+                                                        <li style="display: inline-block;">قرار اداري</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">موضوع النزاع</li>
+                                                        <li style="display: inline-block;">نزاع ضريبي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اختصاص القضاء الاداري</li>
+                                                        <li style="display: inline-block;">قيمة تأجيرية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اختصاص المحاكم المدنية</li>
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
                                                     
                                             </ul>
                                         </div>
@@ -2091,44 +2129,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                         <div>
                                             <ul>
                                                 
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=75239&selection='>
-                                            <h4>حكم شورى رقم 164 سنة 2005  /  <span>تاريخ 28/12/2005</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قرار اداري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">بناء</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تجاوز حد السلطة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=75174&selection='>
-                                            <h4>حكم شورى رقم 162 سنة 2005  /  <span>تاريخ 28/12/2005</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قرار اداري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى ادارية</li>
-                                                    
                                             </ul>
                                         </div>
                                     </div>

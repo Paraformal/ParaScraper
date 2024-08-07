@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -2367,13 +2367,17 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=60462&selection='>
-                                            <h4>حكم شورى رقم 0 سنة 1945  /  <span>تاريخ 25/5/1945</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=58487&selection='>
+                                            <h4>حكم شورى رقم 25 سنة 1945  /  <span>تاريخ 25/5/1945</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">سبب</li>
+                                                        <li style="display: inline-block;">مهلة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تحديد</li>
                                                     
                                                         /
                                                     
@@ -2381,27 +2385,15 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اخلال</li>
+                                                        <li style="display: inline-block;">سريان</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">عرض</li>
+                                                        <li style="display: inline-block;">مرسوم</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تقديم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ملتزم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مناقصة عمومية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مساواة</li>
+                                                        <li style="display: inline-block;">ملك عام</li>
                                                     
                                             </ul>
                                         </div>
@@ -2445,17 +2437,13 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=58487&selection='>
-                                            <h4>حكم شورى رقم 25 سنة 1945  /  <span>تاريخ 25/5/1945</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=60462&selection='>
+                                            <h4>حكم شورى رقم 0 سنة 1945  /  <span>تاريخ 25/5/1945</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تحديد</li>
+                                                        <li style="display: inline-block;">سبب</li>
                                                     
                                                         /
                                                     
@@ -2463,15 +2451,27 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">سريان</li>
+                                                        <li style="display: inline-block;">اخلال</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مرسوم</li>
+                                                        <li style="display: inline-block;">عرض</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">ملك عام</li>
+                                                        <li style="display: inline-block;">تقديم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ملتزم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مناقصة عمومية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مساواة</li>
                                                     
                                             </ul>
                                         </div>

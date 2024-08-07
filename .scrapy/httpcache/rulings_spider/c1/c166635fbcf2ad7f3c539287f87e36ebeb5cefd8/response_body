@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1666,39 +1666,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                         <div id="MainContent_mainLegTr" class="box-1">
                             
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=58968&selection='>
-                                            <h4>حكم شورى رقم 75 سنة 1935  /  <span>تاريخ 26/6/1935</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">موظف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">استمرارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تقاعد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">خدمة فعلية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محسومات تقاعدية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سن قانوني</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=58966&selection='>
                                             <h4>حكم شورى رقم 68 سنة 1935  /  <span>تاريخ 26/6/1935</span></h4>
                                         </a>
@@ -1763,6 +1730,39 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">استمرارية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=58968&selection='>
+                                            <h4>حكم شورى رقم 75 سنة 1935  /  <span>تاريخ 26/6/1935</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">موظف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">استمرارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تقاعد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">خدمة فعلية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محسومات تقاعدية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سن قانوني</li>
                                                     
                                             </ul>
                                         </div>
@@ -1889,6 +1889,60 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=58485&selection='>
+                                            <h4>حكم شورى رقم 63 سنة 1935  /  <span>تاريخ 05/6/1935</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مراجعة  استرحامية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهلة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طعن</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">بلدية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=54369&selection='>
+                                            <h4>حكم شورى رقم 64 سنة 1935  /  <span>تاريخ 05/6/1935</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">كنية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">خطأ</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">بلدية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انتخاب</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=54366&selection='>
                                             <h4>حكم شورى رقم 61 سنة 1935  /  <span>تاريخ 05/6/1935</span></h4>
                                         </a>
@@ -1943,85 +1997,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=54369&selection='>
-                                            <h4>حكم شورى رقم 64 سنة 1935  /  <span>تاريخ 05/6/1935</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">كنية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">خطأ</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">بلدية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انتخاب</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=58485&selection='>
-                                            <h4>حكم شورى رقم 63 سنة 1935  /  <span>تاريخ 05/6/1935</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مراجعة  استرحامية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طعن</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">بلدية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=54365&selection='>
-                                            <h4>حكم شورى رقم 59 سنة 1935  /  <span>تاريخ 03/6/1935</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">صلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">موظف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وفاة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طبيب</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=58963&selection='>
                                             <h4>حكم شورى رقم 60 سنة 1935  /  <span>تاريخ 03/6/1935</span></h4>
                                         </a>
@@ -2047,29 +2022,25 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=58486&selection='>
-                                            <h4>حكم شورى رقم 55 سنة 1935  /  <span>تاريخ 29/5/1935</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=54365&selection='>
+                                            <h4>حكم شورى رقم 59 سنة 1935  /  <span>تاريخ 03/6/1935</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">رد شكلا</li>
+                                                        <li style="display: inline-block;">صلة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قوة تنفيذية</li>
+                                                        <li style="display: inline-block;">موظف</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مراجعة</li>
+                                                        <li style="display: inline-block;">وفاة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">عمل اداري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انتفاء</li>
+                                                        <li style="display: inline-block;">طبيب</li>
                                                     
                                             </ul>
                                         </div>
@@ -2121,6 +2092,35 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=58486&selection='>
+                                            <h4>حكم شورى رقم 55 سنة 1935  /  <span>تاريخ 29/5/1935</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">رد شكلا</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قوة تنفيذية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مراجعة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عمل اداري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انتفاء</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=69436&selection='>
                                             <h4>حكم شورى رقم 57 سنة 1935  /  <span>تاريخ 29/5/1935</span></h4>
                                         </a>
@@ -2156,31 +2156,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">تنفيذ</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=68946&selection='>
-                                            <h4>حكم شورى رقم 54 سنة 1935  /  <span>تاريخ 27/5/1935</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">تجاوز حد السلطة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">خرق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ادارة عامة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مساواة</li>
                                                     
                                             </ul>
                                         </div>
@@ -2232,6 +2207,31 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=68946&selection='>
+                                            <h4>حكم شورى رقم 54 سنة 1935  /  <span>تاريخ 27/5/1935</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">تجاوز حد السلطة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">خرق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ادارة عامة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مساواة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=54362&selection='>
                                             <h4>حكم شورى رقم 49 سنة 1935  /  <span>تاريخ 27/5/1935</span></h4>
                                         </a>
@@ -2261,17 +2261,25 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=54364&selection='>
-                                            <h4>حكم شورى رقم 53 سنة 1935  /  <span>تاريخ 27/5/1935</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=54363&selection='>
+                                            <h4>حكم شورى رقم 51 سنة 1935  /  <span>تاريخ 27/5/1935</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مجلس نيابي</li>
+                                                        <li style="display: inline-block;">مأمور مؤقت</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اختصاص</li>
+                                                        <li style="display: inline-block;">اصول</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اعتراض</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهلة</li>
                                                     
                                                         /
                                                     
@@ -2279,7 +2287,15 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">انتخاب</li>
+                                                        <li style="display: inline-block;">حساب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تقاعد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محسومات تقاعدية</li>
                                                     
                                             </ul>
                                         </div>

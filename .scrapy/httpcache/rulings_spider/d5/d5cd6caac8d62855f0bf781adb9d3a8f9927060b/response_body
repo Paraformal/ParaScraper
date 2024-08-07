@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1666,13 +1666,13 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                         <div id="MainContent_mainLegTr" class="box-1">
                             
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=50629&selection='>
-                                            <h4>حكم شورى رقم 71 سنة 1947  /  <span>تاريخ 29/12/1947</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=60488&selection='>
+                                            <h4>حكم شورى رقم 72 سنة 1947  /  <span>تاريخ 29/12/1947</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">براءة</li>
+                                                        <li style="display: inline-block;">مساحة فنية</li>
                                                     
                                                         /
                                                     
@@ -1684,15 +1684,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">حكم جزائي</li>
-                                                    
-                                                        /
-                                                    
                                                         <li style="display: inline-block;">صرف من الخدمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ملاحقة تأديبية</li>
                                                     
                                             </ul>
                                         </div>
@@ -1744,13 +1736,13 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=60488&selection='>
-                                            <h4>حكم شورى رقم 72 سنة 1947  /  <span>تاريخ 29/12/1947</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=50629&selection='>
+                                            <h4>حكم شورى رقم 71 سنة 1947  /  <span>تاريخ 29/12/1947</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مساحة فنية</li>
+                                                        <li style="display: inline-block;">براءة</li>
                                                     
                                                         /
                                                     
@@ -1762,7 +1754,15 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
+                                                        <li style="display: inline-block;">حكم جزائي</li>
+                                                    
+                                                        /
+                                                    
                                                         <li style="display: inline-block;">صرف من الخدمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ملاحقة تأديبية</li>
                                                     
                                             </ul>
                                         </div>
@@ -2002,55 +2002,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=60494&selection='>
-                                            <h4>حكم شورى رقم 58 سنة 1947  /  <span>تاريخ 31/10/1947</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">جمرك</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">موظف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اختصاص</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عزل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعيين</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نقل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مجلس شورى الدولة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ملاحقة جزائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ملاحقة تأديبية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=59773&selection='>
                                             <h4>حكم شورى رقم 57 سنة 1947  /  <span>تاريخ 31/10/1947</span></h4>
                                         </a>
@@ -2098,6 +2049,55 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">معاش</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=60494&selection='>
+                                            <h4>حكم شورى رقم 58 سنة 1947  /  <span>تاريخ 31/10/1947</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">جمرك</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">موظف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اختصاص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعويض</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عزل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعيين</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نقل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مجلس شورى الدولة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ملاحقة جزائية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ملاحقة تأديبية</li>
                                                     
                                             </ul>
                                         </div>
@@ -2216,47 +2216,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=50628&selection='>
-                                            <h4>حكم شورى رقم 46 سنة 1947  /  <span>تاريخ 30/6/1947</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">طلب جديد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى ادارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">موظف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تحديد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قبول</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض الصرف من الخدمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">موظف مؤقت</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وزارة التموين</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=59774&selection='>
                                             <h4>حكم شورى رقم 47 سنة 1947  /  <span>تاريخ 30/6/1947</span></h4>
                                         </a>
@@ -2300,6 +2259,47 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">مكتب جمركي</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=50628&selection='>
+                                            <h4>حكم شورى رقم 46 سنة 1947  /  <span>تاريخ 30/6/1947</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">طلب جديد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">موظف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تحديد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قبول</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعويض الصرف من الخدمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">موظف مؤقت</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وزارة التموين</li>
                                                     
                                             </ul>
                                         </div>

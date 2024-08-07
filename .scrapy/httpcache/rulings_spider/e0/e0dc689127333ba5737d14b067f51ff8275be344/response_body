@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1810,6 +1810,23 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=84093&selection='>
+                                            <h4>حكم تمييز جزائي رقم 49 سنة 1950  /  <span>تاريخ 24/11/1950</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نيابة عامة تمييزية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=83699&selection='>
                                             <h4>حكم تمييز جزائي رقم 46 سنة 1950  /  <span>تاريخ 24/11/1950</span></h4>
                                         </a>
@@ -1833,23 +1850,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=84093&selection='>
-                                            <h4>حكم تمييز جزائي رقم 49 سنة 1950  /  <span>تاريخ 24/11/1950</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نيابة عامة تمييزية</li>
                                                     
                                             </ul>
                                         </div>

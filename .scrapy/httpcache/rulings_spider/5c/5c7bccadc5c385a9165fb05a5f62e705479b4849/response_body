@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1805,75 +1805,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=77073&selection='>
-                                            <h4>حكم شورى رقم 203 سنة 2009  /  <span>تاريخ 21/12/2009</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قبول طلب اعادة المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية في التحقيق والحكم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مسؤولية تقصيرية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مراجعة قضائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مسؤولية ادارية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض مقطوع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ترخيص مؤقت</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات المسؤولية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اختصاص مجلس الشورى</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اسباب اعادة المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعويض عن المسؤولية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تقدير التعويض</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=77082&selection='>
                                             <h4>حكم شورى رقم 204 سنة 2009  /  <span>تاريخ 21/12/2009</span></h4>
                                         </a>
@@ -1948,6 +1879,75 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=77073&selection='>
+                                            <h4>حكم شورى رقم 203 سنة 2009  /  <span>تاريخ 21/12/2009</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قبول طلب اعادة المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية في التحقيق والحكم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مسؤولية تقصيرية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مراجعة قضائية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اعادة المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مسؤولية ادارية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعويض مقطوع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ترخيص مؤقت</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة الاصول الجوهرية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اثبات المسؤولية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اختصاص مجلس الشورى</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اسباب اعادة المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعويض عن المسؤولية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تقدير التعويض</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=77022&selection='>
                                             <h4>حكم شورى رقم 202 سنة 2009  /  <span>تاريخ 17/12/2009</span></h4>
                                         </a>
@@ -1971,76 +1971,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">حقوق الموظف</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=74550&selection='>
-                                            <h4>حكم شورى رقم 150 سنة 2009  /  <span>تاريخ 24/11/2009</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مرجع مختص</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محلات مصنفة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صلاحية المحافظ</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=74256&selection='>
-                                            <h4>حكم شورى رقم 146 سنة 2009  /  <span>تاريخ 24/11/2009</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">عيب عدم الصلاحية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قبول المراجعة شكلا</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مراجعة ادارية استرحامية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مراجعة قضائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة المراجعة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار عديم الوجود</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انقضاء المهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">بدء سريان المهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شروط شكلية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صفة الادعاء</li>
                                                     
                                             </ul>
                                         </div>
@@ -2098,6 +2028,76 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">شروط شكلية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=74256&selection='>
+                                            <h4>حكم شورى رقم 146 سنة 2009  /  <span>تاريخ 24/11/2009</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">عيب عدم الصلاحية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قبول المراجعة شكلا</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مراجعة ادارية استرحامية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مراجعة قضائية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهلة المراجعة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار عديم الوجود</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انقضاء المهلة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">بدء سريان المهلة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شروط شكلية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صفة الادعاء</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=74550&selection='>
+                                            <h4>حكم شورى رقم 150 سنة 2009  /  <span>تاريخ 24/11/2009</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مرجع مختص</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محلات مصنفة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صلاحية المحافظ</li>
                                                     
                                             </ul>
                                         </div>
@@ -2177,55 +2177,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=73968&selection='>
-                                            <h4>حكم شورى رقم 140 سنة 2009  /  <span>تاريخ 19/11/2009</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قاض</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قبول المراجعة شكلا</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">معاش تقاعدي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مراجعة قضائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صندوق تعاضد القضاة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ربط النزاع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">وظيفة عامة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار قابل للطعن</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">منحة نهاية الخدمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">شروط شكلية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=74030&selection='>
                                             <h4>حكم شورى رقم 141 سنة 2009  /  <span>تاريخ 19/11/2009</span></h4>
                                         </a>
@@ -2292,29 +2243,49 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=89765&selection='>
-                                            <h4>حكم تمييز مدني رقم 99 سنة 2009  /  <span>تاريخ 19/11/2009</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=73968&selection='>
+                                            <h4>حكم شورى رقم 140 سنة 2009  /  <span>تاريخ 19/11/2009</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">مخالفة قواعد الاختصاص الوظيفي او النوعي</li>
+                                                        <li style="display: inline-block;">قاض</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تمييز اصلي</li>
+                                                        <li style="display: inline-block;">قبول المراجعة شكلا</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تمييز طارىء</li>
+                                                        <li style="display: inline-block;">معاش تقاعدي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">موضوع الدعوى</li>
+                                                        <li style="display: inline-block;">مراجعة قضائية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                        <li style="display: inline-block;">صندوق تعاضد القضاة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ربط النزاع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وظيفة عامة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار قابل للطعن</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">منحة نهاية الخدمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">شروط شكلية</li>
                                                     
                                             </ul>
                                         </div>
@@ -2358,6 +2329,35 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=89765&selection='>
+                                            <h4>حكم تمييز مدني رقم 99 سنة 2009  /  <span>تاريخ 19/11/2009</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مخالفة قواعد الاختصاص الوظيفي او النوعي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تمييز اصلي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تمييز طارىء</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">موضوع الدعوى</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=73782&selection='>
                                             <h4>حكم شورى رقم 138 سنة 2009  /  <span>تاريخ 18/11/2009</span></h4>
                                         </a>
@@ -2393,27 +2393,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">رسم القيمة التأجيرية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=73502&selection='>
-                                            <h4>حكم شورى رقم 133 سنة 2009  /  <span>تاريخ 18/11/2009</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">مراجعة قضائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">رسم جمركي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اختصاص مجلس الشورى</li>
                                                     
                                             </ul>
                                         </div>
@@ -2481,101 +2460,74 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=77199&selection='>
-                                            <h4>حكم تمييز مدني رقم 207 سنة 2009  /  <span>تاريخ 17/11/2009</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=73502&selection='>
+                                            <h4>حكم شورى رقم 133 سنة 2009  /  <span>تاريخ 18/11/2009</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">عقد عمل</li>
+                                                        <li style="display: inline-block;">مراجعة قضائية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
+                                                        <li style="display: inline-block;">رسم جمركي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                        <li style="display: inline-block;">اختصاص مجلس الشورى</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=73219&selection='>
+                                            <h4>حكم شورى رقم 129 سنة 2009  /  <span>تاريخ 17/11/2009</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قبول المراجعة شكلا</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اجير مؤقت</li>
+                                                        <li style="display: inline-block;">قرار اداري نافذ وضار</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اصول</li>
+                                                        <li style="display: inline-block;">سبب امني</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تفسير خاطىء للقانون</li>
+                                                        <li style="display: inline-block;">قرار اداري</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
+                                                        <li style="display: inline-block;">مراجعة قضائية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مرور الزمن</li>
+                                                        <li style="display: inline-block;">تجاوز حد السلطة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تعويض نهاية الخدمة</li>
+                                                        <li style="display: inline-block;">طيران</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">احتساب</li>
+                                                        <li style="display: inline-block;">مرجع مختص</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">عمل</li>
+                                                        <li style="display: inline-block;">قرار قابل للطعن</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                        <li style="display: inline-block;">مهلة اسقاط</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اجر</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تطبيق خاطىء للقانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فقدان التعليل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">رقابة محكمة التمييز</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">بدل النقل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انتهاء</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انذار بالدفع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تشويه مضمون المستندات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حق محكمة الاساس في التقدير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سقوط الدين</li>
+                                                        <li style="display: inline-block;">شروط شكلية</li>
                                                     
                                             </ul>
                                         </div>

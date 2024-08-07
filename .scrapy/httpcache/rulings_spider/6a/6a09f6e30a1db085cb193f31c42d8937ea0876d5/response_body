@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="59NhXry8fShoXvqvdsmGWy0mM7Yi7MXFKuFc1fBQSpct2VwO56qPOWy+krFKS20rxlWPFXMVaAN5t7R23/pnYNuu+sUW5kbz8CF3OBGGQobkoGbK62xftpqSkO5l1ycED4mWt3tFx4mvz9J+fZdu5aQgRw2dnKwe8jaEwEsf4wu9F6X/6+KxL18l6k/Lh5i18m7fmcJwgaI9zUl6+SL635fPJF5ve0rFhk3lKkKp06gp3JpqLXpayku4FT3tLuxj/mLddXNTiMYae3e5sQ5p0hX4ql77EtB0zmU2vNIyr0KxKheC+8wsdqcAs8r8bm6FE3HFbjWIBkctgYnTElLuTEzQiLIhTJ4P3BIN4Dt8XU9S93jbDWN3bhlHjY3MU+c3lVuqg5cvxEoQYBLtV6E4qWf6y8DYqK6mqLQvBtH7++gRoo6U2JYgapViI2LupjkTZA28tPVdha/WBHNKwkfpVeaXHnBz7XC+6nOJz6DZpkI2nG0rCxf1BRsv7SOh/H7ZsAtwv9McT62dDwNZopMSvp8C3WUFYJOSyV1pOeLtoej1TtPSQTXSpPE0OB/RrKh5B9CHyepWTOztmAdyVc/LeWRAfG3WlXLztQcxi8BumU04LU5QlR6+c9FAJCih7ky0uEHIhsFa2363ZB3mExrWddPUz5P/jvVMfkoYyo9TGm1xAitghV02yv1QfUP4RtJ7kvpXfJRL4cGDni+ja3a2gw1SpqWhS1vUlstlWeRgVMDMdifQLx9LWHsWZhnUlkqOrlMWrpjLUc1mgnf12FfZda0ixjuFojbjkXDh/Zk+bxogwI6w2IQuq2Xf1oRNRQJKk+yT+RIfueGX9ZfTmwqWukFqYcaD36kAmJQ4Iv39CTB2OZ3XZAIqbnVPKsgJHT5Kre/4YWDn5ePjJlIulXzV2vH2DL8AS7vTHcb+EetEPjRatZDaTR8Bge8s8T4zQ3kv4PBNUKoXnnD22R2+RiWEy8q9Pg8t/cOW7opswNgZfgvvtQoaepi+Um+VRYB0V5DU9GLndW/36YIaIPjfjsIl2xjvbp+FlP0P14rBXUaGPOnJSw3ULmXhnTNbMO0n6VpYBXYbUqmMRuIW7QfMRPO5sQoGQTLZBr7RZcZ0TWQmVDDSMkEBckqxejheAloLyWo50BiEJcKLjDI9FiAa3Wqik8kRKoLMsP9bTTTLs8xrWo1lBTsVkbPECkxaIVDTqhXMq8XxOJaOONhBwEGBvy8viKMDio6CzjTq0k4GeqLTdSlqa8Rtg+Hh8QoiUAQuwSb+VT5w9cRt6ESw7QbwlDK1oW6eFGsg0ceZjm3KX3hf1GLGOrzPeP3vB2/feEpciul6etn1+7BgOVubCHpBiR2/HTrOTpk8DGSc4bgPSGbXIi0lfd0RKJguhKuCLcOe1GctAIYytX3Fw0k6slvfqa+0HLIQNW2Ln6HPwdeS/NHeG5kTOud293aiBffJtflV2hd22sfjE8OlmsUYbxhmnCn+3/ncj/RB70GB+R22zKC4ohc/2OCBQndi8Ap56yd2RVguu8MLj5o5c/1EQYi9u2lu6oUZ4gTwrPPF8J1BQQVVUXIYEMDtWFw4Xsti26qG1qeWAl2PqhkFPfPSPfBVcfzityHBm6Mmi6cTsAFJ1wsBnbfIGMFppAeAVYBn49PIu1c2ZY25sk/fs1un8wIckT9GxCxi0kOgdvb4GOXOTfHJathY+Wysv67U8dekCCxCl34jp35bz9+CwKeZaUS1OnOC922MiIG3VXY3xmjDFdkPT/VdXC8yHKeZkXbGNVDWAryWRo7H344Ot2ZP0pS4V27oezyRnDjvutjbjD6fGIuveEGsZiVGJ/DiCtLrSdwHwb4RSw3S+NaBsLooeJvUBDSXFeHKSB2utPBP9FZV7/ddT3pFUy/l9ViT2ldy7SbF85T0g07Kj4KDWabEUK2feYdCkUaZUQ+O7cWaztLeoCrZR+Frcd5hc5TNlQkjgDXeLuKwzKGKFVnZHp+jLkL0bxe8mIbQqae8i8qiuclgi8oPHIDhvM/HJYXrfeVpsZoRktw0GvRE5bEe0kLCS0LNGXp78KMwCGM29ZrsRLDoHz4Lfg4XZYccQKagRQlQUR989lSstxbWsy8ArdanvYGordaHkggkZUMi9MO2UuS4xq3xKs7dYkrpXo+48lub8cEhXw2WZLzM5x8vIDPrCFQdj1BJ3XYv6iofYTxkoI5geQ6fL2UOfzG50swdApeY6J7JLEmJE3ns5cjAP4d3F198C479ToQlvrDM1dqz2s0mOdAJMSjuhBYgZwmLxVU27R6CxQaMUlnxgT1A2jbd9UGxYxbH+vtNgH0b8ZuW3sJcd3Ta6Gx5HAbQj04FJ2thnm96tLDuWrJH0r3brTdOBwyNQKR2j/cJogVy7LjiDxMG2IKMAvIHKTyZk68zACd1/6LXaU4KeTJ3wQICNL7eBd9QHrw0CZcf10l4LfgC5sPjxchAdt7U+lGRKoO4C6+nLwmMM96+TyoI/Nt5VcLrYhNmTAXO1eDcGW2yRfIsMcvjkNpdI2EVzkpdBSWfXlZ8BFEY/0nZwLDMXy1d7iSXcao5pG/vHyV+W/fPCCvoR2n6GoAzWc5EHchaV4z7ubl23dEA3OK6tTAb0U6X1yQRD/n0fNZKDrwx+07GU/XLx3RWsSjlDFcsE9A1G/siAyIl1HulmgjnxPBXaIsw7ns9S6ZzTLGUVgTlcKQTUstlDXjj05DW5eUDnh8D4FbacLNHs0B04hqhGgudY+6r8/bHFx5u5ATQpqJT4U5/1azSug0vVMxtRFZa2q9A4dGsuJ0C6Z0CG8C1/3DS9bzJYkug65SMNayLMSaSDzV+GccCkzErkAi9w7bguAfQ3O5BFGoDBMsPlgttcchNkBYXn4e9ArNu1FBNODYXVL/CKUmSeM1TmIYDoKaUMQESaStqzIypNmyXyelP7jRUqOyZdChc3b9QpwK3CbFd2dgByHwT/Ur57g22u7WCLzFbOL5j45+a1r2WVPA7D9KmoadjmALiY4XN1cbwaP1/J3T6Ec08VAeyydqOGIKl5aYTmzVSPoTUUUHfRyV7xp1/sE4CyXbyVmvMwamf9+MXCQusM9elE545K+tLewlbrc4OmFd4aVdfdPezwk0IPBT4MYmx+akDQwC2E+/oNLz1EAS+Wwxqz/tH2WYo+H96lgEdWpxYDihaqJuufbe4eS6WH/nOhnAilT4Ii17NuKrFgXZJMYWMcnZh7jvIJVU=" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1699,6 +1699,39 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=54718&selection='>
+                                            <h4>حكم شورى رقم 45 سنة 1931  /  <span>تاريخ 11/8/1931</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">حق الرقابة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عمل حكومي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">توقيف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مطبوعة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اصدار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قضاء اداري</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=58370&selection='>
                                             <h4>حكم شورى رقم 46 سنة 1931  /  <span>تاريخ 11/8/1931</span></h4>
                                         </a>
@@ -1734,39 +1767,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">معاش التقاعد</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=54718&selection='>
-                                            <h4>حكم شورى رقم 45 سنة 1931  /  <span>تاريخ 11/8/1931</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">حق الرقابة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عمل حكومي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">توقيف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مطبوعة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اصدار</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قضاء اداري</li>
                                                     
                                             </ul>
                                         </div>
@@ -1917,6 +1917,39 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=54688&selection='>
+                                            <h4>حكم شورى رقم 36 سنة 1931  /  <span>تاريخ 16/6/1931</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">تجاوز حد السلطة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">هيئة مهنية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">اعتراض</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طريق مراجعة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صيدلة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=58367&selection='>
                                             <h4>حكم شورى رقم 37 سنة 1931  /  <span>تاريخ 16/6/1931</span></h4>
                                         </a>
@@ -1977,6 +2010,31 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">قطع</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=53416&selection='>
+                                            <h4>حكم شورى رقم 33 سنة 1931  /  <span>تاريخ 16/6/1931</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">امي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">بلدية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مجلس بلدي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انتخاب</li>
                                                     
                                             </ul>
                                         </div>
@@ -2049,64 +2107,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=53416&selection='>
-                                            <h4>حكم شورى رقم 33 سنة 1931  /  <span>تاريخ 16/6/1931</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">امي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">بلدية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مجلس بلدي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انتخاب</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=54688&selection='>
-                                            <h4>حكم شورى رقم 36 سنة 1931  /  <span>تاريخ 16/6/1931</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">تجاوز حد السلطة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">هيئة مهنية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اعتراض</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طريق مراجعة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صيدلة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=54712&selection='>
                                             <h4>حكم شورى رقم 31 سنة 1931  /  <span>تاريخ 05/6/1931</span></h4>
                                         </a>
@@ -2142,6 +2142,55 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">ملاحقة جزائية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=54710&selection='>
+                                            <h4>حكم شورى رقم 28 سنة 1931  /  <span>تاريخ 02/6/1931</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قائمة الشطب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">لجنة انتخابية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهلة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قيد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">بلدية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انتخاب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ملحق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ناخب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نتيجة</li>
                                                     
                                             </ul>
                                         </div>
@@ -2199,55 +2248,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">تنفيذ</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=54710&selection='>
-                                            <h4>حكم شورى رقم 28 سنة 1931  /  <span>تاريخ 02/6/1931</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قائمة الشطب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">لجنة انتخابية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهلة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قيد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">بلدية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انتخاب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ملحق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ناخب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نتيجة</li>
                                                     
                                             </ul>
                                         </div>

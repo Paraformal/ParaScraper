@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1736,29 +1736,17 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=81003&selection='>
-                                            <h4>حكم تمييز جزائي رقم 326 سنة 2003  /  <span>تاريخ 30/12/2003</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=80961&selection='>
+                                            <h4>حكم تمييز جزائي رقم 324 سنة 2003  /  <span>تاريخ 30/12/2003</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
+                                                        <li style="display: inline-block;">عقوبات</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة مبدأ شفاهية المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حق التقدير</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
+                                                        <li style="display: inline-block;">اثبات</li>
                                                     
                                                         /
                                                     
@@ -1766,76 +1754,27 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">تزوير</li>
+                                                        <li style="display: inline-block;">دعوى شخصية</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">وكالة</li>
+                                                        <li style="display: inline-block;">دعوى عامة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">استعمال المزور</li>
+                                                        <li style="display: inline-block;">متدخل</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">جناية</li>
+                                                        <li style="display: inline-block;">اتفاق مسبق</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">جنحة</li>
+                                                        <li style="display: inline-block;">اثبات</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نقص في التعليل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عقد البيع العقاري</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=80990&selection='>
-                                            <h4>حكم تمييز جزائي رقم 325 سنة 2003  /  <span>تاريخ 30/12/2003</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">كتاب معلومات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى جزائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعامل مع العدو</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                        <li style="display: inline-block;">تسمم بالمخدرات</li>
                                                     
                                             </ul>
                                         </div>
@@ -1908,17 +1847,17 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=80961&selection='>
-                                            <h4>حكم تمييز جزائي رقم 324 سنة 2003  /  <span>تاريخ 30/12/2003</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=80990&selection='>
+                                            <h4>حكم تمييز جزائي رقم 325 سنة 2003  /  <span>تاريخ 30/12/2003</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">عقوبات</li>
+                                                        <li style="display: inline-block;">كتاب معلومات</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">اثبات</li>
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
                                                     
                                                         /
                                                     
@@ -1926,56 +1865,88 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">دعوى شخصية</li>
+                                                        <li style="display: inline-block;">تعامل مع العدو</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">دعوى عامة</li>
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">متدخل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اتفاق مسبق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تسمم بالمخدرات</li>
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
                                                     
                                             </ul>
                                         </div>
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=77385&selection='>
-                                            <h4>حكم تمييز جزائي رقم 211 سنة 2003  /  <span>تاريخ 29/12/2003</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=81003&selection='>
+                                            <h4>حكم تمييز جزائي رقم 326 سنة 2003  /  <span>تاريخ 30/12/2003</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">وصف قانوني</li>
+                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قرار استئنافي</li>
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">فعل جرمي</li>
+                                                        <li style="display: inline-block;">مخالفة مبدأ شفاهية المحاكمة</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قاضي منفرد جزائي</li>
+                                                        <li style="display: inline-block;">حق التقدير</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">افادة الشاهد</li>
+                                                        <li style="display: inline-block;">فقدان الاساس القانوني</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى جزائية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تزوير</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">وكالة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">استعمال المزور</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">جناية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">جنحة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نقص في التعليل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عقد البيع العقاري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
                                                     
                                             </ul>
                                         </div>
@@ -2197,162 +2168,29 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=80682&selection='>
-                                            <h4>حكم تمييز جزائي رقم 313 سنة 2003  /  <span>تاريخ 24/12/2003</span></h4>
+                                        <a href='ViewRulePage.aspx?ID=77385&selection='>
+                                            <h4>حكم تمييز جزائي رقم 211 سنة 2003  /  <span>تاريخ 29/12/2003</span></h4>
                                         </a>
                                         <div>
                                             <ul>
                                                 
-                                                        <li style="display: inline-block;">عقوبات</li>
+                                                        <li style="display: inline-block;">وصف قانوني</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">براءة المتهم</li>
+                                                        <li style="display: inline-block;">قرار استئنافي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">جناية السرقة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=80786&selection='>
-                                            <h4>حكم تمييز جزائي رقم 318 سنة 2003  /  <span>تاريخ 24/12/2003</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قرار قابل للتمييز</li>
+                                                        <li style="display: inline-block;">فعل جرمي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قرار قاضي التحقيق العسكري</li>
+                                                        <li style="display: inline-block;">قاضي منفرد جزائي</li>
                                                     
                                                         /
                                                     
-                                                        <li style="display: inline-block;">قضاء عسكري</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=80930&selection='>
-                                            <h4>حكم تمييز جزائي رقم 322 سنة 2003  /  <span>تاريخ 24/12/2003</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قبول التمييز شكلا</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تشويه الوقائع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى جزائية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نقص في التعليل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=80763&selection='>
-                                            <h4>حكم تمييز جزائي رقم 317 سنة 2003  /  <span>تاريخ 24/12/2003</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">قبول التمييز شكلا</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار قابل للتمييز</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قاضي التحقيق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">هيئة اتهامية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=80727&selection='>
-                                            <h4>حكم تمييز جزائي رقم 315 سنة 2003  /  <span>تاريخ 24/12/2003</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">عقوبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">منع المحاكمة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">جناية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">محاولة القتل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">عدم كفاية الدليل</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=79968&selection='>
-                                            <h4>حكم تمييز جزائي رقم 291 سنة 2003  /  <span>تاريخ 24/12/2003</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">تقرير طبي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">سبب تمييزي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تشويه المستندات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تطبيق خاطىء للقانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                        <li style="display: inline-block;">افادة الشاهد</li>
                                                     
                                             </ul>
                                         </div>
@@ -2382,23 +2220,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">مخالفة القانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">طرق المراجعة</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=79940&selection='>
-                                            <h4>حكم تمييز جزائي رقم 290 سنة 2003  /  <span>تاريخ 24/12/2003</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">دعوى جزائية</li>
                                                     
                                                         /
                                                     
@@ -2472,6 +2293,205 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">شيك دون مؤونة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=80682&selection='>
+                                            <h4>حكم تمييز جزائي رقم 313 سنة 2003  /  <span>تاريخ 24/12/2003</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">عقوبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">براءة المتهم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">جناية السرقة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=80709&selection='>
+                                            <h4>حكم تمييز جزائي رقم 314 سنة 2003  /  <span>تاريخ 24/12/2003</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نقض القرار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى جزائية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ابطال الحكم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=80727&selection='>
+                                            <h4>حكم تمييز جزائي رقم 315 سنة 2003  /  <span>تاريخ 24/12/2003</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">عقوبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">منع المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">جناية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محاولة القتل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">عدم كفاية الدليل</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=80750&selection='>
+                                            <h4>حكم تمييز جزائي رقم 316 سنة 2003  /  <span>تاريخ 24/12/2003</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">محكمة الجنايات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تناقض حكمين</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=80763&selection='>
+                                            <h4>حكم تمييز جزائي رقم 317 سنة 2003  /  <span>تاريخ 24/12/2003</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قبول التمييز شكلا</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار قابل للتمييز</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قاضي التحقيق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">هيئة اتهامية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">طرق المراجعة</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=80786&selection='>
+                                            <h4>حكم تمييز جزائي رقم 318 سنة 2003  /  <span>تاريخ 24/12/2003</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">قرار قابل للتمييز</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار قاضي التحقيق العسكري</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قضاء عسكري</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=80801&selection='>
+                                            <h4>حكم تمييز جزائي رقم 319 سنة 2003  /  <span>تاريخ 24/12/2003</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة مبدأ شفوية المحاكمة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">سبب تمييزي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة القانون</li>
                                                     
                                                         /
                                                     

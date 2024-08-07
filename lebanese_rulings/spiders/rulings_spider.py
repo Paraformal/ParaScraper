@@ -1,7 +1,3 @@
-# Owner's Desktop / Peter El Khoury
-
-# Using scrapy lib to perform the web requests,
-# Using scrapy implemented multi threading for more data scraping speed and performance,
 import scrapy
 import json
 import os
@@ -38,17 +34,26 @@ class RulingsSpider(scrapy.Spider):
         
         for year in years:
             url = f'{AdvancedRulingsSearchYearUrl}{year}&judjes='
-            yield scrapy.Request(url=url, callback=self.parse_year, meta={'year': year})
+            yield scrapy.Request(url=url, callback=self.parse_year, meta={'year': year, 'page_number': 1})
 
     def parse_year(self, response):
+        year = response.meta['year']
+        page_number = response.meta['page_number']
+
+        # Extract ruling links
         ruling_links = response.css("a::attr(href)").re(r"ViewRulePage\.aspx\?ID=(\d+)&selection=")
         for ruling_id in ruling_links:
             ruling_url = f'{AdvancedRulingsSearchDetailsUrl}{ruling_id}&selection='
-            yield scrapy.Request(url=ruling_url, callback=self.parse_ruling, meta={'year': response.meta['year']})
+            yield scrapy.Request(url=ruling_url, callback=self.parse_ruling, meta={'year': year})
 
-        next_page = response.css('a.next::attr(href)').get()
-        if next_page is not None:
-            yield response.follow(next_page, self.parse_year, meta=response.meta)
+        # Find the maximum page number
+        pagination_links = response.css('ul.pagination a::attr(href)').re(r'pageNumber=(\d+)')
+        max_page_number = max(map(int, pagination_links)) if pagination_links else 1
+
+        if page_number + 1 < max_page_number:
+            next_page_number = page_number + 1
+            next_page_url = f'{AdvancedRulingsSearchYearUrl}{year}&judjes=&pageNumber={next_page_number}&language=ar'
+            yield scrapy.Request(url=next_page_url, callback=self.parse_year, meta={'year': year, 'page_number': next_page_number})
 
     def parse_ruling(self, response):
         court = response.css('#MainContent_lblcourtName::text').get()
@@ -78,18 +83,10 @@ class RulingsSpider(scrapy.Spider):
         self.rulings.append(ruling)
         yield ruling
 
-
-    # Data saved in html file is sorted.
-    # Data saved in sql database is not sorted. (There is no need to waste resource by sorting it, 
-    # we can just apply query to sort when needed)
-    # As well data is saved in json file as fall back if saving to html/db fails.
     def close(self, reason):
         logging.info('Spider closing...')
         self.save_as_html()
         save_to_db(self.rulings)
-        # with open('rulings.json', 'w', encoding='utf-8') as f:
-        #     json.dump(self.rulings, f, ensure_ascii=False, indent=4)
-        # logging.info('rulings.json file created.')
 
     def save_as_html(self):
         rulings_by_year = self.organize_rulings_by_year()
@@ -115,7 +112,6 @@ class RulingsSpider(scrapy.Spider):
             year_html = self.render_html(year_rulings)
             year_html_size = len(year_html.encode('utf-8'))
 
-            # Ensure the whole year's data is in one file, even if it exceeds the size limit
             if current_file_size + year_html_size > 2 * 1024 * 1024 and current_file_years:
                 self.save_html_file(current_file_index, current_file_years)
                 logging.info(f'Saved HTML file rulings_{current_file_index}.html with size {current_file_size} bytes.')
@@ -131,13 +127,11 @@ class RulingsSpider(scrapy.Spider):
             logging.info(f'Saved HTML file rulings_{current_file_index}.html with size {current_file_size} bytes.')
 
     def render_html(self, rulings):
-        # Loading the HTML template from a file for better code reusability
         template_path = os.path.join(os.path.dirname(__file__), 'html_saving_templates', 'rulings_template.html')
         with open(template_path, 'r', encoding='utf-8') as file:
             template = Template(file.read())
         
         return template.render(rulings=rulings)
-
 
     def save_html_file(self, index, year_html_list):
         filename = f'rulings_{index}.html'

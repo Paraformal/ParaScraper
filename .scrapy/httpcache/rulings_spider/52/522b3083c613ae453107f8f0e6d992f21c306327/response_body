@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -1782,6 +1782,68 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=59978&selection='>
+                                            <h4>حكم شورى رقم 24 سنة 1991  /  <span>تاريخ 16/12/1991</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">موظف</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">الغاء</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">تعديل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حق مكتسب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قانون</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">نظام</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=59979&selection='>
+                                            <h4>حكم شورى رقم 25 سنة 1991  /  <span>تاريخ 16/12/1991</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">تحديد</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حصة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مهندس</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ضريبة الدخل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صندوق تقاعدي</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=61072&selection='>
                                             <h4>حكم شورى رقم 22 سنة 1991  /  <span>تاريخ 16/12/1991</span></h4>
                                         </a>
@@ -1845,68 +1907,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">تنفيذ</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=59979&selection='>
-                                            <h4>حكم شورى رقم 25 سنة 1991  /  <span>تاريخ 16/12/1991</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">تحديد</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حصة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مهندس</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ضريبة الدخل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صندوق تقاعدي</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=59978&selection='>
-                                            <h4>حكم شورى رقم 24 سنة 1991  /  <span>تاريخ 16/12/1991</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">موظف</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">الغاء</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">تعديل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حق مكتسب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قانون</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">نظام</li>
                                                     
                                             </ul>
                                         </div>
@@ -2025,55 +2025,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=59976&selection='>
-                                            <h4>حكم شورى رقم 17 سنة 1991  /  <span>تاريخ 04/12/1991</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">دفوع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قضية محكوم بها</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مفعول مطلق</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مفعول نسبي</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قضاء شامل</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">دعوى</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">حكم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انتظام عام</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">ضريبة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">رسم بلدي</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=59975&selection='>
                                             <h4>حكم شورى رقم 16 سنة 1991  /  <span>تاريخ 04/12/1991</span></h4>
                                         </a>
@@ -2125,6 +2076,55 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">مراجعة الابطال</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=59976&selection='>
+                                            <h4>حكم شورى رقم 17 سنة 1991  /  <span>تاريخ 04/12/1991</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">دفوع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قضية محكوم بها</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مفعول مطلق</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مفعول نسبي</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قضاء شامل</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">دعوى</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">حكم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انتظام عام</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">ضريبة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">رسم بلدي</li>
                                                     
                                             </ul>
                                         </div>

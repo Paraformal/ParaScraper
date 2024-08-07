@@ -50,7 +50,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
 //]]>
 </script>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
         <div class="">
             
 
@@ -69,7 +69,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
         <div class="container sm-width-100">
             <div class="row">
                 <div class=" col-sm-12 col-md-8">
-                    <div id="HeaderControl1_tddatetoady" class="todayDate">الإثنين 05 آب 2024</div>
+                    <div id="HeaderControl1_tddatetoady" class="todayDate">الأربعاء 07 آب 2024</div>
 
                 </div>
                 <div class=" col-sm-12 col-md-4">
@@ -2229,6 +2229,39 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=54285&selection='>
+                                            <h4>حكم شورى رقم 57 سنة 1925  /  <span>تاريخ 07/10/1925</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">اثبات</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">بلدية</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">انتخاب</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">رئيس القلم</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قلم الاقتراع</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مخالفة قانونية</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=61211&selection='>
                                             <h4>حكم شورى رقم 58 سنة 1925  /  <span>تاريخ 07/10/1925</span></h4>
                                         </a>
@@ -2270,39 +2303,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                     </div>
                                 
                                     <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=54285&selection='>
-                                            <h4>حكم شورى رقم 57 سنة 1925  /  <span>تاريخ 07/10/1925</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">اثبات</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">بلدية</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">انتخاب</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">رئيس القلم</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قلم الاقتراع</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مخالفة قانونية</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
                                         <a href='ViewRulePage.aspx?ID=54284&selection='>
                                             <h4>حكم شورى رقم 53 سنة 1925  /  <span>تاريخ 01/10/1925</span></h4>
                                         </a>
@@ -2326,31 +2326,6 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">ناخب</li>
-                                                    
-                                            </ul>
-                                        </div>
-                                    </div>
-                                
-                                    <div class="extra-wrap" style="margin-bottom: 15px;">
-                                        <a href='ViewRulePage.aspx?ID=54283&selection='>
-                                            <h4>حكم شورى رقم 50 سنة 1925  /  <span>تاريخ 14/9/1925</span></h4>
-                                        </a>
-                                        <div>
-                                            <ul>
-                                                
-                                                        <li style="display: inline-block;">طعن</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">قرار</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">مجلس الادارة</li>
-                                                    
-                                                        /
-                                                    
-                                                        <li style="display: inline-block;">صلاحية</li>
                                                     
                                             </ul>
                                         </div>
@@ -2392,6 +2367,31 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
                                                         /
                                                     
                                                         <li style="display: inline-block;">ناخب</li>
+                                                    
+                                            </ul>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="extra-wrap" style="margin-bottom: 15px;">
+                                        <a href='ViewRulePage.aspx?ID=54283&selection='>
+                                            <h4>حكم شورى رقم 50 سنة 1925  /  <span>تاريخ 14/9/1925</span></h4>
+                                        </a>
+                                        <div>
+                                            <ul>
+                                                
+                                                        <li style="display: inline-block;">طعن</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">قرار</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">مجلس الادارة</li>
+                                                    
+                                                        /
+                                                    
+                                                        <li style="display: inline-block;">صلاحية</li>
                                                     
                                             </ul>
                                         </div>
