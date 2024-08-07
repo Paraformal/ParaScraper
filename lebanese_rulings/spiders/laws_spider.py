@@ -2,13 +2,14 @@ import scrapy
 import json
 import os
 import logging
-from jinja2 import Template
+import threading
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dotenv import load_dotenv
 import requests
 from requests.exceptions import RequestException
+from jinja2 import Template
 
 # Load environment variables from .env file
 load_dotenv()
@@ -16,7 +17,7 @@ load_dotenv()
 # Get URLs and paths from environment variables
 AdvancedLawsSearchYearUrl = os.getenv('AdvancedLawsSearchYearUrl')
 AdvancedLawDetailsUrl = os.getenv('AdvancedLawDetailsUrl')
-AdvancedLawArticlesUrl = os.getenv('AdvancedLawArticlesUrl')
+AdvancedLawViewUrl = os.getenv('AdvancedLawArticlesUrl')
 LawsYearFile = os.getenv('LawsYearFile')
 
 class LawsSpider(scrapy.Spider):
@@ -28,6 +29,13 @@ class LawsSpider(scrapy.Spider):
     def __init__(self, *args, **kwargs):
         super(LawsSpider, self).__init__(*args, **kwargs)
         self.laws = []
+        self.html_file_index = 1
+        self.current_file_size = 0
+        self.visited_pages = set()
+        self.processed_laws = set()
+        self.lock = threading.Lock()
+        self.executor = ThreadPoolExecutor(max_workers=10)  # Adjust the number of workers as needed
+        self.file_years = {}
 
     def start_requests(self):
         with open(LawsYearFile) as f:
@@ -43,152 +51,134 @@ class LawsSpider(scrapy.Spider):
     def parse_year(self, response):
         year = response.meta['year']
         page_number = response.meta.get('page_number', 1)
+        current_page_url = response.url
+
+        with self.lock:
+            if current_page_url in self.visited_pages:
+                return
+            self.visited_pages.add(current_page_url)
+
+        # Find the maximum page number
+        pagination_links = response.css('ul.pagination a::attr(href)').extract()
+        max_page_number = 1
+        for link in pagination_links:
+            if 'pageNumber=' in link:
+                try:
+                    page_num = int(link.split('pageNumber=')[1].split('&')[0])
+                    if page_num > max_page_number:
+                        max_page_number = page_num
+                except ValueError:
+                    continue
+
+        logging.info(f'Year: {year}, Page Number: {page_number}, Max Page Number: {max_page_number}')
 
         law_links = response.css('a[href*="Law.aspx?lawId="]::attr(href)').extract()
         if not law_links and page_number == 1:
             return
 
-        with ThreadPoolExecutor(max_workers=10) as executor:  # Adjust the number of workers as needed
-            future_to_law = {executor.submit(self.fetch_law_details, law_link, year): law_link for law_link in law_links}
-            for future in as_completed(future_to_law):
-                try:
-                    future.result()
-                except Exception as exc:
-                    logging.error(f'Law {future_to_law[future]} generated an exception: {exc}')
+        futures = [self.executor.submit(self.fetch_law_details, law_link, year) for law_link in law_links]
+        for future in as_completed(futures):
+            try:
+                future.result()
+            except Exception as exc:
+                logging.error(f'Law {future_to_law[future]} generated an exception: {exc}')
+        
 
-        next_page_number = page_number + 1
-        next_page = response.css(f'a[href*="pageNumber={next_page_number}"]::attr(href)').get()
-        if next_page:
+        if page_number + 1 < max_page_number:
+            logging.info(f'Year: {year}, Page Number: {page_number}, Max Page Number: {max_page_number}')
+            next_page_number = page_number + 1
             next_page_url = f'{AdvancedLawsSearchYearUrl}{year}&articleNumber=&pageNumber={next_page_number}&language='
-            yield self.make_request(next_page_url, year, next_page_number)
+            if next_page_number <= max_page_number:
+                if next_page_url not in self.visited_pages:
+                    yield self.make_request(next_page_url, year, next_page_number)
+        else:
+            logging.info(f'Reached the last page ({page_number}) for year {year}. Stopping.')
+
 
     def fetch_law_details(self, law_link, year):
         law_id = law_link.split('lawId=')[1]
-        law_url = f'{AdvancedLawDetailsUrl}{law_id}'
+        law_url = f'{AdvancedLawViewUrl}{law_id}'
 
         try:
             response = requests.get(law_url)
             if response.status_code == 200:
-                self.parse_law_details(response.text, year, law_id)
+                self.save_law_html(response.content, year, law_id)
             else:
                 logging.error(f'Failed to fetch law details for {law_id}: {response.status_code}')
         except RequestException as e:
             logging.error(f'Failed to fetch law details for {law_id}: {str(e)}')
 
-    def parse_law_details(self, response_text, year, law_id):
-        response = scrapy.Selector(text=response_text)
+    def save_law_html(self, html_content, year, law_id):
+        if not os.path.exists('laws_html'):
+            os.makedirs('laws_html')
 
-        subdetails = response.css('#MainContent_subdetails::text').get()
-        publish_date = response.css('#MainContent_divOJPublishDate::text').get()
-        page_number = response.css('#MainContent_divOJPage::text').get()
-        notes = response.css('#MainContent_divNotes span::text').getall()
-        notes_text = ' '.join(notes).strip()
+        with self.lock:
+            if law_id in self.processed_laws:
+                return
+            self.processed_laws.add(law_id)
 
-        law_tree_section_id = response.css('a[href*="LawTreeSectionID="]::attr(href)').re_first(r'LawTreeSectionID=(\d+)')
+            law_entry = {
+                'year': year,
+                'law_id': law_id,
+                'html_content': html_content
+            }
 
-        law_details = {
-            'year': year,
-            'law_id': law_id,
-            'subdetails': subdetails,
-            'publish_date': publish_date,
-            'page_number': page_number,
-            'notes': notes_text,
-            'articles': []
-        }
+            current_file_path = f'laws_html/laws_{self.html_file_index}.html'
+            file_size = 0
 
-        if law_tree_section_id:
-            articles_url = f'{AdvancedLawArticlesUrl}{law_tree_section_id}&LawID={law_id}&language=ar'
-            try:
-                response = requests.get(articles_url)
-                if response.status_code == 200:
-                    law_details['articles'] = self.parse_articles(response.text)
-            except RequestException as e:
-                logging.error(f'Failed to fetch articles for law {law_id}: {str(e)}')
+            if os.path.exists(current_file_path):
+                with open(current_file_path, 'rb') as f:
+                    file_size = len(f.read())
 
-        self.laws.append(law_details)
+            if file_size + len(html_content) > 10 * 1024 * 1024:  # 10 MB
+                self.html_file_index += 1
+                current_file_path = f'laws_html/laws_{self.html_file_index}.html'
 
-    def parse_articles(self, response_text):
-        response = scrapy.Selector(text=response_text)
-        return response.css('td.ArticleText').getall()
+            if self.html_file_index not in self.file_years:
+                self.file_years[self.html_file_index] = set()
+            self.file_years[self.html_file_index].add(year)
+
+            with open(current_file_path, 'ab') as f:
+                f.write(f'<!-- Year: {law_entry["year"]}, Law ID: {law_entry["law_id"]} -->\n'.encode('utf-8'))
+                f.write(law_entry['html_content'])
+                f.write(b'\n\n')
 
     def errback_httpbin(self, failure):
         self.logger.error(repr(failure))
 
     def close(self, reason):
         logging.info('Spider closing...')
-        with open('laws.json', 'w', encoding='utf-8') as f:
-            json.dump(self.laws, f, ensure_ascii=False, indent=4)
-        logging.info('laws.json file created.')
-        self.save_as_html()
+        self.save_as_html_index()
+        self.rename_files_by_year()
+        self.executor.shutdown(wait=True)
 
-    def save_as_html(self):
-        laws_by_year = self.organize_laws_by_year()
-        self.write_html_files(laws_by_year)
-
-    def organize_laws_by_year(self):
-        laws_by_year = {}
-        for law in self.laws:
-            year = law['year']
-            if year not in laws_by_year:
-                laws_by_year[year] = []
-            laws_by_year[year].append(law)
-        return laws_by_year
-
-    def write_html_files(self, laws_by_year):
-        all_years = sorted(laws_by_year.keys())
-        current_file_size = 0
-        current_file_index = 1
-        current_file_years = []
-
-        for year in all_years:
-            year_laws = laws_by_year[year]
-            year_html = self.render_html(year_laws)
-            year_html_size = len(year_html.encode('utf-8'))
-
-            if current_file_size + year_html_size > 2 * 1024 * 1024 and current_file_years:
-                self.save_html_file(current_file_index, current_file_years)
-                logging.info(f'Saved HTML file laws_{current_file_index}.html with size {current_file_size} bytes.')
-                current_file_size = 0
-                current_file_index += 1
-                current_file_years = []
-
-            current_file_years.append((year, year_html))
-            current_file_size += year_html_size
-
-        if current_file_years:
-            self.save_html_file(current_file_index, current_file_years)
-            logging.info(f'Saved HTML file laws_{current_file_index}.html with size {current_file_size} bytes.')
-
-    def render_html(self, laws):
-        template = Template("""
+    def save_as_html_index(self):
+        index_template = Template("""
         <!DOCTYPE html>
         <html lang="ar">
         <head>
             <meta charset="UTF-8">
-            <title>Laws</title>
+            <title>Index of Laws</title>
             <style>
                 body { font-family: Arial, sans-serif; direction: rtl; background-color: #f9f9f9; }
                 .container { width: 90%; margin: auto; }
-                .law { margin-bottom: 20px; padding: 20px; border: 1px solid #ddd; border-radius: 5px; background-color: #fff; }
-                .law h2 { margin: 0 0 10px 0; color: #333; }
-                .law .details, .law .articles { margin-bottom: 10px; }
-                .law .details p, .law .articles p { margin: 5px 0; }
-                .law .articles h3 { margin-top: 10px; color: #555; }
+                .law-link { margin-bottom: 10px; }
+                .law-link a { text-decoration: none; color: #333; }
                 #search { margin-bottom: 20px; width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
             </style>
             <script>
                 function searchLaws() {
-                    var input, filter, laws, lawDiv, i, txtValue;
+                    var input, filter, links, linkDiv, i, txtValue;
                     input = document.getElementById('search');
                     filter = input.value.toLowerCase();
-                    laws = document.getElementsByClassName('law');
-                    for (i = 0; i < laws.length; i++) {
-                        lawDiv = laws[i];
-                        txtValue = lawDiv.textContent || lawDiv.innerText;
+                    links = document.getElementsByClassName('law-link');
+                    for (i = 0; i < links.length; i++) {
+                        linkDiv = links[i];
+                        txtValue = linkDiv.textContent || linkDiv.innerText;
                         if (txtValue.toLowerCase().indexOf(filter) > -1) {
-                            lawDiv.style.display = "";
+                            linkDiv.style.display = "";
                         } else {
-                            lawDiv.style.display = "none";
+                            linkDiv.style.display = "none";
                         }
                     }
                 }
@@ -197,39 +187,50 @@ class LawsSpider(scrapy.Spider):
         <body>
             <div class="container">
                 <input type="text" id="search" onkeyup="searchLaws()" placeholder="ابحث عن القوانين..">
-                <div id="lawsContainer">
-                    {% for law in laws %}
-                    <div class="law">
-                        <h2>السنة: {{ law.year }}</h2>
-                        <div class="details">
-                            <p>الرقم: {{ law.law_id }}</p>
-                            <p>{{ law.subdetails }}</p>
-                            <p>تاريخ النشر: {{ law.publish_date }}</p>
-                            <p>الصفحة: {{ law.page_number }}</p>
-                            <p>ملاحظات: {{ law.notes }}</p>
-                        </div>
-                        <div class="articles">
-                            <h3>المواد:</h3>
-                            {% for article in law.articles %}
-                                <p>{{ article }}</p>
-                            {% endfor %}
-                        </div>
+                <div id="linksContainer">
+                    {% for year in years %}
+                    <h3>السنة: {{ year }}</h3>
+                    {% for law in laws[year] %}
+                    <div class="law-link">
+                        <a href="laws_html/laws_{{ law.file_index }}.html#{{ law.law_id }}" target="_blank">قانون {{ law.law_id }} لسنة {{ year }}</a>
                     </div>
+                    {% endfor %}
                     {% endfor %}
                 </div>
             </div>
         </body>
         </html>
         """)
-        return template.render(laws=laws)
+        laws_by_year = self.organize_laws_by_year()
+        html_index = index_template.render(years=sorted(laws_by_year.keys()), laws=laws_by_year)
+        with open('index.html', 'w', encoding='utf-8') as f:
+            f.write(html_index)
+        logging.info('index.html file created.')
 
-    def save_html_file(self, file_index, years_html):
-        file_path = f'laws_{file_index}.html'
-        with open(file_path, 'w', encoding='utf-8') as f:
-            for year, html in years_html:
-                f.write(f'<!-- Year: {year} -->\n')
-                f.write(html)
-                f.write('\n\n')
+    def organize_laws_by_year(self):
+        laws_by_year = {}
+        for file_index in range(1, self.html_file_index + 1):
+            file_path = f'laws_html/laws_{file_index}.html'
+            if os.path.exists(file_path):
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    for line in content.split('\n'):
+                        if line.startswith('<!-- Year: '):
+                            year = int(line.split('Year: ')[1].split(',')[0])
+                            law_id = line.split('Law ID: ')[1].split(' -->')[0]
+                            if year not in laws_by_year:
+                                laws_by_year[year] = []
+                            laws_by_year[year].append({'law_id': law_id, 'file_index': file_index})
+        return laws_by_year
+
+    def rename_files_by_year(self):
+        for file_index, years in self.file_years.items():
+            old_path = f'laws_html/laws_{file_index}.html'
+            if os.path.exists(old_path):
+                year_range = "_".join(map(str, sorted(years)))
+                new_path = f'laws_html/laws_{year_range}_{file_index}.html'
+                os.rename(old_path, new_path)
+                logging.info(f'Renamed {old_path} to {new_path}')
 
 if __name__ == "__main__":
     process = CrawlerProcess(get_project_settings())
