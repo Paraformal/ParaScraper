@@ -6,7 +6,7 @@ Peter El Khoury
 Mobile Numbers: +961 81 280 551 / +961 76 19 49 19  
 Email: peter.elkhoury@std.balamand.edu.lb
 
-PLEASE read to the end !!!
+:warning: **Attention:** PLEASE READ TO THE END !!!
 
 So first of all, the scraper I made is using "Scrapy" python lib, scrapy allows requests 
 to desired url without having to deal with api limits, captchas, anti-scraping security and more.
